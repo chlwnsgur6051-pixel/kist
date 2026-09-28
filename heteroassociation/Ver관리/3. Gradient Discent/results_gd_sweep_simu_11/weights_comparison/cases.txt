@@ -1,0 +1,9 @@
+Sweep: results_gd_sweep_simu_11
+Total cases: 3
+Weights comparison saved to: weights_comparison/
+
+Cases:
+======================================================================
+gd_pair=10_lrtau=0.001_lrw=0.01_ep=1000
+gd_pair=10_lrtau=0.001_lrw=0.01_ep=100000
+gd_pair=10_lrtau=0.001_lrw=0.01_ep=10000_6개

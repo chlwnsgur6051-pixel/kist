@@ -1,0 +1,15 @@
+=== expand_features vs expand_features_vector ===
+basis            : quadratic
+loop   shape     : (10, 135)
+vector shape     : (10, 135)
+same shape       : True
+exact equal      : True
+max abs diff     : 0.0
+saved            : C:\Users\CoBI\Desktop\sh_cho\heteroassociation\tools\results\expand_features_check\expand_loop.txt
+                 : C:\Users\CoBI\Desktop\sh_cho\heteroassociation\tools\results\expand_features_check\expand_vector.txt
+RESULT           : IDENTICAL ✅
+
+--- speed (avg over 100 runs, cs shape=(10, 15)) ---
+loop    :    2204.16 us/call
+vector  :      61.63 us/call
+speedup :      35.76x  (loop / vector)

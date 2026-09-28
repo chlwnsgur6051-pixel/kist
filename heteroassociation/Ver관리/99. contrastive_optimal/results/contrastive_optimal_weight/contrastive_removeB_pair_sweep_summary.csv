@@ -1,0 +1,2 @@
+n_pairs,feature_dim,rank,exact,bit_acc
+10,15,10,10,1.0

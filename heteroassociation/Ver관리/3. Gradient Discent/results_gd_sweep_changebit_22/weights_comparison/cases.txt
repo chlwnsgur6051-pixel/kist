@@ -1,0 +1,9 @@
+Sweep: results_gd_sweep_changebit_22
+Total cases: 3
+Weights comparison saved to: weights_comparison/
+
+Cases:
+======================================================================
+gd_pair=10_lrtau=0.0001_lrw=0.0001_ep=1000
+gd_pair=10_lrtau=0.0001_lrw=0.0001_ep=10000
+gd_pair=10_lrtau=0.0001_lrw=0.0001_ep=100000
