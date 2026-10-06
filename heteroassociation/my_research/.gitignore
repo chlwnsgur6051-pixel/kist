@@ -12,6 +12,8 @@ venv/
 # Generated experiment data: keep compact reports/configs in Git, omit bulky arrays.
 results/**/weights.npy
 results/**/predictions.npy
+results/**/*.npy
+legacy/historical_results/**/*.npy
 results/**/*.png
 results/**/*.pdf
 results/**/*.mp4

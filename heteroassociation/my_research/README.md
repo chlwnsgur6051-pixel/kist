@@ -6,7 +6,7 @@ This folder is an isolated working area for studying direct input-output associa
 
 - `legacy/temporal/`: selected original temporal baseline, B1/B2, teacher-only, sweep, and diagnostic sources. These files are preserved without edits.
 - `legacy/shared/`: copied dataset definition. `legacy/binary_character.py` is a compatibility shim for the legacy scripts' historical import path.
-- `legacy/historical_results/`: compact JSON, CSV, NPY, and log artifacts, with separate directories for the two pair-count sweep versions.
+- `legacy/historical_results/`: compact JSON, CSV, and log artifacts, with separate directories for the two pair-count sweep versions. Small NPY weight/prediction arrays remain local and are excluded from Git.
 - `src/`: destination for new, clearly separated data, model, learning, recall, and evaluation modules.
 - `experiments/`: future baseline and diagnostic experiment entry points.
 - `results/`: new experiment results. Never overwrite historical artifacts.

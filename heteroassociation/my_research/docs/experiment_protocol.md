@@ -14,6 +14,8 @@ No experiment was executed during workspace initialization. Use this protocol wh
 
 Create a unique `results/<experiment>_YYYYMMDD_HHMMSS/` directory. Save the source revision/hash, config, dataset version, pair count and exact subset, random seed(s), epoch count, encoding times, STDP parameters, weight initialization and bounds, LIF parameters, teacher behavior, recall rule, metrics, predictions, weights, success/failure status, and a short interpretation with limitations. Never overwrite an existing run.
 
+Keep model-weight arrays and other bulky generated tensors local unless a specific experiment request asks to version them. Version the source, config, compact metrics, and report so the research remains understandable without checkpoint files.
+
 ## Fair comparison
 
 Keep baseline and each modification in separate experiment configurations. Hold the dataset, association subset/order, seeds, and evaluation constant when comparing one changed factor. If a method is stochastic, repeat across declared seeds and report each run plus aggregates. Do not tune on evaluation outcomes without marking the result as exploratory.
