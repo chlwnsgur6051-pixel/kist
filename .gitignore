@@ -9,3 +9,9 @@ venv/
 .vscode/
 *.tmp
 *.swp
+# Model checkpoints and exported weights
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
