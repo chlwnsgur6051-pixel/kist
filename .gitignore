@@ -1,0 +1,11 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Editor and temporary files
+.vscode/
+*.tmp
+*.swp
