@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Notebook/editor state
+.ipynb_checkpoints/
+.vscode/
+
+# Generated experiment data: keep compact reports/configs in Git, omit bulky arrays.
+results/**/weights.npy
+results/**/predictions.npy
+results/**/*.png
+results/**/*.pdf
+results/**/*.mp4
+results/**/*.gif
+
+# Local logs and temporary files
+results/**/*.log
+*.tmp
+*.swp

@@ -1,0 +1,460 @@
+# STDP Hetero-associative Memory 연구 환경 초기화 및 실험 준비
+
+현재 작업 디렉터리는 `heteroassociation/` 프로젝트 루트다.
+
+너는 지금부터 이 프로젝트의 연구 개발을 함께 담당하는 AI 코딩 에이전트다. 기존 연구 내용을 인수인계받고, 나의 독립적인 연구 환경을 구성한 다음, 기존 모델의 문제점을 정량적으로 분석하는 작업을 시작해줘.
+
+**가장 중요한 원칙은 기존 연구 자료의 보존, 실험 재현성, 그리고 근거에 기반한 원인 분석이다.**
+
+작업을 시작하기 전에 아래 연구 배경과 지침을 충분히 이해해줘.
+
+---
+
+## 1. 연구 배경과 최종 목표
+
+### 1.1 연구 주제
+
+**STDP-based Hetero-associative Memory in Spiking Neural Networks**
+
+현재 연구는 Spiking Neural Network(SNN)에서 Spike-Timing-Dependent Plasticity(STDP)를 사용하여 여러 input-output association을 하나의 synaptic weight matrix에 저장하고, 입력 cue만으로 대응하는 output pattern을 recall하는 모델을 개발하는 것이다.
+
+기본 구조는 다음과 같다.
+
+`Input neurons X → STDP synaptic weight W → Output LIF neurons Y`
+
+연구의 중요한 제약은 다음과 같다.
+
+- 실제 spike event와 LIF dynamics를 사용한다.
+- 핵심 학습 규칙은 우선 classical pair-based STDP로 유지한다.
+- 기본 architecture는 direct input-output association이다.
+- Hidden layer 추가는 현재 연구 범위에서 제외한다.
+- 별도의 backpropagation으로 memory matrix를 학습하는 방식은 현재 우선순위가 아니다.
+- Encoding이나 STDP rule의 변경은 검토할 수 있다.
+- Output-side inhibition 등은 필요성이 실험적으로 확인된 경우 고려한다.
+
+### 1.2 Dataset
+
+현재 dataset은 다음과 같다.
+
+- Input: 숫자 0~9의 5×3 binary bitmap (15 bits)
+- Output: 알파벳 A~J의 5×3 binary bitmap (15 bits)
+- 총 10개의 서로 다른 hetero-association
+- 하나의 공유 weight matrix에 최대 10개의 association 저장
+
+예를 들어:
+
+`Digit 0 → Letter A`
+
+`Digit 1 → Letter B`
+
+...
+
+`Digit 9 → Letter J`
+
+최종적으로 모든 output pixel이 정확히 일치해야 해당 association을 성공적으로 recall했다고 판단한다.
+
+평가 지표는 최소한 다음을 포함한다.
+
+- **Exact recall accuracy:** 15개 output bit가 전부 일치하는 pattern의 비율
+- **Bit accuracy:** 전체 output bit 중 정답 비율
+- **False-positive / False-negative counts**
+- 필요하면 output neuron별 정확도
+
+현재 단기 목표는 **10개 association 중 최소 5개를 STDP 기반 spike learning과 실제 spike recall로 정확하게 복원하는 것**이다.
+
+이는 달성한 결과가 아니라 앞으로 달성해야 할 연구 목표다.
+
+---
+
+## 2. 기존 연구 현황
+
+기존 실험 대부분은 다음 폴더에 있다.
+
+`Ver관리/2. temporal/`
+
+우선 해당 폴더와 프로젝트 루트의 `binary_character.py`를 조사해줘.
+
+중요한 파일 후보는 다음과 같다.
+
+- `stdp_temporal.py`: 초기 STDP 모델
+- `baseline_full_output.py`: 초기 전체 output 평가
+- `stdp_temporal_timing_ltd.py`: B1 관련 실험
+- `b1_full_output.py`
+- `stdp_temporal_symmetric.py`: B2 관련 실험
+- `stdp_temporal_symmetric_teacher_only.py`: teacher-only B2
+- `b2_full_output.py`
+- `pair_count_sweep.py`
+- `correlation_pair_count_sweep.py`
+- `diagnose_crosstalk.py`
+- `results_pair_count_sweep/`
+- `results_correlation_pair_count/`
+
+이 목록은 조사 시작점이지, 모든 파일의 역할이 확정되었다는 의미는 아니다. 코드를 직접 읽고 관계를 확인해줘.
+
+### 2.1 초기 STDP baseline
+
+기존 모델은 대략 다음 방식을 사용한다.
+
+Input encoding:
+
+- bit=1 → 2 ms에 spike
+- bit=0 → 7 ms에 spike
+
+Output은 LIF neuron으로 구현한다.
+
+학습 중 target=1이면 teacher spike를 유도하고, target=0이면 shunt하여 발화를 억제하는 방식이 사용되었다.
+
+이 초기 설계에는 **target=0에서 postsynaptic spike가 없어 STDP update가 거의 발생하지 않는 문제**가 있었다.
+
+과거 보고된 결과:
+
+- Exact recall: 0/10
+- Bit accuracy: 약 0.6667
+- Output이 대부분 1로 예측되는 현상
+
+### 2.2 B1 / B2 실험
+
+이후 target=0에도 의미 있는 LTD/LTP가 발생하도록 spike timing을 수정했다.
+
+특히 B2 teacher-only 방식에서는 target 0/1에 따라 input spike timing 배치를 반전시키고, teacher spike를 기준으로 positive/negative weight update를 유도한다.
+
+이 방식의 weight update는 bipolar correlation matrix와 유사한 방향으로 누적되는 것으로 분석되었다.
+
+단, STDP가 수학적으로 correlation matrix와 완전히 동일하다고 가정하지 말고 실제 update를 확인해야 한다.
+
+### 2.3 이전 실험의 중요한 관찰
+
+과거 분석에서 다음 결과가 보고되었다.
+
+- B2 teacher-only에서 1-pair만 학습했을 때 10개 개별 실험 중 6개가 exact recall에 성공
+- 1-pair 실패 사례에서는 output이 all-one으로 나타나는 경우 존재
+- Pure bipolar correlation baseline에서는 1-pair 실험이 모두 성공
+- 10-pair pure bipolar correlation baseline에서는 exact 1/10, bit accuracy 약 0.78
+- 10-pair B2 teacher-only에서는 exact 0/10, bit accuracy 약 0.74
+
+이 값들은 **기존에 보고된 결과이며 이번 실행에서 재검증해야 한다.**
+
+특히 과거 실험 결과 파일과 현재 코드가 정확히 일치하는지 확인해야 한다. `summary.json`, `summary2.json`처럼 서로 다른 실험 버전의 결과가 혼재할 가능성이 있다.
+
+---
+
+## 3. 현재 가장 중요한 연구 가설
+
+현재 가장 우선적으로 확인할 문제는 다음이다.
+
+**“STDP가 잘못된 weight matrix를 학습하는가, 아니면 적절한 weight가 만들어졌는데 LIF recall dynamics가 이를 올바르게 해석하지 못하는가?”**
+
+기존 B2는 input 0/1과 target 0/1의 조합에 따라 positive/negative weight를 학습한다.
+
+그러나 recall에서는 다음과 같은 문제가 발생할 가능성이 있다.
+
+- bit=1은 early spike
+- bit=0은 late spike
+- LIF neuron은 두 종류의 spike가 전달하는 current를 시간에 따라 누적
+- output neuron이 한 번이라도 spike하면 1로 판정
+- 특히 target=0에 대해 학습된 positive weight가 late input spike에 의해 활성화되면 false-positive가 발생할 수 있음
+
+즉, 학습에 사용된 representation과 실제 recall dynamics 사이에 mismatch가 있을 가능성이 있다.
+
+**이것은 유력한 가설이지, 아직 모든 실패 원인을 확정한 것은 아니다.**
+
+현재 우선순위는 이 가설을 정량적으로 검증하는 것이다.
+
+---
+
+## 4. 새로운 연구 작업 폴더 생성
+
+프로젝트 루트에 다음 폴더를 생성해줘.
+
+`my_research/`
+
+아래는 권장 구조다. 실제 프로젝트를 살펴본 뒤 필요한 범위에서 합리적으로 조정해도 된다.
+
+```text
+heteroassociation/
+│
+├── 기존 프로젝트 파일들 (보존)
+│
+└── my_research/
+    ├── AGENTS.md
+    ├── README.md
+    ├── requirements.txt
+    │
+    ├── legacy/
+    │   ├── temporal/
+    │   ├── shared/
+    │   └── historical_results/
+    │
+    ├── src/
+    │   ├── data/
+    │   ├── models/
+    │   ├── learning/
+    │   ├── recall/
+    │   └── evaluation/
+    │
+    ├── experiments/
+    │   ├── baselines/
+    │   └── diagnostics/
+    │
+    ├── results/
+    │
+    ├── tests/
+    │
+    └── docs/
+        ├── research_overview.md
+        ├── original_model_analysis.md
+        ├── experiment_history.md
+        ├── experiment_protocol.md
+        ├── hypotheses.md
+        └── source_manifest.md
+```
+
+### 4.1 기존 작업 보존 및 복사
+
+기존 파일을 무조건 모두 복사하지는 말고, 실제 코드와 dependency 관계를 분석하여 필요한 것만 정리해줘.
+
+우선 보존 대상:
+
+- 초기 STDP baseline
+- B1/B2 관련 코드
+- teacher-only STDP
+- pair-count 실험
+- correlation baseline
+- 기존 진단 코드
+- dataset 정의
+- 중요한 결과 JSON/CSV
+- 기존 연구 설명 문서
+
+각 파일은 원래 위치와 복사된 위치를 `source_manifest.md`에 기록해줘.
+
+**절대 기존 파일을 삭제하거나 덮어쓰지 마.**
+
+원본은 기존 위치에 남겨두고 새 폴더에 복사하는 것이 기본 원칙이다. 실제 원본을 이동하거나 정리해야 한다면 먼저 내 승인을 받아라.
+
+기존 결과 중 대용량 plot이나 중복 생성물은 필요성을 판단하고 선별해도 되지만, 원본 결과의 출처를 추적할 수 있어야 한다.
+
+### 4.2 Dependency 및 경로 문제
+
+기존 코드에는 `binary_character.py`를 참조하기 위해 부모 디렉터리를 직접 `sys.path`에 추가하는 부분이 있을 수 있다.
+
+따라서 파일을 단순히 복사하면 import가 깨질 가능성이 있다.
+
+- 먼저 기존 위치에서 실행 가능한지 확인
+- 복사본의 경로 의존성 조사
+- 기존 알고리즘의 계산 내용은 변경하지 않으면서 실행 가능한 방법 마련
+- 필요하면 실행 wrapper나 공통 데이터 로더 생성
+- 원본 및 `legacy/` 사본은 가능한 한 변경하지 않기
+
+새로운 `src/`에서는 명확한 import와 모듈 구조를 사용해줘.
+
+---
+
+## 5. Codex 작업 환경 초기화
+
+이번 작업에는 개발 환경의 초기 구성도 포함한다.
+
+### 5.1 AGENTS.md
+
+`my_research/AGENTS.md`를 만들어 앞으로 Codex가 해당 작업 폴더에서 항상 따라야 할 프로젝트 규칙을 작성해줘.
+
+최소한 다음 원칙을 포함한다.
+
+1. 기존 연구 원본 코드는 수정하지 않는다.
+2. 새로운 실험은 `my_research/` 안에서 수행한다.
+3. Baseline과 modification은 별도로 관리한다.
+4. 실험 조건과 random seed를 기록한다.
+5. 결과를 좋게 만들기 위해 평가 기준을 바꾸지 않는다.
+6. Failed experiment도 결과를 남긴다.
+7. 학습 방식과 recall 방식을 명확하게 구분한다.
+8. Pure correlation baseline을 STDP 성능으로 표현하지 않는다.
+9. 실제 LIF recall과 static readout을 혼동하지 않는다.
+10. 새로운 연구 가설을 검증할 때 가능한 한 한 변수만 변경한다.
+11. 모든 결과가 재현 가능해야 한다.
+12. 결과에 대한 해석은 코드/데이터로 확인된 사실과 가설을 구분한다.
+13. 새로운 architecture modification을 하기 전, 현재 병목에 대한 근거를 먼저 확인한다.
+
+Codex의 초기화 기능(`/init`에 해당하는 프로젝트 지침 설정)도 이 작업 폴더 중심으로 구성해줘.
+
+프로젝트 루트의 기존 `AGENTS.md`가 있다면 함부로 덮어쓰지 않는다.
+
+### 5.2 Git 초기화
+
+먼저 현재 디렉터리가 기존 Git repository인지 확인한다.
+
+- 기존 repository라면 현재 Git 구조를 보존한다.
+- 이미 추적 중인 파일이나 commit history를 훼손하지 않는다.
+- 별도 저장소가 없다면 `my_research/`를 독립적으로 관리할 Git 저장소로 초기화할 수 있다.
+- 중첩 Git repository가 의도치 않게 생성되지 않도록 주의한다.
+- `.gitignore`를 작성하여 cache, 임시파일, 가상환경, 대용량 생성 결과 등을 적절히 제외한다.
+- 기존 파일을 `git clean`, `git reset --hard` 등으로 제거하지 않는다.
+- 기존 uncommitted change를 보존한다.
+
+기존 저장소 상태를 확인한 뒤 가장 안전한 초기화 방식을 선택하고 결과를 보고해줘.
+
+### 5.3 Python 환경
+
+현재 Linux/VS Code Remote SSH 환경에서 작업한다.
+
+기존 conda 환경이 존재할 수 있지만 사용할 수 있다고 가정하지 말고 먼저 확인한다.
+
+- Python version 확인
+- NumPy, Matplotlib 등 필요한 dependency 확인
+- 재현 가능한 `requirements.txt` 작성
+- 설치가 필요하면 필요한 패키지와 설치 명령을 명확히 제시
+- 무분별한 package upgrade나 기존 환경 변경 금지
+
+대규모 dependency 설치 없이 실행할 수 있는 진단 코드는 최대한 가볍게 구성해줘.
+
+---
+
+## 6. 연구 문서 정리
+
+코딩에 들어가기 전에 다음 문서를 작성해줘.
+
+### research_overview.md
+
+연구 목적, 데이터셋, 제약사항, 평가 지표, 단기 목표를 정리한다.
+
+### original_model_analysis.md
+
+기존 코드를 직접 읽고 다음을 설명한다.
+
+- 전체 network architecture
+- Input spike encoding
+- LIF neuron dynamics
+- Teacher spike / target=0 처리
+- STDP update equation과 parameter
+- Weight initialization 및 clipping
+- Training loop
+- Recall logic
+- Output binary 판정
+- 기존 구조의 잠재적 문제점
+
+가능한 한 코드의 파일명, 함수명, 줄 번호를 함께 기록한다.
+
+### experiment_history.md
+
+Baseline, B1, B2, teacher-only, pair-count, correlation 실험의 목적과 결과를 정리한다.
+
+실제 파일을 통해 검증한 내용과 기존 보고값을 구분한다.
+
+### experiment_protocol.md
+
+공정한 실험 비교를 위한 고정 조건과 평가 방식을 정리한다.
+
+### hypotheses.md
+
+현재 가설과 이를 검증하기 위한 실험 및 예상 관측 결과를 정리한다.
+
+---
+## 9. 실험 결과 관리
+
+새 실험 실행마다 별도의 결과 폴더를 만든다.
+
+예시:
+
+```text
+results/
+  diagnose_YYYYMMDD_HHMMSS/
+    config.json
+    metrics.json
+    predictions.csv
+    weights.npy
+    figures/
+    report.md
+```
+
+각 실험 결과에는 최소한 다음을 기록한다.
+
+- 실행한 코드 및 버전
+- dataset
+- pair count 및 subset
+- seed
+- STDP parameters
+- LIF parameters
+- encoding 조건
+- readout 방식
+- evaluation metric
+- 결과값
+- 실행 성공 여부
+- 해석 및 한계
+
+과거 결과를 새 실험 결과로 덮어쓰지 않는다.
+
+---
+
+## 10. 이후 modification 후보
+
+기존 원인 분석이 완료되면 다음 아이디어를 검토한다.
+
+1. Learning과 recall의 representation mismatch 해결
+2. STDP window parameter 조절
+3. Weight-dependent LTP/LTD
+4. Input encoding 변경
+5. Sparse / ON-OFF representation
+6. Output threshold 또는 inhibition 개선
+
+이 아이디어들은 관련 선행연구에서 참고한 방향이다.
+
+- Yang & Doiron: STDP temporal asymmetry와 interference
+- Stubenrauch: sparse representation, weight-dependent LTD
+- Jiang: weight-dependent STDP, responsive-side lateral inhibition
+- Casanueva-Morato: input pattern separation과 direct STDP memory
+
+하지만 현재는 어떤 방법도 성공한다고 확정하지 않는다.
+
+특히 Casanueva처럼 DG one-hot hidden processing layer를 그대로 추가하는 것은 현재 연구 제약과 맞지 않는다.
+
+**각 modification은 별도의 실험 branch/configuration에서 단독 검증해야 한다.**
+
+---
+
+### 추가 지침
+
+이번 요청은 연구 작업 환경 초기화 및 기존 자료 정리만 수행하는 작업이다.
+
+다음 작업만 진행한다.
+
+기존 heteroassociation/ 프로젝트의 폴더와 파일 구조 분석
+
+기존 baseline, B1/B2, teacher-only, correlation, pair-count 관련 코드 및 결과 파일 식별
+
+my_research/ 폴더 생성 및 필요한 기존 자료 복사
+
+기존 코드와 결과의 출처 및 파일 관계 문서화
+
+AGENTS.md, README.md 및 연구 배경 문서 작성
+
+Git 및 Python 개발 환경 확인과 안전한 초기화
+
+이후 연구 작업을 위한 기본 폴더 구조 구성
+
+이번 작업에서 하지 말아야 할 것:
+
+기존 실험 재실행
+
+새로운 실험 설계 및 실행
+
+Baseline 재현 실험
+
+STDP/LIF 알고리즘 변경
+
+성능 개선 코드 구현
+
+Diagnostic 코드 작성
+
+새로운 모델 architecture 구현
+
+요청하지 않은 대규모 코드 리팩터링
+
+기존 소스코드는 원칙적으로 수정하지 않는다. 기존 Git 저장소가 있으면 안전하게 유지한다.
+
+기존 실험을 재현하는 데 필요한 자료와 실행 방법은 조사해 문서로 정리하되, 실제 실행은 하지 않는다.
+
+향후 실험의 설계, 실행 범위 및 결과 해석은 사용자와 ChatGPT가 함께 결정한다. Codex는 사용자의 구체적인 지시를 받은 경우에만 실험 관련 코드를 작성하거나 실행한다.
+
+작업이 완료되면 생성한 폴더 구조, 복사한 파일 목록, 작성한 문서, 확인된 개발 환경 및 향후 작업 시 주의사항을 보고하고 종료한다.
+
+**최종 목표는 코드를 많이 만드는 것이 아니라, 현재 STDP hetero-associative memory가 왜 실패하는지를 재현 가능한 실험으로 설명하고 그에 근거한 개선 방향을 찾는 것이다.**
+
+이제 프로젝트를 조사하고 작업을 시작해줘.

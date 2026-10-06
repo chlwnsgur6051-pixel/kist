@@ -1,0 +1,36 @@
+{
+  "n_pairs": 10,
+  "epochs": 60,
+  "exact_count": 0,
+  "exact_rate": 0.0,
+  "bit_accuracy": 0.74,
+  "per_output_accuracy": [
+    10,
+    9,
+    8,
+    8,
+    7,
+    5,
+    8,
+    5,
+    5,
+    9,
+    7,
+    6,
+    10,
+    7,
+    7
+  ],
+  "exact_per_digit": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

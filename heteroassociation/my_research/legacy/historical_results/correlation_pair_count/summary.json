@@ -1,0 +1,62 @@
+{
+  "1": {
+    "n_pairs": 1,
+    "subsets_tested": 10,
+    "mean_exact_rate": 1.0,
+    "median_exact_rate": 1.0,
+    "best_exact_rate": 1.0,
+    "worst_exact_rate": 1.0,
+    "perfect_subsets": 10,
+    "mean_bit_accuracy": 1.0,
+    "mean_margin": 15.0,
+    "worst_min_margin": 15.0
+  },
+  "3": {
+    "n_pairs": 3,
+    "subsets_tested": 120,
+    "mean_exact_rate": 0.6444444444444444,
+    "median_exact_rate": 1.0,
+    "best_exact_rate": 1.0,
+    "worst_exact_rate": 0.0,
+    "perfect_subsets": 61,
+    "mean_bit_accuracy": 0.9250000000000002,
+    "mean_margin": 17.68148148148148,
+    "worst_min_margin": -11.0
+  },
+  "5": {
+    "n_pairs": 5,
+    "subsets_tested": 252,
+    "mean_exact_rate": 0.37777777777777777,
+    "median_exact_rate": 0.4,
+    "best_exact_rate": 1.0,
+    "worst_exact_rate": 0.0,
+    "perfect_subsets": 1,
+    "mean_bit_accuracy": 0.8750793650793651,
+    "mean_margin": 20.36296296296296,
+    "worst_min_margin": -33.0
+  },
+  "7": {
+    "n_pairs": 7,
+    "subsets_tested": 120,
+    "mean_exact_rate": 0.25833333333333325,
+    "median_exact_rate": 0.2857142857142857,
+    "best_exact_rate": 0.5714285714285714,
+    "worst_exact_rate": 0.0,
+    "perfect_subsets": 0,
+    "mean_bit_accuracy": 0.833809523809524,
+    "mean_margin": 23.04444444444444,
+    "worst_min_margin": -53.0
+  },
+  "10": {
+    "n_pairs": 10,
+    "subsets_tested": 1,
+    "mean_exact_rate": 0.1,
+    "median_exact_rate": 0.1,
+    "best_exact_rate": 0.1,
+    "worst_exact_rate": 0.1,
+    "perfect_subsets": 0,
+    "mean_bit_accuracy": 0.78,
+    "mean_margin": 27.066666666666666,
+    "worst_min_margin": -58.0
+  }
+}

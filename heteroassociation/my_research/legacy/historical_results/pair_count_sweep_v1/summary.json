@@ -1,0 +1,52 @@
+{
+  "1": {
+    "n_pairs": 1,
+    "subsets_tested": 10,
+    "mean_exact_rate": 0.6,
+    "median_exact_rate": 1.0,
+    "best_exact_rate": 1.0,
+    "worst_exact_rate": 0.0,
+    "perfect_subsets": 6,
+    "mean_bit_accuracy": 0.8733333333333333
+  },
+  "3": {
+    "n_pairs": 3,
+    "subsets_tested": 120,
+    "mean_exact_rate": 0.10277777777777777,
+    "median_exact_rate": 0.0,
+    "best_exact_rate": 0.3333333333333333,
+    "worst_exact_rate": 0.0,
+    "perfect_subsets": 0,
+    "mean_bit_accuracy": 0.7790740740740739
+  },
+  "5": {
+    "n_pairs": 5,
+    "subsets_tested": 252,
+    "mean_exact_rate": 0.023809523809523808,
+    "median_exact_rate": 0.0,
+    "best_exact_rate": 0.2,
+    "worst_exact_rate": 0.0,
+    "perfect_subsets": 0,
+    "mean_bit_accuracy": 0.763015873015873
+  },
+  "7": {
+    "n_pairs": 7,
+    "subsets_tested": 120,
+    "mean_exact_rate": 0.017857142857142856,
+    "median_exact_rate": 0.0,
+    "best_exact_rate": 0.14285714285714285,
+    "worst_exact_rate": 0.0,
+    "perfect_subsets": 0,
+    "mean_bit_accuracy": 0.7618253968253967
+  },
+  "10": {
+    "n_pairs": 10,
+    "subsets_tested": 1,
+    "mean_exact_rate": 0.0,
+    "median_exact_rate": 0.0,
+    "best_exact_rate": 0.0,
+    "worst_exact_rate": 0.0,
+    "perfect_subsets": 0,
+    "mean_bit_accuracy": 0.74
+  }
+}
