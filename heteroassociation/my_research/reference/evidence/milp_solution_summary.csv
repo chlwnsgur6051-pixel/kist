@@ -1,0 +1,4 @@
+label,source,exact_count,bit_accuracy,minimum_signed_margin,minimum_signed_margin_among_exact,exactly_recalled_digits
+Equal alpha=1,direct correlation,1,0.78,-58.0,6.0,7
+"Archived MILP alpha [0.01,4.0]",supplied archived alpha,6,0.8533333333333334,-79.002474971,9.99930000038507e-05,0-1-2-6-7-9
+Archived six-preserving margin alpha,supplied archived alpha,6,0.8533333333333334,-76.48149883595235,1.3890239101019728,0-1-2-6-7-9

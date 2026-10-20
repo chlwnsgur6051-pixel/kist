@@ -1,0 +1,22 @@
+{
+  "model_name": "Calibrated Shared-Spike Additive STDP",
+  "architecture": {"input_neurons": 15, "output_neurons": 15, "layers": 1},
+  "presynaptic_times_ms": {"bipolar_plus_one": 3.0, "bipolar_minus_one": 7.0},
+  "teacher_post_times_ms": {"bipolar_plus_one": [5.0], "bipolar_minus_one": [1.3, 8.7]},
+  "kernel": "Ver관리/2. temporal/stdp_temporal_symmetric_teacher_only.py:stdp_update",
+  "A_plus": 0.0075,
+  "A_minus": 0.0075,
+  "tau_stdp_ms": 2.0,
+  "dt_ms": 0.1,
+  "raw_weight_initial": 0.05,
+  "raw_weight_bounds": [-1.5, 1.5],
+  "epochs": 60,
+  "presentation_seed": 0,
+  "presentation_schedule": "np.random.RandomState(0).permutation(ids) each epoch",
+  "natural_post_spikes_in_plasticity": false,
+  "effective_weight": "W_final - W_initial",
+  "static_score": "X_bipolar @ W_effective",
+  "decoder": "score > 0 -> +1, otherwise -1",
+  "validated_zero_clipping_datasets": ["A", "B"],
+  "original_dataset_note": "Measured 75 clipping attempts at these fixed settings; see checkpoint report"
+}

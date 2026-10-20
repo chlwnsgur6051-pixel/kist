@@ -1,0 +1,59 @@
+{
+  "Original": {
+    "file": "my_research/reference/datasets/Original.npz",
+    "sha256": "930827ee9229c7ca5d44f05d20cf8673aae42f36eb12b90706b144425d42d957",
+    "source": "binary_character.py",
+    "source_sha256": "fed3a90e496a80846bf5b40bf97b3c2434f42c8e75c76a8b21fe9bf2de3df446",
+    "mapping": [
+      "0->A",
+      "1->B",
+      "2->C",
+      "3->D",
+      "4->E",
+      "5->F",
+      "6->G",
+      "7->H",
+      "8->I",
+      "9->J"
+    ],
+    "description": "Current rank-10 binary_character.py patterns"
+  },
+  "A": {
+    "file": "my_research/reference/datasets/A.npz",
+    "sha256": "6b2d6bfe85546e1dbc98dd12ec7da0433ef8091940da28bade14344b9fe4d9e6",
+    "source": "local_stdp_audit_dataset_handoff_20261020/dataset_A.npz",
+    "source_sha256": "a4f1e50832eeb5a0dd4c0ba5b702b57969316f8110e35ca1dd70abe8fe5de4ed",
+    "mapping": [
+      "0->A",
+      "1->B",
+      "2->C",
+      "3->D",
+      "4->E",
+      "5->F",
+      "6->G",
+      "7->H",
+      "8->I",
+      "9->J"
+    ],
+    "description": "Fixed supplied dataset; target bitmap is from Y_bipolar in handoff NPZ"
+  },
+  "B": {
+    "file": "my_research/reference/datasets/B.npz",
+    "sha256": "15278b40cf69664fc60df8a3949ec863b7248120cb6e441698045ff0cfbea04a",
+    "source": "local_stdp_audit_dataset_handoff_20261020/dataset_B.npz",
+    "source_sha256": "5c174b848c20dd15bb76c7baf208831b005a4bd27ce0c4e883773fb8f147d0e5",
+    "mapping": [
+      "0->A",
+      "1->B",
+      "2->C",
+      "3->D",
+      "4->E",
+      "5->F",
+      "6->G",
+      "7->H",
+      "8->I",
+      "9->J"
+    ],
+    "description": "Fixed supplied dataset; target bitmap is from Y_bipolar in handoff NPZ"
+  }
+}

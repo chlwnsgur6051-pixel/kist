@@ -1,0 +1,219 @@
+{
+  "timestamp": "2026-10-20T15:15:11.541927+09:00",
+  "datasets": [
+    "Original",
+    "A",
+    "B"
+  ],
+  "source_kernel_sha256": "d0479f8483c3b04b108125d150b73792716a58be52895b87303fd88030e17410",
+  "results": [
+    {
+      "dataset": "Original",
+      "input_rank": 10,
+      "mean_absolute_input_inner_product": 6.555555555555555,
+      "correlation_exact": 1,
+      "correlation_recalled_ids": [
+        7
+      ],
+      "correlation_strictly_positive_count": 1,
+      "correlation_zero_score_bits": 2,
+      "pseudoinverse_exact": 10,
+      "stdp_exact": 1,
+      "stdp_recalled_ids": [
+        7
+      ],
+      "stdp_bit_percent": 78.0,
+      "clipping_events": 75,
+      "suppressed_updates": 74,
+      "saturation_synapses": 1,
+      "cosine": 0.9998074263899315,
+      "normalized_fro_error": 0.019624223183151834,
+      "best_fit_scale": 0.16515553658063584,
+      "four_case_updates": [
+        {
+          "input_bit": 1,
+          "target_bit": 1,
+          "pre_ms": 3.0,
+          "post_ms": "5.0",
+          "delta_w": 0.0027590958087858174,
+          "absolute_delta_w": 0.0027590958087858174,
+          "expected_sign": 1,
+          "sign_correct": true
+        },
+        {
+          "input_bit": 1,
+          "target_bit": 0,
+          "pre_ms": 3.0,
+          "post_ms": "1.3;8.7",
+          "delta_w": -0.0027717795830541616,
+          "absolute_delta_w": 0.0027717795830541616,
+          "expected_sign": -1,
+          "sign_correct": true
+        },
+        {
+          "input_bit": 0,
+          "target_bit": 1,
+          "pre_ms": 7.0,
+          "post_ms": "5.0",
+          "delta_w": -0.0027590958087858174,
+          "absolute_delta_w": 0.0027590958087858174,
+          "expected_sign": -1,
+          "sign_correct": true
+        },
+        {
+          "input_bit": 0,
+          "target_bit": 0,
+          "pre_ms": 7.0,
+          "post_ms": "1.3;8.7",
+          "delta_w": 0.0027717795830541595,
+          "absolute_delta_w": 0.0027717795830541595,
+          "expected_sign": 1,
+          "sign_correct": true
+        }
+      ],
+      "four_case_relative_spread": 0.004586534090808592
+    },
+    {
+      "dataset": "A",
+      "input_rank": 10,
+      "mean_absolute_input_inner_product": 4.377777777777778,
+      "correlation_exact": 4,
+      "correlation_recalled_ids": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "correlation_strictly_positive_count": 3,
+      "correlation_zero_score_bits": 3,
+      "pseudoinverse_exact": 10,
+      "stdp_exact": 4,
+      "stdp_recalled_ids": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "stdp_bit_percent": 85.33333333333334,
+      "clipping_events": 0,
+      "suppressed_updates": 0,
+      "saturation_synapses": 0,
+      "cosine": 0.9999954177232195,
+      "normalized_fro_error": 0.003027297898135822,
+      "best_fit_scale": 0.16565736574071077,
+      "four_case_updates": [
+        {
+          "input_bit": 1,
+          "target_bit": 1,
+          "pre_ms": 3.0,
+          "post_ms": "5.0",
+          "delta_w": 0.0027590958087858174,
+          "absolute_delta_w": 0.0027590958087858174,
+          "expected_sign": 1,
+          "sign_correct": true
+        },
+        {
+          "input_bit": 1,
+          "target_bit": 0,
+          "pre_ms": 3.0,
+          "post_ms": "1.3;8.7",
+          "delta_w": -0.0027717795830541616,
+          "absolute_delta_w": 0.0027717795830541616,
+          "expected_sign": -1,
+          "sign_correct": true
+        },
+        {
+          "input_bit": 0,
+          "target_bit": 1,
+          "pre_ms": 7.0,
+          "post_ms": "5.0",
+          "delta_w": -0.0027590958087858174,
+          "absolute_delta_w": 0.0027590958087858174,
+          "expected_sign": -1,
+          "sign_correct": true
+        },
+        {
+          "input_bit": 0,
+          "target_bit": 0,
+          "pre_ms": 7.0,
+          "post_ms": "1.3;8.7",
+          "delta_w": 0.0027717795830541595,
+          "absolute_delta_w": 0.0027717795830541595,
+          "expected_sign": 1,
+          "sign_correct": true
+        }
+      ],
+      "four_case_relative_spread": 0.004586534090808592
+    },
+    {
+      "dataset": "B",
+      "input_rank": 10,
+      "mean_absolute_input_inner_product": 3.533333333333333,
+      "correlation_exact": 2,
+      "correlation_recalled_ids": [
+        1,
+        6
+      ],
+      "correlation_strictly_positive_count": 2,
+      "correlation_zero_score_bits": 4,
+      "pseudoinverse_exact": 10,
+      "stdp_exact": 2,
+      "stdp_recalled_ids": [
+        1,
+        6
+      ],
+      "stdp_bit_percent": 86.0,
+      "clipping_events": 0,
+      "suppressed_updates": 0,
+      "saturation_synapses": 0,
+      "cosine": 0.9999957046174727,
+      "normalized_fro_error": 0.0029309975441941015,
+      "best_fit_scale": 0.165673116971685,
+      "four_case_updates": [
+        {
+          "input_bit": 1,
+          "target_bit": 1,
+          "pre_ms": 3.0,
+          "post_ms": "5.0",
+          "delta_w": 0.0027590958087858174,
+          "absolute_delta_w": 0.0027590958087858174,
+          "expected_sign": 1,
+          "sign_correct": true
+        },
+        {
+          "input_bit": 1,
+          "target_bit": 0,
+          "pre_ms": 3.0,
+          "post_ms": "1.3;8.7",
+          "delta_w": -0.0027717795830541616,
+          "absolute_delta_w": 0.0027717795830541616,
+          "expected_sign": -1,
+          "sign_correct": true
+        },
+        {
+          "input_bit": 0,
+          "target_bit": 1,
+          "pre_ms": 7.0,
+          "post_ms": "5.0",
+          "delta_w": -0.0027590958087858174,
+          "absolute_delta_w": 0.0027590958087858174,
+          "expected_sign": -1,
+          "sign_correct": true
+        },
+        {
+          "input_bit": 0,
+          "target_bit": 0,
+          "pre_ms": 7.0,
+          "post_ms": "1.3;8.7",
+          "delta_w": 0.0027717795830541595,
+          "absolute_delta_w": 0.0027717795830541595,
+          "expected_sign": 1,
+          "sign_correct": true
+        }
+      ],
+      "four_case_relative_spread": 0.004586534090808592
+    }
+  ],
+  "command": "python3 my_research/reference/verify_checkpoint.py --dataset all",
+  "status": "PASS"
+}
