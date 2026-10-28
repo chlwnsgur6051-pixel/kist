@@ -1,0 +1,66 @@
+{
+  "dataset_manifest": {
+    "Original": {
+      "source": "my_research/reference/datasets/Original.npz",
+      "sha256": "930827ee9229c7ca5d44f05d20cf8673aae42f36eb12b90706b144425d42d957",
+      "binary_input_rank": 10,
+      "bipolar_input_rank": 10
+    },
+    "Modified": {
+      "source": "my_research/reference/datasets/B.npz",
+      "sha256": "15278b40cf69664fc60df8a3949ec863b7248120cb6e441698045ff0cfbea04a",
+      "binary_input_rank": 10,
+      "bipolar_input_rank": 10
+    }
+  },
+  "dataset_A_excluded": true,
+  "lif": {
+    "dt_ms": 0.1,
+    "tau_membrane_ms": 2.0,
+    "tau_synaptic_current_ms": 1.0,
+    "v_rest": 0.0,
+    "v_reset": 0.0,
+    "refractory_ms": 1.0,
+    "input_gain": 1.0,
+    "threshold": 0.01,
+    "teacher_current": 30.0
+  },
+  "timing_ms": {
+    "pre": 2.0,
+    "prediction": 4.0,
+    "teacher": 8.0
+  },
+  "window": {
+    "name": "Centered Inverted Mexican-hat",
+    "center_ms": 0.0,
+    "width_ms": 2.5737871845939315,
+    "amplitude": 3.4138033513868233,
+    "k": 0.06666666666666667,
+    "prediction_update": -0.06666666666666667,
+    "teacher_update": 0.06666666666666665,
+    "zero_crossings_ms": [
+      -2.5737871845939315,
+      2.5737871845939315
+    ]
+  },
+  "epochs": 500,
+  "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "initial_effective_weight": 0.0,
+  "clipping": "none",
+  "random_seed": null,
+  "stochasticity": "none",
+  "python": "3.10.21",
+  "numpy": "2.2.6",
+  "entrypoint_sha256": "1f3888f556a091e8303769c9b831ee9bfc0ef1c1b30440f5b914440032550e3d"
+}

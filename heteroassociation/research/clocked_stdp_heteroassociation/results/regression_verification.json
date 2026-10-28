@@ -1,0 +1,62 @@
+[
+  {
+    "dataset": "original",
+    "K": 10,
+    "max_epoch_weight_error": 6.245004513516506e-14,
+    "first_100_epoch": 65,
+    "final_exact": 1.0,
+    "final_bit": 1.0,
+    "teacher_reliability": 1.0,
+    "status": "pass"
+  },
+  {
+    "dataset": "modified",
+    "K": 10,
+    "max_epoch_weight_error": 6.245004513516506e-14,
+    "first_100_epoch": 10,
+    "final_exact": 1.0,
+    "final_bit": 1.0,
+    "teacher_reliability": 1.0,
+    "status": "pass"
+  },
+  {
+    "dataset": "original",
+    "K": 15,
+    "max_epoch_weight_error": 0.0,
+    "first_100_epoch": 117,
+    "final_exact": 1.0,
+    "final_bit": 1.0,
+    "teacher_reliability": 1.0,
+    "status": "pass"
+  },
+  {
+    "dataset": "modified",
+    "K": 15,
+    "max_epoch_weight_error": 0.0,
+    "first_100_epoch": 69,
+    "final_exact": 1.0,
+    "final_bit": 1.0,
+    "teacher_reliability": 1.0,
+    "status": "pass"
+  },
+  {
+    "dataset": "original",
+    "K": 20,
+    "max_epoch_weight_error": 0.0,
+    "first_100_epoch": null,
+    "final_exact": 0.55,
+    "final_bit": 0.95,
+    "teacher_reliability": 1.0,
+    "status": "pass"
+  },
+  {
+    "dataset": "modified",
+    "K": 20,
+    "max_epoch_weight_error": 0.0,
+    "first_100_epoch": null,
+    "final_exact": 0.7,
+    "final_bit": 0.9766666666666667,
+    "teacher_reliability": 1.0,
+    "status": "pass"
+  }
+]
