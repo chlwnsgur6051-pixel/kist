@@ -5,13 +5,14 @@ Spiking neural network research on storing digit-to-letter bitmap associations w
 ## Project map
 
 - `binary_character.py`: 5×3 digit and letter bitmap dataset.
+- [`research/`](research/README.md): validated, independently documented models and their reproducibility checks.
 - `Ver관리/`: chronological research code, models, experiments, and historical outputs. Treat these sources as research records; preserve original files when developing new methods.
 - `my_research/`: organized research workspace, selected legacy copies, analysis, experiment protocol, and future experiment locations.
 - `my_research/docs/source_manifest.md`: provenance and hashes for copied legacy material.
 
 ## Current research focus
 
-Determine whether recall failures come from the learned synaptic weights or from the LIF recall dynamics and the timing representation. The working constraint is direct input-output association with actual spike events and classical pair-based STDP as the starting point. No performance target is claimed as achieved until reproduced from a recorded run.
+Two validated 15×15 feedforward models are preserved separately. The [clocked LIF + STDP model](research/clocked_stdp_heteroassociation/README.md) reaches 10/10 teacher-free recall on Original and Modified K=10. The [continuous-state Natural LIF + all-to-all STDP model](research/continuous_stdp_heteroassociation/README.md) also reaches 10/10 with signed weights on those datasets using learning multiplier 1. Its Original nonnegative-weight condition reaches 4/10. See each model's configuration, result tables, and limitations before comparing them; their neuron dynamics and learning protocols differ.
 
 ## Getting started
 
