@@ -1,0 +1,4001 @@
+dataset,model,epoch,exact_count_continuous_recall,exact_count_independent_recall,bit_accuracy_continuous_recall
+Original,Baseline,1,0,0,0.3333333333333333
+Original,Baseline,2,0,0,0.3333333333333333
+Original,Baseline,3,0,0,0.42
+Original,Baseline,4,0,0,0.5933333333333334
+Original,Baseline,5,0,0,0.6133333333333333
+Original,Baseline,6,0,0,0.66
+Original,Baseline,7,1,1,0.68
+Original,Baseline,8,0,0,0.6666666666666666
+Original,Baseline,9,1,1,0.6733333333333333
+Original,Baseline,10,1,1,0.6933333333333334
+Original,Baseline,11,1,1,0.7066666666666667
+Original,Baseline,12,2,2,0.7066666666666667
+Original,Baseline,13,0,0,0.7
+Original,Baseline,14,1,1,0.72
+Original,Baseline,15,2,2,0.74
+Original,Baseline,16,2,2,0.7333333333333333
+Original,Baseline,17,1,1,0.7333333333333333
+Original,Baseline,18,0,0,0.7
+Original,Baseline,19,0,0,0.7066666666666667
+Original,Baseline,20,1,1,0.76
+Original,Baseline,21,1,1,0.7866666666666666
+Original,Baseline,22,1,1,0.8066666666666666
+Original,Baseline,23,1,1,0.8
+Original,Baseline,24,1,1,0.8266666666666667
+Original,Baseline,25,1,1,0.74
+Original,Baseline,26,1,1,0.7466666666666667
+Original,Baseline,27,1,1,0.8066666666666666
+Original,Baseline,28,1,1,0.8333333333333334
+Original,Baseline,29,1,1,0.84
+Original,Baseline,30,1,1,0.7933333333333333
+Original,Baseline,31,1,1,0.8333333333333334
+Original,Baseline,32,1,1,0.8066666666666666
+Original,Baseline,33,4,4,0.8733333333333333
+Original,Baseline,34,2,2,0.8333333333333334
+Original,Baseline,35,4,4,0.8666666666666667
+Original,Baseline,36,4,4,0.8866666666666667
+Original,Baseline,37,4,4,0.88
+Original,Baseline,38,3,3,0.86
+Original,Baseline,39,2,2,0.9
+Original,Baseline,40,2,2,0.86
+Original,Baseline,41,3,3,0.8666666666666667
+Original,Baseline,42,4,4,0.8866666666666667
+Original,Baseline,43,4,4,0.88
+Original,Baseline,44,3,3,0.88
+Original,Baseline,45,4,4,0.86
+Original,Baseline,46,2,2,0.8666666666666667
+Original,Baseline,47,1,1,0.82
+Original,Baseline,48,5,5,0.9
+Original,Baseline,49,3,3,0.8666666666666667
+Original,Baseline,50,5,5,0.9
+Original,Baseline,51,5,5,0.9
+Original,Baseline,52,3,3,0.8666666666666667
+Original,Baseline,53,6,6,0.9066666666666666
+Original,Baseline,54,3,3,0.8533333333333334
+Original,Baseline,55,3,3,0.8466666666666667
+Original,Baseline,56,6,6,0.9066666666666666
+Original,Baseline,57,4,4,0.8866666666666667
+Original,Baseline,58,3,3,0.8533333333333334
+Original,Baseline,59,4,4,0.88
+Original,Baseline,60,2,2,0.8333333333333334
+Original,Baseline,61,7,7,0.9266666666666666
+Original,Baseline,62,4,4,0.9
+Original,Baseline,63,5,5,0.9066666666666666
+Original,Baseline,64,6,6,0.9133333333333333
+Original,Baseline,65,4,4,0.9
+Original,Baseline,66,5,5,0.9066666666666666
+Original,Baseline,67,2,2,0.84
+Original,Baseline,68,6,6,0.9266666666666666
+Original,Baseline,69,5,5,0.9133333333333333
+Original,Baseline,70,6,6,0.9066666666666666
+Original,Baseline,71,7,7,0.9333333333333333
+Original,Baseline,72,7,7,0.94
+Original,Baseline,73,6,6,0.9066666666666666
+Original,Baseline,74,6,6,0.92
+Original,Baseline,75,6,6,0.9333333333333333
+Original,Baseline,76,6,6,0.9333333333333333
+Original,Baseline,77,2,2,0.8533333333333334
+Original,Baseline,78,5,5,0.8866666666666667
+Original,Baseline,79,6,6,0.9333333333333333
+Original,Baseline,80,6,6,0.9133333333333333
+Original,Baseline,81,6,6,0.92
+Original,Baseline,82,8,8,0.9466666666666667
+Original,Baseline,83,5,5,0.8866666666666667
+Original,Baseline,84,6,6,0.9266666666666666
+Original,Baseline,85,5,5,0.9333333333333333
+Original,Baseline,86,1,1,0.7733333333333333
+Original,Baseline,87,1,1,0.7733333333333333
+Original,Baseline,88,5,5,0.8933333333333333
+Original,Baseline,89,3,3,0.8733333333333333
+Original,Baseline,90,2,2,0.8333333333333334
+Original,Baseline,91,7,7,0.9533333333333334
+Original,Baseline,92,8,8,0.9533333333333334
+Original,Baseline,93,7,7,0.94
+Original,Baseline,94,5,5,0.92
+Original,Baseline,95,6,6,0.9333333333333333
+Original,Baseline,96,7,7,0.9466666666666667
+Original,Baseline,97,7,7,0.9466666666666667
+Original,Baseline,98,4,4,0.9266666666666666
+Original,Baseline,99,2,2,0.8066666666666666
+Original,Baseline,100,8,8,0.9466666666666667
+Original,Baseline,101,8,8,0.9466666666666667
+Original,Baseline,102,4,4,0.8466666666666667
+Original,Baseline,103,4,4,0.8533333333333334
+Original,Baseline,104,8,8,0.9533333333333334
+Original,Baseline,105,4,4,0.9333333333333333
+Original,Baseline,106,6,6,0.9466666666666667
+Original,Baseline,107,3,3,0.8533333333333334
+Original,Baseline,108,8,8,0.9533333333333334
+Original,Baseline,109,8,8,0.9533333333333334
+Original,Baseline,110,8,8,0.9533333333333334
+Original,Baseline,111,2,2,0.88
+Original,Baseline,112,6,6,0.9266666666666666
+Original,Baseline,113,5,5,0.9266666666666666
+Original,Baseline,114,7,7,0.9466666666666667
+Original,Baseline,115,8,8,0.96
+Original,Baseline,116,4,4,0.8733333333333333
+Original,Baseline,117,4,4,0.86
+Original,Baseline,118,5,5,0.92
+Original,Baseline,119,8,8,0.96
+Original,Baseline,120,8,8,0.9533333333333334
+Original,Baseline,121,5,5,0.92
+Original,Baseline,122,5,5,0.9066666666666666
+Original,Baseline,123,8,8,0.96
+Original,Baseline,124,6,6,0.9266666666666666
+Original,Baseline,125,8,8,0.96
+Original,Baseline,126,4,4,0.9133333333333333
+Original,Baseline,127,7,7,0.9533333333333334
+Original,Baseline,128,6,6,0.94
+Original,Baseline,129,8,8,0.96
+Original,Baseline,130,2,2,0.8266666666666667
+Original,Baseline,131,6,6,0.94
+Original,Baseline,132,7,7,0.9466666666666667
+Original,Baseline,133,8,8,0.9533333333333334
+Original,Baseline,134,7,7,0.9533333333333334
+Original,Baseline,135,7,7,0.9533333333333334
+Original,Baseline,136,8,8,0.9533333333333334
+Original,Baseline,137,8,8,0.9533333333333334
+Original,Baseline,138,8,8,0.9533333333333334
+Original,Baseline,139,8,8,0.9533333333333334
+Original,Baseline,140,7,7,0.9466666666666667
+Original,Baseline,141,7,7,0.9466666666666667
+Original,Baseline,142,8,8,0.96
+Original,Baseline,143,8,8,0.9533333333333334
+Original,Baseline,144,7,7,0.94
+Original,Baseline,145,6,6,0.9466666666666667
+Original,Baseline,146,6,6,0.9333333333333333
+Original,Baseline,147,3,3,0.84
+Original,Baseline,148,8,8,0.96
+Original,Baseline,149,8,8,0.96
+Original,Baseline,150,3,3,0.8733333333333333
+Original,Baseline,151,2,2,0.8666666666666667
+Original,Baseline,152,3,3,0.8933333333333333
+Original,Baseline,153,7,7,0.9466666666666667
+Original,Baseline,154,4,4,0.8666666666666667
+Original,Baseline,155,8,8,0.9533333333333334
+Original,Baseline,156,6,6,0.9466666666666667
+Original,Baseline,157,1,1,0.8266666666666667
+Original,Baseline,158,7,7,0.94
+Original,Baseline,159,7,7,0.9533333333333334
+Original,Baseline,160,1,1,0.8133333333333334
+Original,Baseline,161,6,6,0.94
+Original,Baseline,162,8,8,0.9533333333333334
+Original,Baseline,163,6,6,0.9333333333333333
+Original,Baseline,164,8,8,0.9533333333333334
+Original,Baseline,165,1,1,0.84
+Original,Baseline,166,8,8,0.96
+Original,Baseline,167,8,8,0.96
+Original,Baseline,168,8,8,0.96
+Original,Baseline,169,2,2,0.88
+Original,Baseline,170,4,4,0.9333333333333333
+Original,Baseline,171,8,8,0.96
+Original,Baseline,172,2,2,0.8266666666666667
+Original,Baseline,173,3,3,0.8733333333333333
+Original,Baseline,174,2,2,0.84
+Original,Baseline,175,8,8,0.9533333333333334
+Original,Baseline,176,7,7,0.9466666666666667
+Original,Baseline,177,6,6,0.9533333333333334
+Original,Baseline,178,2,2,0.84
+Original,Baseline,179,8,8,0.9533333333333334
+Original,Baseline,180,6,6,0.9333333333333333
+Original,Baseline,181,4,4,0.8733333333333333
+Original,Baseline,182,8,8,0.9533333333333334
+Original,Baseline,183,7,7,0.94
+Original,Baseline,184,4,4,0.9266666666666666
+Original,Baseline,185,8,8,0.96
+Original,Baseline,186,6,6,0.9333333333333333
+Original,Baseline,187,3,3,0.86
+Original,Baseline,188,8,8,0.9533333333333334
+Original,Baseline,189,8,8,0.9533333333333334
+Original,Baseline,190,7,7,0.96
+Original,Baseline,191,7,7,0.96
+Original,Baseline,192,4,4,0.8933333333333333
+Original,Baseline,193,8,8,0.96
+Original,Baseline,194,9,9,0.9666666666666667
+Original,Baseline,195,8,8,0.96
+Original,Baseline,196,8,8,0.96
+Original,Baseline,197,6,6,0.9466666666666667
+Original,Baseline,198,8,8,0.96
+Original,Baseline,199,8,8,0.96
+Original,Baseline,200,8,8,0.96
+Original,Baseline,201,8,8,0.96
+Original,Baseline,202,2,2,0.8533333333333334
+Original,Baseline,203,4,4,0.8733333333333333
+Original,Baseline,204,7,7,0.94
+Original,Baseline,205,4,4,0.8733333333333333
+Original,Baseline,206,7,7,0.94
+Original,Baseline,207,6,6,0.9333333333333333
+Original,Baseline,208,5,5,0.8866666666666667
+Original,Baseline,209,3,3,0.88
+Original,Baseline,210,8,8,0.96
+Original,Baseline,211,8,8,0.96
+Original,Baseline,212,8,8,0.9533333333333334
+Original,Baseline,213,6,6,0.9466666666666667
+Original,Baseline,214,4,4,0.8933333333333333
+Original,Baseline,215,7,7,0.94
+Original,Baseline,216,7,7,0.96
+Original,Baseline,217,6,6,0.9533333333333334
+Original,Baseline,218,8,8,0.9533333333333334
+Original,Baseline,219,4,4,0.8733333333333333
+Original,Baseline,220,7,7,0.9533333333333334
+Original,Baseline,221,8,8,0.96
+Original,Baseline,222,8,8,0.96
+Original,Baseline,223,8,8,0.96
+Original,Baseline,224,8,8,0.9666666666666667
+Original,Baseline,225,8,8,0.9666666666666667
+Original,Baseline,226,5,5,0.9533333333333334
+Original,Baseline,227,9,9,0.9733333333333334
+Original,Baseline,228,5,5,0.92
+Original,Baseline,229,5,5,0.9133333333333333
+Original,Baseline,230,8,8,0.9666666666666667
+Original,Baseline,231,8,8,0.9666666666666667
+Original,Baseline,232,8,8,0.9666666666666667
+Original,Baseline,233,8,8,0.9666666666666667
+Original,Baseline,234,8,8,0.9666666666666667
+Original,Baseline,235,5,5,0.9533333333333334
+Original,Baseline,236,3,3,0.8733333333333333
+Original,Baseline,237,8,8,0.9666666666666667
+Original,Baseline,238,5,5,0.8933333333333333
+Original,Baseline,239,5,5,0.9466666666666667
+Original,Baseline,240,4,4,0.9133333333333333
+Original,Baseline,241,8,8,0.9666666666666667
+Original,Baseline,242,8,8,0.9666666666666667
+Original,Baseline,243,8,8,0.9666666666666667
+Original,Baseline,244,7,7,0.9666666666666667
+Original,Baseline,245,7,7,0.96
+Original,Baseline,246,8,8,0.9666666666666667
+Original,Baseline,247,2,2,0.8666666666666667
+Original,Baseline,248,8,8,0.9666666666666667
+Original,Baseline,249,3,3,0.8733333333333333
+Original,Baseline,250,5,5,0.9
+Original,Baseline,251,8,8,0.9666666666666667
+Original,Baseline,252,8,8,0.9666666666666667
+Original,Baseline,253,7,7,0.9333333333333333
+Original,Baseline,254,8,8,0.9666666666666667
+Original,Baseline,255,7,7,0.9466666666666667
+Original,Baseline,256,5,5,0.92
+Original,Baseline,257,8,8,0.9733333333333334
+Original,Baseline,258,2,2,0.8866666666666667
+Original,Baseline,259,5,5,0.9466666666666667
+Original,Baseline,260,8,8,0.9666666666666667
+Original,Baseline,261,4,4,0.9
+Original,Baseline,262,8,8,0.9666666666666667
+Original,Baseline,263,6,6,0.94
+Original,Baseline,264,5,5,0.92
+Original,Baseline,265,4,4,0.9066666666666666
+Original,Baseline,266,8,8,0.9666666666666667
+Original,Baseline,267,8,8,0.9666666666666667
+Original,Baseline,268,7,7,0.9533333333333334
+Original,Baseline,269,8,8,0.9666666666666667
+Original,Baseline,270,7,7,0.9666666666666667
+Original,Baseline,271,7,7,0.9666666666666667
+Original,Baseline,272,7,7,0.9533333333333334
+Original,Baseline,273,8,8,0.9666666666666667
+Original,Baseline,274,8,8,0.9666666666666667
+Original,Baseline,275,6,6,0.9533333333333334
+Original,Baseline,276,9,9,0.9733333333333334
+Original,Baseline,277,4,4,0.92
+Original,Baseline,278,9,9,0.9733333333333334
+Original,Baseline,279,8,8,0.9666666666666667
+Original,Baseline,280,7,7,0.96
+Original,Baseline,281,9,9,0.9733333333333334
+Original,Baseline,282,9,9,0.9733333333333334
+Original,Baseline,283,6,6,0.9333333333333333
+Original,Baseline,284,8,8,0.9666666666666667
+Original,Baseline,285,8,8,0.9733333333333334
+Original,Baseline,286,8,8,0.9733333333333334
+Original,Baseline,287,8,8,0.9733333333333334
+Original,Baseline,288,8,8,0.9666666666666667
+Original,Baseline,289,8,8,0.9666666666666667
+Original,Baseline,290,9,9,0.98
+Original,Baseline,291,9,9,0.98
+Original,Baseline,292,9,9,0.98
+Original,Baseline,293,9,9,0.98
+Original,Baseline,294,5,5,0.9066666666666666
+Original,Baseline,295,10,10,1.0
+Original,Baseline,296,10,10,1.0
+Original,Baseline,297,10,10,1.0
+Original,Baseline,298,10,10,1.0
+Original,Baseline,299,10,10,1.0
+Original,Baseline,300,10,10,1.0
+Original,Baseline,301,10,10,1.0
+Original,Baseline,302,10,10,1.0
+Original,Baseline,303,10,10,1.0
+Original,Baseline,304,10,10,1.0
+Original,Baseline,305,10,10,1.0
+Original,Baseline,306,10,10,1.0
+Original,Baseline,307,10,10,1.0
+Original,Baseline,308,10,10,1.0
+Original,Baseline,309,10,10,1.0
+Original,Baseline,310,10,10,1.0
+Original,Baseline,311,10,10,1.0
+Original,Baseline,312,10,10,1.0
+Original,Baseline,313,10,10,1.0
+Original,Baseline,314,10,10,1.0
+Original,Baseline,315,10,10,1.0
+Original,Baseline,316,10,10,1.0
+Original,Baseline,317,10,10,1.0
+Original,Baseline,318,10,10,1.0
+Original,Baseline,319,10,10,1.0
+Original,Baseline,320,10,10,1.0
+Original,Baseline,321,10,10,1.0
+Original,Baseline,322,10,10,1.0
+Original,Baseline,323,10,10,1.0
+Original,Baseline,324,10,10,1.0
+Original,Baseline,325,10,10,1.0
+Original,Baseline,326,10,10,1.0
+Original,Baseline,327,10,10,1.0
+Original,Baseline,328,10,10,1.0
+Original,Baseline,329,10,10,1.0
+Original,Baseline,330,10,10,1.0
+Original,Baseline,331,10,10,1.0
+Original,Baseline,332,10,10,1.0
+Original,Baseline,333,10,10,1.0
+Original,Baseline,334,10,10,1.0
+Original,Baseline,335,10,10,1.0
+Original,Baseline,336,10,10,1.0
+Original,Baseline,337,10,10,1.0
+Original,Baseline,338,10,10,1.0
+Original,Baseline,339,10,10,1.0
+Original,Baseline,340,10,10,1.0
+Original,Baseline,341,10,10,1.0
+Original,Baseline,342,10,10,1.0
+Original,Baseline,343,10,10,1.0
+Original,Baseline,344,10,10,1.0
+Original,Baseline,345,10,10,1.0
+Original,Baseline,346,10,10,1.0
+Original,Baseline,347,10,10,1.0
+Original,Baseline,348,10,10,1.0
+Original,Baseline,349,10,10,1.0
+Original,Baseline,350,10,10,1.0
+Original,Baseline,351,10,10,1.0
+Original,Baseline,352,10,10,1.0
+Original,Baseline,353,10,10,1.0
+Original,Baseline,354,10,10,1.0
+Original,Baseline,355,10,10,1.0
+Original,Baseline,356,10,10,1.0
+Original,Baseline,357,10,10,1.0
+Original,Baseline,358,10,10,1.0
+Original,Baseline,359,10,10,1.0
+Original,Baseline,360,10,10,1.0
+Original,Baseline,361,10,10,1.0
+Original,Baseline,362,10,10,1.0
+Original,Baseline,363,10,10,1.0
+Original,Baseline,364,10,10,1.0
+Original,Baseline,365,10,10,1.0
+Original,Baseline,366,10,10,1.0
+Original,Baseline,367,10,10,1.0
+Original,Baseline,368,10,10,1.0
+Original,Baseline,369,10,10,1.0
+Original,Baseline,370,10,10,1.0
+Original,Baseline,371,10,10,1.0
+Original,Baseline,372,10,10,1.0
+Original,Baseline,373,10,10,1.0
+Original,Baseline,374,10,10,1.0
+Original,Baseline,375,10,10,1.0
+Original,Baseline,376,10,10,1.0
+Original,Baseline,377,10,10,1.0
+Original,Baseline,378,10,10,1.0
+Original,Baseline,379,10,10,1.0
+Original,Baseline,380,10,10,1.0
+Original,Baseline,381,10,10,1.0
+Original,Baseline,382,10,10,1.0
+Original,Baseline,383,10,10,1.0
+Original,Baseline,384,10,10,1.0
+Original,Baseline,385,10,10,1.0
+Original,Baseline,386,10,10,1.0
+Original,Baseline,387,10,10,1.0
+Original,Baseline,388,10,10,1.0
+Original,Baseline,389,10,10,1.0
+Original,Baseline,390,10,10,1.0
+Original,Baseline,391,10,10,1.0
+Original,Baseline,392,10,10,1.0
+Original,Baseline,393,10,10,1.0
+Original,Baseline,394,10,10,1.0
+Original,Baseline,395,10,10,1.0
+Original,Baseline,396,10,10,1.0
+Original,Baseline,397,10,10,1.0
+Original,Baseline,398,10,10,1.0
+Original,Baseline,399,10,10,1.0
+Original,Baseline,400,10,10,1.0
+Original,Baseline,401,10,10,1.0
+Original,Baseline,402,10,10,1.0
+Original,Baseline,403,10,10,1.0
+Original,Baseline,404,10,10,1.0
+Original,Baseline,405,10,10,1.0
+Original,Baseline,406,10,10,1.0
+Original,Baseline,407,10,10,1.0
+Original,Baseline,408,10,10,1.0
+Original,Baseline,409,10,10,1.0
+Original,Baseline,410,10,10,1.0
+Original,Baseline,411,10,10,1.0
+Original,Baseline,412,10,10,1.0
+Original,Baseline,413,10,10,1.0
+Original,Baseline,414,10,10,1.0
+Original,Baseline,415,10,10,1.0
+Original,Baseline,416,10,10,1.0
+Original,Baseline,417,10,10,1.0
+Original,Baseline,418,10,10,1.0
+Original,Baseline,419,10,10,1.0
+Original,Baseline,420,10,10,1.0
+Original,Baseline,421,10,10,1.0
+Original,Baseline,422,10,10,1.0
+Original,Baseline,423,10,10,1.0
+Original,Baseline,424,10,10,1.0
+Original,Baseline,425,10,10,1.0
+Original,Baseline,426,10,10,1.0
+Original,Baseline,427,10,10,1.0
+Original,Baseline,428,10,10,1.0
+Original,Baseline,429,10,10,1.0
+Original,Baseline,430,10,10,1.0
+Original,Baseline,431,10,10,1.0
+Original,Baseline,432,10,10,1.0
+Original,Baseline,433,10,10,1.0
+Original,Baseline,434,10,10,1.0
+Original,Baseline,435,10,10,1.0
+Original,Baseline,436,10,10,1.0
+Original,Baseline,437,10,10,1.0
+Original,Baseline,438,10,10,1.0
+Original,Baseline,439,10,10,1.0
+Original,Baseline,440,10,10,1.0
+Original,Baseline,441,10,10,1.0
+Original,Baseline,442,10,10,1.0
+Original,Baseline,443,10,10,1.0
+Original,Baseline,444,10,10,1.0
+Original,Baseline,445,10,10,1.0
+Original,Baseline,446,10,10,1.0
+Original,Baseline,447,10,10,1.0
+Original,Baseline,448,10,10,1.0
+Original,Baseline,449,10,10,1.0
+Original,Baseline,450,10,10,1.0
+Original,Baseline,451,10,10,1.0
+Original,Baseline,452,10,10,1.0
+Original,Baseline,453,10,10,1.0
+Original,Baseline,454,10,10,1.0
+Original,Baseline,455,10,10,1.0
+Original,Baseline,456,10,10,1.0
+Original,Baseline,457,10,10,1.0
+Original,Baseline,458,10,10,1.0
+Original,Baseline,459,10,10,1.0
+Original,Baseline,460,10,10,1.0
+Original,Baseline,461,10,10,1.0
+Original,Baseline,462,10,10,1.0
+Original,Baseline,463,10,10,1.0
+Original,Baseline,464,10,10,1.0
+Original,Baseline,465,10,10,1.0
+Original,Baseline,466,10,10,1.0
+Original,Baseline,467,10,10,1.0
+Original,Baseline,468,10,10,1.0
+Original,Baseline,469,10,10,1.0
+Original,Baseline,470,10,10,1.0
+Original,Baseline,471,10,10,1.0
+Original,Baseline,472,10,10,1.0
+Original,Baseline,473,10,10,1.0
+Original,Baseline,474,10,10,1.0
+Original,Baseline,475,10,10,1.0
+Original,Baseline,476,10,10,1.0
+Original,Baseline,477,10,10,1.0
+Original,Baseline,478,10,10,1.0
+Original,Baseline,479,10,10,1.0
+Original,Baseline,480,10,10,1.0
+Original,Baseline,481,10,10,1.0
+Original,Baseline,482,10,10,1.0
+Original,Baseline,483,10,10,1.0
+Original,Baseline,484,10,10,1.0
+Original,Baseline,485,10,10,1.0
+Original,Baseline,486,10,10,1.0
+Original,Baseline,487,10,10,1.0
+Original,Baseline,488,10,10,1.0
+Original,Baseline,489,10,10,1.0
+Original,Baseline,490,10,10,1.0
+Original,Baseline,491,10,10,1.0
+Original,Baseline,492,10,10,1.0
+Original,Baseline,493,10,10,1.0
+Original,Baseline,494,10,10,1.0
+Original,Baseline,495,10,10,1.0
+Original,Baseline,496,10,10,1.0
+Original,Baseline,497,10,10,1.0
+Original,Baseline,498,10,10,1.0
+Original,Baseline,499,10,10,1.0
+Original,Baseline,500,10,10,1.0
+Original,Baseline,501,10,10,1.0
+Original,Baseline,502,10,10,1.0
+Original,Baseline,503,10,10,1.0
+Original,Baseline,504,10,10,1.0
+Original,Baseline,505,10,10,1.0
+Original,Baseline,506,10,10,1.0
+Original,Baseline,507,10,10,1.0
+Original,Baseline,508,10,10,1.0
+Original,Baseline,509,10,10,1.0
+Original,Baseline,510,10,10,1.0
+Original,Baseline,511,10,10,1.0
+Original,Baseline,512,10,10,1.0
+Original,Baseline,513,10,10,1.0
+Original,Baseline,514,10,10,1.0
+Original,Baseline,515,10,10,1.0
+Original,Baseline,516,10,10,1.0
+Original,Baseline,517,10,10,1.0
+Original,Baseline,518,10,10,1.0
+Original,Baseline,519,10,10,1.0
+Original,Baseline,520,10,10,1.0
+Original,Baseline,521,10,10,1.0
+Original,Baseline,522,10,10,1.0
+Original,Baseline,523,10,10,1.0
+Original,Baseline,524,10,10,1.0
+Original,Baseline,525,10,10,1.0
+Original,Baseline,526,10,10,1.0
+Original,Baseline,527,10,10,1.0
+Original,Baseline,528,10,10,1.0
+Original,Baseline,529,10,10,1.0
+Original,Baseline,530,10,10,1.0
+Original,Baseline,531,10,10,1.0
+Original,Baseline,532,10,10,1.0
+Original,Baseline,533,10,10,1.0
+Original,Baseline,534,10,10,1.0
+Original,Baseline,535,10,10,1.0
+Original,Baseline,536,10,10,1.0
+Original,Baseline,537,10,10,1.0
+Original,Baseline,538,10,10,1.0
+Original,Baseline,539,10,10,1.0
+Original,Baseline,540,10,10,1.0
+Original,Baseline,541,10,10,1.0
+Original,Baseline,542,10,10,1.0
+Original,Baseline,543,10,10,1.0
+Original,Baseline,544,10,10,1.0
+Original,Baseline,545,10,10,1.0
+Original,Baseline,546,10,10,1.0
+Original,Baseline,547,10,10,1.0
+Original,Baseline,548,10,10,1.0
+Original,Baseline,549,10,10,1.0
+Original,Baseline,550,10,10,1.0
+Original,Baseline,551,10,10,1.0
+Original,Baseline,552,10,10,1.0
+Original,Baseline,553,10,10,1.0
+Original,Baseline,554,10,10,1.0
+Original,Baseline,555,10,10,1.0
+Original,Baseline,556,10,10,1.0
+Original,Baseline,557,10,10,1.0
+Original,Baseline,558,10,10,1.0
+Original,Baseline,559,10,10,1.0
+Original,Baseline,560,10,10,1.0
+Original,Baseline,561,10,10,1.0
+Original,Baseline,562,10,10,1.0
+Original,Baseline,563,10,10,1.0
+Original,Baseline,564,10,10,1.0
+Original,Baseline,565,10,10,1.0
+Original,Baseline,566,10,10,1.0
+Original,Baseline,567,10,10,1.0
+Original,Baseline,568,10,10,1.0
+Original,Baseline,569,10,10,1.0
+Original,Baseline,570,10,10,1.0
+Original,Baseline,571,10,10,1.0
+Original,Baseline,572,10,10,1.0
+Original,Baseline,573,10,10,1.0
+Original,Baseline,574,10,10,1.0
+Original,Baseline,575,10,10,1.0
+Original,Baseline,576,10,10,1.0
+Original,Baseline,577,10,10,1.0
+Original,Baseline,578,10,10,1.0
+Original,Baseline,579,10,10,1.0
+Original,Baseline,580,10,10,1.0
+Original,Baseline,581,10,10,1.0
+Original,Baseline,582,10,10,1.0
+Original,Baseline,583,10,10,1.0
+Original,Baseline,584,10,10,1.0
+Original,Baseline,585,10,10,1.0
+Original,Baseline,586,10,10,1.0
+Original,Baseline,587,10,10,1.0
+Original,Baseline,588,10,10,1.0
+Original,Baseline,589,10,10,1.0
+Original,Baseline,590,10,10,1.0
+Original,Baseline,591,10,10,1.0
+Original,Baseline,592,10,10,1.0
+Original,Baseline,593,10,10,1.0
+Original,Baseline,594,10,10,1.0
+Original,Baseline,595,10,10,1.0
+Original,Baseline,596,10,10,1.0
+Original,Baseline,597,10,10,1.0
+Original,Baseline,598,10,10,1.0
+Original,Baseline,599,10,10,1.0
+Original,Baseline,600,10,10,1.0
+Original,Baseline,601,10,10,1.0
+Original,Baseline,602,10,10,1.0
+Original,Baseline,603,10,10,1.0
+Original,Baseline,604,10,10,1.0
+Original,Baseline,605,10,10,1.0
+Original,Baseline,606,10,10,1.0
+Original,Baseline,607,10,10,1.0
+Original,Baseline,608,10,10,1.0
+Original,Baseline,609,10,10,1.0
+Original,Baseline,610,10,10,1.0
+Original,Baseline,611,10,10,1.0
+Original,Baseline,612,10,10,1.0
+Original,Baseline,613,10,10,1.0
+Original,Baseline,614,10,10,1.0
+Original,Baseline,615,10,10,1.0
+Original,Baseline,616,10,10,1.0
+Original,Baseline,617,10,10,1.0
+Original,Baseline,618,10,10,1.0
+Original,Baseline,619,10,10,1.0
+Original,Baseline,620,10,10,1.0
+Original,Baseline,621,10,10,1.0
+Original,Baseline,622,10,10,1.0
+Original,Baseline,623,10,10,1.0
+Original,Baseline,624,10,10,1.0
+Original,Baseline,625,10,10,1.0
+Original,Baseline,626,10,10,1.0
+Original,Baseline,627,10,10,1.0
+Original,Baseline,628,10,10,1.0
+Original,Baseline,629,10,10,1.0
+Original,Baseline,630,10,10,1.0
+Original,Baseline,631,10,10,1.0
+Original,Baseline,632,10,10,1.0
+Original,Baseline,633,10,10,1.0
+Original,Baseline,634,10,10,1.0
+Original,Baseline,635,10,10,1.0
+Original,Baseline,636,10,10,1.0
+Original,Baseline,637,10,10,1.0
+Original,Baseline,638,10,10,1.0
+Original,Baseline,639,10,10,1.0
+Original,Baseline,640,10,10,1.0
+Original,Baseline,641,10,10,1.0
+Original,Baseline,642,10,10,1.0
+Original,Baseline,643,10,10,1.0
+Original,Baseline,644,10,10,1.0
+Original,Baseline,645,10,10,1.0
+Original,Baseline,646,10,10,1.0
+Original,Baseline,647,10,10,1.0
+Original,Baseline,648,10,10,1.0
+Original,Baseline,649,10,10,1.0
+Original,Baseline,650,10,10,1.0
+Original,Baseline,651,10,10,1.0
+Original,Baseline,652,10,10,1.0
+Original,Baseline,653,10,10,1.0
+Original,Baseline,654,10,10,1.0
+Original,Baseline,655,10,10,1.0
+Original,Baseline,656,10,10,1.0
+Original,Baseline,657,10,10,1.0
+Original,Baseline,658,10,10,1.0
+Original,Baseline,659,10,10,1.0
+Original,Baseline,660,10,10,1.0
+Original,Baseline,661,10,10,1.0
+Original,Baseline,662,10,10,1.0
+Original,Baseline,663,10,10,1.0
+Original,Baseline,664,10,10,1.0
+Original,Baseline,665,10,10,1.0
+Original,Baseline,666,10,10,1.0
+Original,Baseline,667,10,10,1.0
+Original,Baseline,668,10,10,1.0
+Original,Baseline,669,10,10,1.0
+Original,Baseline,670,10,10,1.0
+Original,Baseline,671,10,10,1.0
+Original,Baseline,672,10,10,1.0
+Original,Baseline,673,10,10,1.0
+Original,Baseline,674,10,10,1.0
+Original,Baseline,675,10,10,1.0
+Original,Baseline,676,10,10,1.0
+Original,Baseline,677,10,10,1.0
+Original,Baseline,678,10,10,1.0
+Original,Baseline,679,10,10,1.0
+Original,Baseline,680,10,10,1.0
+Original,Baseline,681,10,10,1.0
+Original,Baseline,682,10,10,1.0
+Original,Baseline,683,10,10,1.0
+Original,Baseline,684,10,10,1.0
+Original,Baseline,685,10,10,1.0
+Original,Baseline,686,10,10,1.0
+Original,Baseline,687,10,10,1.0
+Original,Baseline,688,10,10,1.0
+Original,Baseline,689,10,10,1.0
+Original,Baseline,690,10,10,1.0
+Original,Baseline,691,10,10,1.0
+Original,Baseline,692,10,10,1.0
+Original,Baseline,693,10,10,1.0
+Original,Baseline,694,10,10,1.0
+Original,Baseline,695,10,10,1.0
+Original,Baseline,696,10,10,1.0
+Original,Baseline,697,10,10,1.0
+Original,Baseline,698,10,10,1.0
+Original,Baseline,699,10,10,1.0
+Original,Baseline,700,10,10,1.0
+Original,Baseline,701,10,10,1.0
+Original,Baseline,702,10,10,1.0
+Original,Baseline,703,10,10,1.0
+Original,Baseline,704,10,10,1.0
+Original,Baseline,705,10,10,1.0
+Original,Baseline,706,10,10,1.0
+Original,Baseline,707,10,10,1.0
+Original,Baseline,708,10,10,1.0
+Original,Baseline,709,10,10,1.0
+Original,Baseline,710,10,10,1.0
+Original,Baseline,711,10,10,1.0
+Original,Baseline,712,10,10,1.0
+Original,Baseline,713,10,10,1.0
+Original,Baseline,714,10,10,1.0
+Original,Baseline,715,10,10,1.0
+Original,Baseline,716,10,10,1.0
+Original,Baseline,717,10,10,1.0
+Original,Baseline,718,10,10,1.0
+Original,Baseline,719,10,10,1.0
+Original,Baseline,720,10,10,1.0
+Original,Baseline,721,10,10,1.0
+Original,Baseline,722,10,10,1.0
+Original,Baseline,723,10,10,1.0
+Original,Baseline,724,10,10,1.0
+Original,Baseline,725,10,10,1.0
+Original,Baseline,726,10,10,1.0
+Original,Baseline,727,10,10,1.0
+Original,Baseline,728,10,10,1.0
+Original,Baseline,729,10,10,1.0
+Original,Baseline,730,10,10,1.0
+Original,Baseline,731,10,10,1.0
+Original,Baseline,732,10,10,1.0
+Original,Baseline,733,10,10,1.0
+Original,Baseline,734,10,10,1.0
+Original,Baseline,735,10,10,1.0
+Original,Baseline,736,10,10,1.0
+Original,Baseline,737,10,10,1.0
+Original,Baseline,738,10,10,1.0
+Original,Baseline,739,10,10,1.0
+Original,Baseline,740,10,10,1.0
+Original,Baseline,741,10,10,1.0
+Original,Baseline,742,10,10,1.0
+Original,Baseline,743,10,10,1.0
+Original,Baseline,744,10,10,1.0
+Original,Baseline,745,10,10,1.0
+Original,Baseline,746,10,10,1.0
+Original,Baseline,747,10,10,1.0
+Original,Baseline,748,10,10,1.0
+Original,Baseline,749,10,10,1.0
+Original,Baseline,750,10,10,1.0
+Original,Baseline,751,10,10,1.0
+Original,Baseline,752,10,10,1.0
+Original,Baseline,753,10,10,1.0
+Original,Baseline,754,10,10,1.0
+Original,Baseline,755,10,10,1.0
+Original,Baseline,756,10,10,1.0
+Original,Baseline,757,10,10,1.0
+Original,Baseline,758,10,10,1.0
+Original,Baseline,759,10,10,1.0
+Original,Baseline,760,10,10,1.0
+Original,Baseline,761,10,10,1.0
+Original,Baseline,762,10,10,1.0
+Original,Baseline,763,10,10,1.0
+Original,Baseline,764,10,10,1.0
+Original,Baseline,765,10,10,1.0
+Original,Baseline,766,10,10,1.0
+Original,Baseline,767,10,10,1.0
+Original,Baseline,768,10,10,1.0
+Original,Baseline,769,10,10,1.0
+Original,Baseline,770,10,10,1.0
+Original,Baseline,771,10,10,1.0
+Original,Baseline,772,10,10,1.0
+Original,Baseline,773,10,10,1.0
+Original,Baseline,774,10,10,1.0
+Original,Baseline,775,10,10,1.0
+Original,Baseline,776,10,10,1.0
+Original,Baseline,777,10,10,1.0
+Original,Baseline,778,10,10,1.0
+Original,Baseline,779,10,10,1.0
+Original,Baseline,780,10,10,1.0
+Original,Baseline,781,10,10,1.0
+Original,Baseline,782,10,10,1.0
+Original,Baseline,783,10,10,1.0
+Original,Baseline,784,10,10,1.0
+Original,Baseline,785,10,10,1.0
+Original,Baseline,786,10,10,1.0
+Original,Baseline,787,10,10,1.0
+Original,Baseline,788,10,10,1.0
+Original,Baseline,789,10,10,1.0
+Original,Baseline,790,10,10,1.0
+Original,Baseline,791,10,10,1.0
+Original,Baseline,792,10,10,1.0
+Original,Baseline,793,10,10,1.0
+Original,Baseline,794,10,10,1.0
+Original,Baseline,795,10,10,1.0
+Original,Baseline,796,10,10,1.0
+Original,Baseline,797,10,10,1.0
+Original,Baseline,798,10,10,1.0
+Original,Baseline,799,10,10,1.0
+Original,Baseline,800,10,10,1.0
+Original,Baseline,801,10,10,1.0
+Original,Baseline,802,10,10,1.0
+Original,Baseline,803,10,10,1.0
+Original,Baseline,804,10,10,1.0
+Original,Baseline,805,10,10,1.0
+Original,Baseline,806,10,10,1.0
+Original,Baseline,807,10,10,1.0
+Original,Baseline,808,10,10,1.0
+Original,Baseline,809,10,10,1.0
+Original,Baseline,810,10,10,1.0
+Original,Baseline,811,10,10,1.0
+Original,Baseline,812,10,10,1.0
+Original,Baseline,813,10,10,1.0
+Original,Baseline,814,10,10,1.0
+Original,Baseline,815,10,10,1.0
+Original,Baseline,816,10,10,1.0
+Original,Baseline,817,10,10,1.0
+Original,Baseline,818,10,10,1.0
+Original,Baseline,819,10,10,1.0
+Original,Baseline,820,10,10,1.0
+Original,Baseline,821,10,10,1.0
+Original,Baseline,822,10,10,1.0
+Original,Baseline,823,10,10,1.0
+Original,Baseline,824,10,10,1.0
+Original,Baseline,825,10,10,1.0
+Original,Baseline,826,10,10,1.0
+Original,Baseline,827,10,10,1.0
+Original,Baseline,828,10,10,1.0
+Original,Baseline,829,10,10,1.0
+Original,Baseline,830,10,10,1.0
+Original,Baseline,831,10,10,1.0
+Original,Baseline,832,10,10,1.0
+Original,Baseline,833,10,10,1.0
+Original,Baseline,834,10,10,1.0
+Original,Baseline,835,10,10,1.0
+Original,Baseline,836,10,10,1.0
+Original,Baseline,837,10,10,1.0
+Original,Baseline,838,10,10,1.0
+Original,Baseline,839,10,10,1.0
+Original,Baseline,840,10,10,1.0
+Original,Baseline,841,10,10,1.0
+Original,Baseline,842,10,10,1.0
+Original,Baseline,843,10,10,1.0
+Original,Baseline,844,10,10,1.0
+Original,Baseline,845,10,10,1.0
+Original,Baseline,846,10,10,1.0
+Original,Baseline,847,10,10,1.0
+Original,Baseline,848,10,10,1.0
+Original,Baseline,849,10,10,1.0
+Original,Baseline,850,10,10,1.0
+Original,Baseline,851,10,10,1.0
+Original,Baseline,852,10,10,1.0
+Original,Baseline,853,10,10,1.0
+Original,Baseline,854,10,10,1.0
+Original,Baseline,855,10,10,1.0
+Original,Baseline,856,10,10,1.0
+Original,Baseline,857,10,10,1.0
+Original,Baseline,858,10,10,1.0
+Original,Baseline,859,10,10,1.0
+Original,Baseline,860,10,10,1.0
+Original,Baseline,861,10,10,1.0
+Original,Baseline,862,10,10,1.0
+Original,Baseline,863,10,10,1.0
+Original,Baseline,864,10,10,1.0
+Original,Baseline,865,10,10,1.0
+Original,Baseline,866,10,10,1.0
+Original,Baseline,867,10,10,1.0
+Original,Baseline,868,10,10,1.0
+Original,Baseline,869,10,10,1.0
+Original,Baseline,870,10,10,1.0
+Original,Baseline,871,10,10,1.0
+Original,Baseline,872,10,10,1.0
+Original,Baseline,873,10,10,1.0
+Original,Baseline,874,10,10,1.0
+Original,Baseline,875,10,10,1.0
+Original,Baseline,876,10,10,1.0
+Original,Baseline,877,10,10,1.0
+Original,Baseline,878,10,10,1.0
+Original,Baseline,879,10,10,1.0
+Original,Baseline,880,10,10,1.0
+Original,Baseline,881,10,10,1.0
+Original,Baseline,882,10,10,1.0
+Original,Baseline,883,10,10,1.0
+Original,Baseline,884,10,10,1.0
+Original,Baseline,885,10,10,1.0
+Original,Baseline,886,10,10,1.0
+Original,Baseline,887,10,10,1.0
+Original,Baseline,888,10,10,1.0
+Original,Baseline,889,10,10,1.0
+Original,Baseline,890,10,10,1.0
+Original,Baseline,891,10,10,1.0
+Original,Baseline,892,10,10,1.0
+Original,Baseline,893,10,10,1.0
+Original,Baseline,894,10,10,1.0
+Original,Baseline,895,10,10,1.0
+Original,Baseline,896,10,10,1.0
+Original,Baseline,897,10,10,1.0
+Original,Baseline,898,10,10,1.0
+Original,Baseline,899,10,10,1.0
+Original,Baseline,900,10,10,1.0
+Original,Baseline,901,10,10,1.0
+Original,Baseline,902,10,10,1.0
+Original,Baseline,903,10,10,1.0
+Original,Baseline,904,10,10,1.0
+Original,Baseline,905,10,10,1.0
+Original,Baseline,906,10,10,1.0
+Original,Baseline,907,10,10,1.0
+Original,Baseline,908,10,10,1.0
+Original,Baseline,909,10,10,1.0
+Original,Baseline,910,10,10,1.0
+Original,Baseline,911,10,10,1.0
+Original,Baseline,912,10,10,1.0
+Original,Baseline,913,10,10,1.0
+Original,Baseline,914,10,10,1.0
+Original,Baseline,915,10,10,1.0
+Original,Baseline,916,10,10,1.0
+Original,Baseline,917,10,10,1.0
+Original,Baseline,918,10,10,1.0
+Original,Baseline,919,10,10,1.0
+Original,Baseline,920,10,10,1.0
+Original,Baseline,921,10,10,1.0
+Original,Baseline,922,10,10,1.0
+Original,Baseline,923,10,10,1.0
+Original,Baseline,924,10,10,1.0
+Original,Baseline,925,10,10,1.0
+Original,Baseline,926,10,10,1.0
+Original,Baseline,927,10,10,1.0
+Original,Baseline,928,10,10,1.0
+Original,Baseline,929,10,10,1.0
+Original,Baseline,930,10,10,1.0
+Original,Baseline,931,10,10,1.0
+Original,Baseline,932,10,10,1.0
+Original,Baseline,933,10,10,1.0
+Original,Baseline,934,10,10,1.0
+Original,Baseline,935,10,10,1.0
+Original,Baseline,936,10,10,1.0
+Original,Baseline,937,10,10,1.0
+Original,Baseline,938,10,10,1.0
+Original,Baseline,939,10,10,1.0
+Original,Baseline,940,10,10,1.0
+Original,Baseline,941,10,10,1.0
+Original,Baseline,942,10,10,1.0
+Original,Baseline,943,10,10,1.0
+Original,Baseline,944,10,10,1.0
+Original,Baseline,945,10,10,1.0
+Original,Baseline,946,10,10,1.0
+Original,Baseline,947,10,10,1.0
+Original,Baseline,948,10,10,1.0
+Original,Baseline,949,10,10,1.0
+Original,Baseline,950,10,10,1.0
+Original,Baseline,951,10,10,1.0
+Original,Baseline,952,10,10,1.0
+Original,Baseline,953,10,10,1.0
+Original,Baseline,954,10,10,1.0
+Original,Baseline,955,10,10,1.0
+Original,Baseline,956,10,10,1.0
+Original,Baseline,957,10,10,1.0
+Original,Baseline,958,10,10,1.0
+Original,Baseline,959,10,10,1.0
+Original,Baseline,960,10,10,1.0
+Original,Baseline,961,10,10,1.0
+Original,Baseline,962,10,10,1.0
+Original,Baseline,963,10,10,1.0
+Original,Baseline,964,10,10,1.0
+Original,Baseline,965,10,10,1.0
+Original,Baseline,966,10,10,1.0
+Original,Baseline,967,10,10,1.0
+Original,Baseline,968,10,10,1.0
+Original,Baseline,969,10,10,1.0
+Original,Baseline,970,10,10,1.0
+Original,Baseline,971,10,10,1.0
+Original,Baseline,972,10,10,1.0
+Original,Baseline,973,10,10,1.0
+Original,Baseline,974,10,10,1.0
+Original,Baseline,975,10,10,1.0
+Original,Baseline,976,10,10,1.0
+Original,Baseline,977,10,10,1.0
+Original,Baseline,978,10,10,1.0
+Original,Baseline,979,10,10,1.0
+Original,Baseline,980,10,10,1.0
+Original,Baseline,981,10,10,1.0
+Original,Baseline,982,10,10,1.0
+Original,Baseline,983,10,10,1.0
+Original,Baseline,984,10,10,1.0
+Original,Baseline,985,10,10,1.0
+Original,Baseline,986,10,10,1.0
+Original,Baseline,987,10,10,1.0
+Original,Baseline,988,10,10,1.0
+Original,Baseline,989,10,10,1.0
+Original,Baseline,990,10,10,1.0
+Original,Baseline,991,10,10,1.0
+Original,Baseline,992,10,10,1.0
+Original,Baseline,993,10,10,1.0
+Original,Baseline,994,10,10,1.0
+Original,Baseline,995,10,10,1.0
+Original,Baseline,996,10,10,1.0
+Original,Baseline,997,10,10,1.0
+Original,Baseline,998,10,10,1.0
+Original,Baseline,999,10,10,1.0
+Original,Baseline,1000,10,10,1.0
+Original,W >= 0,1,0,0,0.3333333333333333
+Original,W >= 0,2,0,0,0.3333333333333333
+Original,W >= 0,3,0,0,0.42
+Original,W >= 0,4,0,0,0.5933333333333334
+Original,W >= 0,5,0,0,0.6133333333333333
+Original,W >= 0,6,0,0,0.66
+Original,W >= 0,7,1,1,0.68
+Original,W >= 0,8,0,0,0.6666666666666666
+Original,W >= 0,9,1,1,0.6733333333333333
+Original,W >= 0,10,1,1,0.6933333333333334
+Original,W >= 0,11,1,1,0.7066666666666667
+Original,W >= 0,12,2,2,0.7066666666666667
+Original,W >= 0,13,0,0,0.7
+Original,W >= 0,14,1,1,0.72
+Original,W >= 0,15,2,2,0.74
+Original,W >= 0,16,2,2,0.7333333333333333
+Original,W >= 0,17,0,0,0.7266666666666667
+Original,W >= 0,18,0,0,0.7
+Original,W >= 0,19,1,1,0.7066666666666667
+Original,W >= 0,20,2,2,0.7733333333333333
+Original,W >= 0,21,1,1,0.7933333333333333
+Original,W >= 0,22,1,1,0.7866666666666666
+Original,W >= 0,23,1,1,0.7866666666666666
+Original,W >= 0,24,1,1,0.7933333333333333
+Original,W >= 0,25,1,1,0.7466666666666667
+Original,W >= 0,26,1,1,0.7066666666666667
+Original,W >= 0,27,2,2,0.78
+Original,W >= 0,28,0,0,0.8333333333333334
+Original,W >= 0,29,2,2,0.86
+Original,W >= 0,30,1,1,0.7733333333333333
+Original,W >= 0,31,0,0,0.84
+Original,W >= 0,32,0,0,0.8266666666666667
+Original,W >= 0,33,1,1,0.8466666666666667
+Original,W >= 0,34,2,2,0.8333333333333334
+Original,W >= 0,35,3,3,0.86
+Original,W >= 0,36,4,4,0.8533333333333334
+Original,W >= 0,37,4,4,0.8733333333333333
+Original,W >= 0,38,3,3,0.8733333333333333
+Original,W >= 0,39,3,3,0.88
+Original,W >= 0,40,2,2,0.8533333333333334
+Original,W >= 0,41,3,3,0.8733333333333333
+Original,W >= 0,42,5,5,0.9
+Original,W >= 0,43,4,4,0.8933333333333333
+Original,W >= 0,44,3,3,0.88
+Original,W >= 0,45,4,4,0.8733333333333333
+Original,W >= 0,46,3,3,0.86
+Original,W >= 0,47,4,4,0.86
+Original,W >= 0,48,5,5,0.9133333333333333
+Original,W >= 0,49,4,4,0.8733333333333333
+Original,W >= 0,50,5,5,0.8933333333333333
+Original,W >= 0,51,6,6,0.8933333333333333
+Original,W >= 0,52,3,3,0.86
+Original,W >= 0,53,6,6,0.9133333333333333
+Original,W >= 0,54,3,3,0.8466666666666667
+Original,W >= 0,55,3,3,0.8733333333333333
+Original,W >= 0,56,6,6,0.9066666666666666
+Original,W >= 0,57,3,3,0.8933333333333333
+Original,W >= 0,58,3,3,0.8733333333333333
+Original,W >= 0,59,1,1,0.8333333333333334
+Original,W >= 0,60,3,3,0.8933333333333333
+Original,W >= 0,61,6,6,0.9266666666666666
+Original,W >= 0,62,4,4,0.88
+Original,W >= 0,63,6,6,0.9133333333333333
+Original,W >= 0,64,5,5,0.9
+Original,W >= 0,65,6,6,0.9133333333333333
+Original,W >= 0,66,7,7,0.9266666666666666
+Original,W >= 0,67,1,1,0.82
+Original,W >= 0,68,6,6,0.9133333333333333
+Original,W >= 0,69,5,5,0.9
+Original,W >= 0,70,5,5,0.8933333333333333
+Original,W >= 0,71,7,7,0.9266666666666666
+Original,W >= 0,72,6,6,0.9133333333333333
+Original,W >= 0,73,5,5,0.9
+Original,W >= 0,74,6,6,0.9266666666666666
+Original,W >= 0,75,7,7,0.9266666666666666
+Original,W >= 0,76,7,7,0.9266666666666666
+Original,W >= 0,77,2,2,0.8266666666666667
+Original,W >= 0,78,1,1,0.86
+Original,W >= 0,79,5,5,0.9133333333333333
+Original,W >= 0,80,6,6,0.9066666666666666
+Original,W >= 0,81,5,5,0.9133333333333333
+Original,W >= 0,82,6,6,0.9266666666666666
+Original,W >= 0,83,2,2,0.8066666666666666
+Original,W >= 0,84,6,6,0.9066666666666666
+Original,W >= 0,85,6,6,0.9066666666666666
+Original,W >= 0,86,1,1,0.78
+Original,W >= 0,87,3,3,0.82
+Original,W >= 0,88,6,6,0.9133333333333333
+Original,W >= 0,89,3,3,0.8466666666666667
+Original,W >= 0,90,4,4,0.84
+Original,W >= 0,91,4,4,0.9066666666666666
+Original,W >= 0,92,7,7,0.9266666666666666
+Original,W >= 0,93,6,6,0.9266666666666666
+Original,W >= 0,94,6,6,0.9266666666666666
+Original,W >= 0,95,5,5,0.92
+Original,W >= 0,96,6,6,0.9066666666666666
+Original,W >= 0,97,6,6,0.92
+Original,W >= 0,98,5,5,0.8933333333333333
+Original,W >= 0,99,0,0,0.7533333333333333
+Original,W >= 0,100,7,7,0.9266666666666666
+Original,W >= 0,101,7,7,0.9333333333333333
+Original,W >= 0,102,5,5,0.8933333333333333
+Original,W >= 0,103,2,2,0.8533333333333334
+Original,W >= 0,104,6,6,0.9066666666666666
+Original,W >= 0,105,5,5,0.88
+Original,W >= 0,106,6,6,0.92
+Original,W >= 0,107,4,4,0.86
+Original,W >= 0,108,6,6,0.9066666666666666
+Original,W >= 0,109,5,5,0.9266666666666666
+Original,W >= 0,110,3,3,0.8933333333333333
+Original,W >= 0,111,3,3,0.8533333333333334
+Original,W >= 0,112,7,7,0.9266666666666666
+Original,W >= 0,113,6,6,0.92
+Original,W >= 0,114,6,6,0.92
+Original,W >= 0,115,4,4,0.9
+Original,W >= 0,116,1,1,0.7333333333333333
+Original,W >= 0,117,3,3,0.84
+Original,W >= 0,118,6,6,0.9
+Original,W >= 0,119,6,6,0.92
+Original,W >= 0,120,5,5,0.92
+Original,W >= 0,121,5,5,0.9133333333333333
+Original,W >= 0,122,2,2,0.8466666666666667
+Original,W >= 0,123,6,6,0.92
+Original,W >= 0,124,5,5,0.8866666666666667
+Original,W >= 0,125,6,6,0.92
+Original,W >= 0,126,2,2,0.86
+Original,W >= 0,127,3,3,0.8866666666666667
+Original,W >= 0,128,4,4,0.8933333333333333
+Original,W >= 0,129,5,5,0.9
+Original,W >= 0,130,1,1,0.7866666666666666
+Original,W >= 0,131,5,5,0.8933333333333333
+Original,W >= 0,132,5,5,0.8866666666666667
+Original,W >= 0,133,6,6,0.92
+Original,W >= 0,134,5,5,0.92
+Original,W >= 0,135,6,6,0.9266666666666666
+Original,W >= 0,136,6,6,0.92
+Original,W >= 0,137,5,5,0.92
+Original,W >= 0,138,7,7,0.92
+Original,W >= 0,139,7,7,0.92
+Original,W >= 0,140,5,5,0.9066666666666666
+Original,W >= 0,141,4,4,0.9066666666666666
+Original,W >= 0,142,7,7,0.9266666666666666
+Original,W >= 0,143,7,7,0.9133333333333333
+Original,W >= 0,144,5,5,0.9066666666666666
+Original,W >= 0,145,6,6,0.9066666666666666
+Original,W >= 0,146,5,5,0.9066666666666666
+Original,W >= 0,147,0,0,0.7466666666666667
+Original,W >= 0,148,7,7,0.9266666666666666
+Original,W >= 0,149,6,6,0.92
+Original,W >= 0,150,0,0,0.8066666666666666
+Original,W >= 0,151,1,1,0.8
+Original,W >= 0,152,3,3,0.8733333333333333
+Original,W >= 0,153,6,6,0.92
+Original,W >= 0,154,6,6,0.92
+Original,W >= 0,155,6,6,0.92
+Original,W >= 0,156,6,6,0.9066666666666666
+Original,W >= 0,157,1,1,0.7933333333333333
+Original,W >= 0,158,7,7,0.92
+Original,W >= 0,159,5,5,0.9133333333333333
+Original,W >= 0,160,2,2,0.8733333333333333
+Original,W >= 0,161,5,5,0.9
+Original,W >= 0,162,6,6,0.92
+Original,W >= 0,163,4,4,0.9
+Original,W >= 0,164,6,6,0.92
+Original,W >= 0,165,1,1,0.8066666666666666
+Original,W >= 0,166,7,7,0.92
+Original,W >= 0,167,6,6,0.92
+Original,W >= 0,168,6,6,0.92
+Original,W >= 0,169,1,1,0.86
+Original,W >= 0,170,6,6,0.92
+Original,W >= 0,171,7,7,0.92
+Original,W >= 0,172,2,2,0.82
+Original,W >= 0,173,5,5,0.9133333333333333
+Original,W >= 0,174,3,3,0.8733333333333333
+Original,W >= 0,175,7,7,0.92
+Original,W >= 0,176,4,4,0.9
+Original,W >= 0,177,6,6,0.9266666666666666
+Original,W >= 0,178,1,1,0.7533333333333333
+Original,W >= 0,179,6,6,0.92
+Original,W >= 0,180,5,5,0.9066666666666666
+Original,W >= 0,181,3,3,0.8466666666666667
+Original,W >= 0,182,6,6,0.9266666666666666
+Original,W >= 0,183,5,5,0.9133333333333333
+Original,W >= 0,184,3,3,0.8733333333333333
+Original,W >= 0,185,5,5,0.9266666666666666
+Original,W >= 0,186,4,4,0.86
+Original,W >= 0,187,0,0,0.74
+Original,W >= 0,188,7,7,0.92
+Original,W >= 0,189,7,7,0.9266666666666666
+Original,W >= 0,190,6,6,0.92
+Original,W >= 0,191,6,6,0.9333333333333333
+Original,W >= 0,192,4,4,0.86
+Original,W >= 0,193,6,6,0.9266666666666666
+Original,W >= 0,194,6,6,0.92
+Original,W >= 0,195,5,5,0.9133333333333333
+Original,W >= 0,196,6,6,0.92
+Original,W >= 0,197,4,4,0.9133333333333333
+Original,W >= 0,198,6,6,0.9133333333333333
+Original,W >= 0,199,7,7,0.92
+Original,W >= 0,200,7,7,0.92
+Original,W >= 0,201,7,7,0.9266666666666666
+Original,W >= 0,202,3,3,0.8466666666666667
+Original,W >= 0,203,5,5,0.8733333333333333
+Original,W >= 0,204,6,6,0.9066666666666666
+Original,W >= 0,205,4,4,0.8933333333333333
+Original,W >= 0,206,4,4,0.8866666666666667
+Original,W >= 0,207,5,5,0.92
+Original,W >= 0,208,3,3,0.8466666666666667
+Original,W >= 0,209,4,4,0.86
+Original,W >= 0,210,6,6,0.9133333333333333
+Original,W >= 0,211,5,5,0.9133333333333333
+Original,W >= 0,212,7,7,0.92
+Original,W >= 0,213,4,4,0.8933333333333333
+Original,W >= 0,214,1,1,0.8066666666666666
+Original,W >= 0,215,6,6,0.92
+Original,W >= 0,216,5,5,0.88
+Original,W >= 0,217,6,6,0.92
+Original,W >= 0,218,6,6,0.9266666666666666
+Original,W >= 0,219,5,5,0.92
+Original,W >= 0,220,6,6,0.92
+Original,W >= 0,221,6,6,0.92
+Original,W >= 0,222,6,6,0.92
+Original,W >= 0,223,7,7,0.92
+Original,W >= 0,224,6,6,0.9133333333333333
+Original,W >= 0,225,6,6,0.92
+Original,W >= 0,226,4,4,0.8933333333333333
+Original,W >= 0,227,7,7,0.92
+Original,W >= 0,228,3,3,0.8733333333333333
+Original,W >= 0,229,2,2,0.8466666666666667
+Original,W >= 0,230,6,6,0.92
+Original,W >= 0,231,6,6,0.9
+Original,W >= 0,232,2,2,0.8933333333333333
+Original,W >= 0,233,5,5,0.9133333333333333
+Original,W >= 0,234,6,6,0.92
+Original,W >= 0,235,6,6,0.9066666666666666
+Original,W >= 0,236,0,0,0.7266666666666667
+Original,W >= 0,237,7,7,0.9133333333333333
+Original,W >= 0,238,1,1,0.8466666666666667
+Original,W >= 0,239,5,5,0.9
+Original,W >= 0,240,3,3,0.88
+Original,W >= 0,241,5,5,0.92
+Original,W >= 0,242,6,6,0.92
+Original,W >= 0,243,6,6,0.92
+Original,W >= 0,244,2,2,0.8533333333333334
+Original,W >= 0,245,4,4,0.8866666666666667
+Original,W >= 0,246,7,7,0.92
+Original,W >= 0,247,3,3,0.8666666666666667
+Original,W >= 0,248,7,7,0.92
+Original,W >= 0,249,0,0,0.7733333333333333
+Original,W >= 0,250,6,6,0.9133333333333333
+Original,W >= 0,251,7,7,0.9266666666666666
+Original,W >= 0,252,7,7,0.92
+Original,W >= 0,253,2,2,0.8666666666666667
+Original,W >= 0,254,7,7,0.9266666666666666
+Original,W >= 0,255,5,5,0.8733333333333333
+Original,W >= 0,256,3,3,0.8333333333333334
+Original,W >= 0,257,4,4,0.9
+Original,W >= 0,258,2,2,0.7866666666666666
+Original,W >= 0,259,4,4,0.8866666666666667
+Original,W >= 0,260,4,4,0.9
+Original,W >= 0,261,6,6,0.9066666666666666
+Original,W >= 0,262,6,6,0.92
+Original,W >= 0,263,6,6,0.92
+Original,W >= 0,264,1,1,0.7866666666666666
+Original,W >= 0,265,0,0,0.74
+Original,W >= 0,266,7,7,0.92
+Original,W >= 0,267,7,7,0.92
+Original,W >= 0,268,6,6,0.9066666666666666
+Original,W >= 0,269,6,6,0.92
+Original,W >= 0,270,7,7,0.92
+Original,W >= 0,271,5,5,0.8866666666666667
+Original,W >= 0,272,4,4,0.88
+Original,W >= 0,273,4,4,0.92
+Original,W >= 0,274,6,6,0.92
+Original,W >= 0,275,5,5,0.88
+Original,W >= 0,276,6,6,0.92
+Original,W >= 0,277,5,5,0.9133333333333333
+Original,W >= 0,278,6,6,0.92
+Original,W >= 0,279,7,7,0.92
+Original,W >= 0,280,7,7,0.92
+Original,W >= 0,281,5,5,0.9
+Original,W >= 0,282,6,6,0.9066666666666666
+Original,W >= 0,283,5,5,0.9133333333333333
+Original,W >= 0,284,7,7,0.92
+Original,W >= 0,285,6,6,0.92
+Original,W >= 0,286,5,5,0.9066666666666666
+Original,W >= 0,287,5,5,0.9133333333333333
+Original,W >= 0,288,6,6,0.92
+Original,W >= 0,289,7,7,0.92
+Original,W >= 0,290,5,5,0.92
+Original,W >= 0,291,7,7,0.9266666666666666
+Original,W >= 0,292,7,7,0.9266666666666666
+Original,W >= 0,293,6,6,0.9266666666666666
+Original,W >= 0,294,3,3,0.88
+Original,W >= 0,295,7,7,0.9266666666666666
+Original,W >= 0,296,7,7,0.92
+Original,W >= 0,297,1,1,0.78
+Original,W >= 0,298,3,3,0.88
+Original,W >= 0,299,6,6,0.9066666666666666
+Original,W >= 0,300,7,7,0.92
+Original,W >= 0,301,5,5,0.8933333333333333
+Original,W >= 0,302,7,7,0.9266666666666666
+Original,W >= 0,303,4,4,0.9066666666666666
+Original,W >= 0,304,3,3,0.88
+Original,W >= 0,305,7,7,0.92
+Original,W >= 0,306,6,6,0.9266666666666666
+Original,W >= 0,307,5,5,0.9066666666666666
+Original,W >= 0,308,6,6,0.9066666666666666
+Original,W >= 0,309,6,6,0.9266666666666666
+Original,W >= 0,310,7,7,0.9266666666666666
+Original,W >= 0,311,3,3,0.9066666666666666
+Original,W >= 0,312,7,7,0.9266666666666666
+Original,W >= 0,313,4,4,0.9066666666666666
+Original,W >= 0,314,6,6,0.9066666666666666
+Original,W >= 0,315,5,5,0.9066666666666666
+Original,W >= 0,316,5,5,0.9066666666666666
+Original,W >= 0,317,6,6,0.9266666666666666
+Original,W >= 0,318,7,7,0.9266666666666666
+Original,W >= 0,319,5,5,0.9066666666666666
+Original,W >= 0,320,0,0,0.8
+Original,W >= 0,321,7,7,0.92
+Original,W >= 0,322,5,5,0.8933333333333333
+Original,W >= 0,323,5,5,0.9133333333333333
+Original,W >= 0,324,7,7,0.92
+Original,W >= 0,325,6,6,0.9266666666666666
+Original,W >= 0,326,4,4,0.9
+Original,W >= 0,327,7,7,0.9266666666666666
+Original,W >= 0,328,6,6,0.9133333333333333
+Original,W >= 0,329,2,2,0.84
+Original,W >= 0,330,5,5,0.8733333333333333
+Original,W >= 0,331,4,4,0.88
+Original,W >= 0,332,7,7,0.92
+Original,W >= 0,333,7,7,0.92
+Original,W >= 0,334,5,5,0.9066666666666666
+Original,W >= 0,335,3,3,0.88
+Original,W >= 0,336,6,6,0.92
+Original,W >= 0,337,6,6,0.9066666666666666
+Original,W >= 0,338,5,5,0.92
+Original,W >= 0,339,7,7,0.92
+Original,W >= 0,340,7,7,0.92
+Original,W >= 0,341,6,6,0.9066666666666666
+Original,W >= 0,342,7,7,0.92
+Original,W >= 0,343,4,4,0.8666666666666667
+Original,W >= 0,344,5,5,0.9133333333333333
+Original,W >= 0,345,7,7,0.92
+Original,W >= 0,346,3,3,0.8666666666666667
+Original,W >= 0,347,4,4,0.8733333333333333
+Original,W >= 0,348,6,6,0.92
+Original,W >= 0,349,6,6,0.9066666666666666
+Original,W >= 0,350,5,5,0.9066666666666666
+Original,W >= 0,351,3,3,0.9
+Original,W >= 0,352,6,6,0.9133333333333333
+Original,W >= 0,353,5,5,0.9133333333333333
+Original,W >= 0,354,5,5,0.9133333333333333
+Original,W >= 0,355,4,4,0.9
+Original,W >= 0,356,4,4,0.8933333333333333
+Original,W >= 0,357,0,0,0.7466666666666667
+Original,W >= 0,358,3,3,0.78
+Original,W >= 0,359,2,2,0.82
+Original,W >= 0,360,5,5,0.9266666666666666
+Original,W >= 0,361,5,5,0.92
+Original,W >= 0,362,5,5,0.92
+Original,W >= 0,363,3,3,0.8733333333333333
+Original,W >= 0,364,7,7,0.92
+Original,W >= 0,365,5,5,0.92
+Original,W >= 0,366,4,4,0.9
+Original,W >= 0,367,6,6,0.9133333333333333
+Original,W >= 0,368,1,1,0.8533333333333334
+Original,W >= 0,369,7,7,0.92
+Original,W >= 0,370,6,6,0.92
+Original,W >= 0,371,1,1,0.7533333333333333
+Original,W >= 0,372,3,3,0.88
+Original,W >= 0,373,5,5,0.9266666666666666
+Original,W >= 0,374,5,5,0.9133333333333333
+Original,W >= 0,375,5,5,0.9133333333333333
+Original,W >= 0,376,7,7,0.92
+Original,W >= 0,377,7,7,0.92
+Original,W >= 0,378,4,4,0.92
+Original,W >= 0,379,6,6,0.92
+Original,W >= 0,380,3,3,0.9
+Original,W >= 0,381,4,4,0.88
+Original,W >= 0,382,3,3,0.8666666666666667
+Original,W >= 0,383,6,6,0.92
+Original,W >= 0,384,6,6,0.92
+Original,W >= 0,385,6,6,0.9066666666666666
+Original,W >= 0,386,6,6,0.9133333333333333
+Original,W >= 0,387,6,6,0.9066666666666666
+Original,W >= 0,388,4,4,0.8733333333333333
+Original,W >= 0,389,7,7,0.92
+Original,W >= 0,390,1,1,0.82
+Original,W >= 0,391,5,5,0.88
+Original,W >= 0,392,5,5,0.9133333333333333
+Original,W >= 0,393,6,6,0.92
+Original,W >= 0,394,7,7,0.92
+Original,W >= 0,395,6,6,0.92
+Original,W >= 0,396,7,7,0.92
+Original,W >= 0,397,4,4,0.8733333333333333
+Original,W >= 0,398,6,6,0.92
+Original,W >= 0,399,6,6,0.9066666666666666
+Original,W >= 0,400,7,7,0.92
+Original,W >= 0,401,7,7,0.9266666666666666
+Original,W >= 0,402,5,5,0.9133333333333333
+Original,W >= 0,403,6,6,0.9266666666666666
+Original,W >= 0,404,4,4,0.8866666666666667
+Original,W >= 0,405,7,7,0.9266666666666666
+Original,W >= 0,406,6,6,0.92
+Original,W >= 0,407,6,6,0.9133333333333333
+Original,W >= 0,408,6,6,0.92
+Original,W >= 0,409,6,6,0.9066666666666666
+Original,W >= 0,410,7,7,0.92
+Original,W >= 0,411,6,6,0.9066666666666666
+Original,W >= 0,412,6,6,0.9133333333333333
+Original,W >= 0,413,7,7,0.92
+Original,W >= 0,414,2,2,0.78
+Original,W >= 0,415,6,6,0.92
+Original,W >= 0,416,6,6,0.9133333333333333
+Original,W >= 0,417,2,2,0.7866666666666666
+Original,W >= 0,418,7,7,0.9266666666666666
+Original,W >= 0,419,6,6,0.9133333333333333
+Original,W >= 0,420,7,7,0.92
+Original,W >= 0,421,6,6,0.9066666666666666
+Original,W >= 0,422,6,6,0.92
+Original,W >= 0,423,5,5,0.92
+Original,W >= 0,424,5,5,0.9133333333333333
+Original,W >= 0,425,5,5,0.92
+Original,W >= 0,426,7,7,0.92
+Original,W >= 0,427,4,4,0.88
+Original,W >= 0,428,5,5,0.9066666666666666
+Original,W >= 0,429,7,7,0.92
+Original,W >= 0,430,3,3,0.8666666666666667
+Original,W >= 0,431,5,5,0.8933333333333333
+Original,W >= 0,432,7,7,0.9266666666666666
+Original,W >= 0,433,4,4,0.9066666666666666
+Original,W >= 0,434,7,7,0.9133333333333333
+Original,W >= 0,435,6,6,0.9066666666666666
+Original,W >= 0,436,6,6,0.8933333333333333
+Original,W >= 0,437,2,2,0.8133333333333334
+Original,W >= 0,438,2,2,0.7866666666666666
+Original,W >= 0,439,6,6,0.8933333333333333
+Original,W >= 0,440,2,2,0.7866666666666666
+Original,W >= 0,441,5,5,0.92
+Original,W >= 0,442,2,2,0.8266666666666667
+Original,W >= 0,443,3,3,0.88
+Original,W >= 0,444,3,3,0.7866666666666666
+Original,W >= 0,445,6,6,0.9
+Original,W >= 0,446,5,5,0.92
+Original,W >= 0,447,4,4,0.88
+Original,W >= 0,448,6,6,0.9066666666666666
+Original,W >= 0,449,6,6,0.92
+Original,W >= 0,450,5,5,0.9066666666666666
+Original,W >= 0,451,4,4,0.88
+Original,W >= 0,452,7,7,0.9266666666666666
+Original,W >= 0,453,7,7,0.92
+Original,W >= 0,454,7,7,0.9133333333333333
+Original,W >= 0,455,5,5,0.92
+Original,W >= 0,456,2,2,0.7933333333333333
+Original,W >= 0,457,4,4,0.88
+Original,W >= 0,458,3,3,0.7866666666666666
+Original,W >= 0,459,3,3,0.8666666666666667
+Original,W >= 0,460,6,6,0.92
+Original,W >= 0,461,7,7,0.92
+Original,W >= 0,462,5,5,0.9
+Original,W >= 0,463,6,6,0.92
+Original,W >= 0,464,7,7,0.92
+Original,W >= 0,465,7,7,0.92
+Original,W >= 0,466,3,3,0.7866666666666666
+Original,W >= 0,467,6,6,0.92
+Original,W >= 0,468,6,6,0.92
+Original,W >= 0,469,3,3,0.7866666666666666
+Original,W >= 0,470,7,7,0.92
+Original,W >= 0,471,3,3,0.9066666666666666
+Original,W >= 0,472,4,4,0.88
+Original,W >= 0,473,7,7,0.92
+Original,W >= 0,474,7,7,0.92
+Original,W >= 0,475,3,3,0.88
+Original,W >= 0,476,7,7,0.92
+Original,W >= 0,477,4,4,0.9066666666666666
+Original,W >= 0,478,3,3,0.8666666666666667
+Original,W >= 0,479,6,6,0.9133333333333333
+Original,W >= 0,480,4,4,0.9
+Original,W >= 0,481,6,6,0.92
+Original,W >= 0,482,2,2,0.7933333333333333
+Original,W >= 0,483,5,5,0.8866666666666667
+Original,W >= 0,484,3,3,0.7866666666666666
+Original,W >= 0,485,7,7,0.92
+Original,W >= 0,486,5,5,0.9133333333333333
+Original,W >= 0,487,4,4,0.8733333333333333
+Original,W >= 0,488,6,6,0.92
+Original,W >= 0,489,6,6,0.92
+Original,W >= 0,490,7,7,0.92
+Original,W >= 0,491,4,4,0.88
+Original,W >= 0,492,3,3,0.8533333333333334
+Original,W >= 0,493,5,5,0.8933333333333333
+Original,W >= 0,494,4,4,0.88
+Original,W >= 0,495,7,7,0.92
+Original,W >= 0,496,5,5,0.9066666666666666
+Original,W >= 0,497,6,6,0.92
+Original,W >= 0,498,7,7,0.92
+Original,W >= 0,499,4,4,0.9066666666666666
+Original,W >= 0,500,7,7,0.9266666666666666
+Original,W >= 0,501,6,6,0.9066666666666666
+Original,W >= 0,502,5,5,0.9066666666666666
+Original,W >= 0,503,3,3,0.7866666666666666
+Original,W >= 0,504,6,6,0.92
+Original,W >= 0,505,3,3,0.88
+Original,W >= 0,506,7,7,0.92
+Original,W >= 0,507,6,6,0.9133333333333333
+Original,W >= 0,508,6,6,0.92
+Original,W >= 0,509,7,7,0.9266666666666666
+Original,W >= 0,510,6,6,0.9133333333333333
+Original,W >= 0,511,2,2,0.7933333333333333
+Original,W >= 0,512,5,5,0.88
+Original,W >= 0,513,3,3,0.78
+Original,W >= 0,514,6,6,0.9133333333333333
+Original,W >= 0,515,4,4,0.88
+Original,W >= 0,516,3,3,0.7866666666666666
+Original,W >= 0,517,7,7,0.9266666666666666
+Original,W >= 0,518,7,7,0.9266666666666666
+Original,W >= 0,519,3,3,0.8666666666666667
+Original,W >= 0,520,5,5,0.9
+Original,W >= 0,521,4,4,0.8733333333333333
+Original,W >= 0,522,2,2,0.7933333333333333
+Original,W >= 0,523,7,7,0.92
+Original,W >= 0,524,5,5,0.92
+Original,W >= 0,525,6,6,0.92
+Original,W >= 0,526,6,6,0.92
+Original,W >= 0,527,5,5,0.8866666666666667
+Original,W >= 0,528,6,6,0.92
+Original,W >= 0,529,3,3,0.78
+Original,W >= 0,530,6,6,0.92
+Original,W >= 0,531,7,7,0.92
+Original,W >= 0,532,2,2,0.8133333333333334
+Original,W >= 0,533,7,7,0.92
+Original,W >= 0,534,6,6,0.9066666666666666
+Original,W >= 0,535,6,6,0.92
+Original,W >= 0,536,6,6,0.92
+Original,W >= 0,537,3,3,0.9066666666666666
+Original,W >= 0,538,5,5,0.8866666666666667
+Original,W >= 0,539,2,2,0.7733333333333333
+Original,W >= 0,540,5,5,0.92
+Original,W >= 0,541,2,2,0.8
+Original,W >= 0,542,7,7,0.92
+Original,W >= 0,543,6,6,0.92
+Original,W >= 0,544,5,5,0.9133333333333333
+Original,W >= 0,545,6,6,0.9133333333333333
+Original,W >= 0,546,5,5,0.92
+Original,W >= 0,547,5,5,0.9066666666666666
+Original,W >= 0,548,7,7,0.92
+Original,W >= 0,549,1,1,0.78
+Original,W >= 0,550,3,3,0.8666666666666667
+Original,W >= 0,551,6,6,0.9133333333333333
+Original,W >= 0,552,5,5,0.9133333333333333
+Original,W >= 0,553,5,5,0.9133333333333333
+Original,W >= 0,554,5,5,0.92
+Original,W >= 0,555,3,3,0.8733333333333333
+Original,W >= 0,556,6,6,0.92
+Original,W >= 0,557,5,5,0.9133333333333333
+Original,W >= 0,558,6,6,0.92
+Original,W >= 0,559,6,6,0.92
+Original,W >= 0,560,5,5,0.92
+Original,W >= 0,561,3,3,0.8666666666666667
+Original,W >= 0,562,5,5,0.92
+Original,W >= 0,563,5,5,0.92
+Original,W >= 0,564,6,6,0.9266666666666666
+Original,W >= 0,565,7,7,0.9266666666666666
+Original,W >= 0,566,3,3,0.78
+Original,W >= 0,567,5,5,0.92
+Original,W >= 0,568,4,4,0.9066666666666666
+Original,W >= 0,569,4,4,0.9066666666666666
+Original,W >= 0,570,3,3,0.8733333333333333
+Original,W >= 0,571,4,4,0.9
+Original,W >= 0,572,6,6,0.9266666666666666
+Original,W >= 0,573,6,6,0.9266666666666666
+Original,W >= 0,574,6,6,0.92
+Original,W >= 0,575,7,7,0.92
+Original,W >= 0,576,5,5,0.9066666666666666
+Original,W >= 0,577,3,3,0.7866666666666666
+Original,W >= 0,578,7,7,0.92
+Original,W >= 0,579,6,6,0.92
+Original,W >= 0,580,6,6,0.92
+Original,W >= 0,581,5,5,0.8933333333333333
+Original,W >= 0,582,7,7,0.9266666666666666
+Original,W >= 0,583,3,3,0.7866666666666666
+Original,W >= 0,584,5,5,0.8866666666666667
+Original,W >= 0,585,5,5,0.8933333333333333
+Original,W >= 0,586,7,7,0.9266666666666666
+Original,W >= 0,587,3,3,0.8666666666666667
+Original,W >= 0,588,3,3,0.8733333333333333
+Original,W >= 0,589,5,5,0.92
+Original,W >= 0,590,4,4,0.88
+Original,W >= 0,591,6,6,0.92
+Original,W >= 0,592,7,7,0.92
+Original,W >= 0,593,5,5,0.92
+Original,W >= 0,594,6,6,0.92
+Original,W >= 0,595,7,7,0.9266666666666666
+Original,W >= 0,596,7,7,0.92
+Original,W >= 0,597,6,6,0.92
+Original,W >= 0,598,6,6,0.92
+Original,W >= 0,599,6,6,0.92
+Original,W >= 0,600,6,6,0.9266666666666666
+Original,W >= 0,601,7,7,0.9266666666666666
+Original,W >= 0,602,6,6,0.92
+Original,W >= 0,603,4,4,0.88
+Original,W >= 0,604,7,7,0.92
+Original,W >= 0,605,3,3,0.9066666666666666
+Original,W >= 0,606,2,2,0.8
+Original,W >= 0,607,3,3,0.78
+Original,W >= 0,608,6,6,0.92
+Original,W >= 0,609,7,7,0.92
+Original,W >= 0,610,5,5,0.9
+Original,W >= 0,611,6,6,0.92
+Original,W >= 0,612,6,6,0.9133333333333333
+Original,W >= 0,613,7,7,0.92
+Original,W >= 0,614,6,6,0.9133333333333333
+Original,W >= 0,615,5,5,0.88
+Original,W >= 0,616,5,5,0.92
+Original,W >= 0,617,4,4,0.9066666666666666
+Original,W >= 0,618,5,5,0.9133333333333333
+Original,W >= 0,619,7,7,0.9266666666666666
+Original,W >= 0,620,6,6,0.92
+Original,W >= 0,621,4,4,0.9133333333333333
+Original,W >= 0,622,5,5,0.8933333333333333
+Original,W >= 0,623,7,7,0.92
+Original,W >= 0,624,3,3,0.8666666666666667
+Original,W >= 0,625,3,3,0.7866666666666666
+Original,W >= 0,626,7,7,0.92
+Original,W >= 0,627,6,6,0.9133333333333333
+Original,W >= 0,628,7,7,0.92
+Original,W >= 0,629,4,4,0.9
+Original,W >= 0,630,7,7,0.92
+Original,W >= 0,631,4,4,0.9
+Original,W >= 0,632,4,4,0.8866666666666667
+Original,W >= 0,633,3,3,0.78
+Original,W >= 0,634,6,6,0.92
+Original,W >= 0,635,5,5,0.92
+Original,W >= 0,636,3,3,0.7866666666666666
+Original,W >= 0,637,3,3,0.8666666666666667
+Original,W >= 0,638,7,7,0.92
+Original,W >= 0,639,4,4,0.8666666666666667
+Original,W >= 0,640,6,6,0.92
+Original,W >= 0,641,3,3,0.8666666666666667
+Original,W >= 0,642,6,6,0.92
+Original,W >= 0,643,6,6,0.92
+Original,W >= 0,644,6,6,0.9266666666666666
+Original,W >= 0,645,5,5,0.9066666666666666
+Original,W >= 0,646,4,4,0.9066666666666666
+Original,W >= 0,647,5,5,0.92
+Original,W >= 0,648,5,5,0.9133333333333333
+Original,W >= 0,649,4,4,0.9066666666666666
+Original,W >= 0,650,3,3,0.7866666666666666
+Original,W >= 0,651,3,3,0.8666666666666667
+Original,W >= 0,652,6,6,0.9066666666666666
+Original,W >= 0,653,3,3,0.7866666666666666
+Original,W >= 0,654,7,7,0.9266666666666666
+Original,W >= 0,655,5,5,0.92
+Original,W >= 0,656,7,7,0.92
+Original,W >= 0,657,5,5,0.9
+Original,W >= 0,658,6,6,0.9266666666666666
+Original,W >= 0,659,3,3,0.7866666666666666
+Original,W >= 0,660,5,5,0.9266666666666666
+Original,W >= 0,661,7,7,0.9266666666666666
+Original,W >= 0,662,6,6,0.9266666666666666
+Original,W >= 0,663,5,5,0.8866666666666667
+Original,W >= 0,664,4,4,0.9066666666666666
+Original,W >= 0,665,6,6,0.92
+Original,W >= 0,666,7,7,0.9133333333333333
+Original,W >= 0,667,7,7,0.9133333333333333
+Original,W >= 0,668,7,7,0.92
+Original,W >= 0,669,4,4,0.8733333333333333
+Original,W >= 0,670,6,6,0.9066666666666666
+Original,W >= 0,671,6,6,0.92
+Original,W >= 0,672,5,5,0.9066666666666666
+Original,W >= 0,673,6,6,0.92
+Original,W >= 0,674,3,3,0.7866666666666666
+Original,W >= 0,675,7,7,0.9266666666666666
+Original,W >= 0,676,7,7,0.92
+Original,W >= 0,677,6,6,0.9266666666666666
+Original,W >= 0,678,4,4,0.8866666666666667
+Original,W >= 0,679,6,6,0.9333333333333333
+Original,W >= 0,680,6,6,0.9266666666666666
+Original,W >= 0,681,7,7,0.9333333333333333
+Original,W >= 0,682,6,6,0.9266666666666666
+Original,W >= 0,683,3,3,0.8666666666666667
+Original,W >= 0,684,6,6,0.92
+Original,W >= 0,685,4,4,0.8933333333333333
+Original,W >= 0,686,4,4,0.8866666666666667
+Original,W >= 0,687,6,6,0.9266666666666666
+Original,W >= 0,688,7,7,0.9266666666666666
+Original,W >= 0,689,2,2,0.7733333333333333
+Original,W >= 0,690,3,3,0.7866666666666666
+Original,W >= 0,691,4,4,0.8933333333333333
+Original,W >= 0,692,7,7,0.9133333333333333
+Original,W >= 0,693,5,5,0.9066666666666666
+Original,W >= 0,694,6,6,0.9266666666666666
+Original,W >= 0,695,5,5,0.9066666666666666
+Original,W >= 0,696,7,7,0.92
+Original,W >= 0,697,4,4,0.88
+Original,W >= 0,698,7,7,0.9266666666666666
+Original,W >= 0,699,5,5,0.9066666666666666
+Original,W >= 0,700,6,6,0.8933333333333333
+Original,W >= 0,701,6,6,0.9266666666666666
+Original,W >= 0,702,6,6,0.8933333333333333
+Original,W >= 0,703,3,3,0.8666666666666667
+Original,W >= 0,704,2,2,0.78
+Original,W >= 0,705,6,6,0.92
+Original,W >= 0,706,7,7,0.9266666666666666
+Original,W >= 0,707,5,5,0.9266666666666666
+Original,W >= 0,708,7,7,0.9333333333333333
+Original,W >= 0,709,6,6,0.9266666666666666
+Original,W >= 0,710,6,6,0.92
+Original,W >= 0,711,7,7,0.9266666666666666
+Original,W >= 0,712,2,2,0.7933333333333333
+Original,W >= 0,713,6,6,0.9133333333333333
+Original,W >= 0,714,5,5,0.9133333333333333
+Original,W >= 0,715,4,4,0.8866666666666667
+Original,W >= 0,716,2,2,0.82
+Original,W >= 0,717,6,6,0.9066666666666666
+Original,W >= 0,718,4,4,0.9066666666666666
+Original,W >= 0,719,4,4,0.8733333333333333
+Original,W >= 0,720,7,7,0.9266666666666666
+Original,W >= 0,721,6,6,0.9266666666666666
+Original,W >= 0,722,7,7,0.92
+Original,W >= 0,723,6,6,0.92
+Original,W >= 0,724,6,6,0.9133333333333333
+Original,W >= 0,725,7,7,0.9266666666666666
+Original,W >= 0,726,5,5,0.9066666666666666
+Original,W >= 0,727,4,4,0.9
+Original,W >= 0,728,3,3,0.8666666666666667
+Original,W >= 0,729,7,7,0.92
+Original,W >= 0,730,3,3,0.7866666666666666
+Original,W >= 0,731,6,6,0.92
+Original,W >= 0,732,2,2,0.7866666666666666
+Original,W >= 0,733,5,5,0.8866666666666667
+Original,W >= 0,734,7,7,0.92
+Original,W >= 0,735,6,6,0.9066666666666666
+Original,W >= 0,736,6,6,0.92
+Original,W >= 0,737,6,6,0.92
+Original,W >= 0,738,5,5,0.9066666666666666
+Original,W >= 0,739,6,6,0.92
+Original,W >= 0,740,3,3,0.8733333333333333
+Original,W >= 0,741,6,6,0.9266666666666666
+Original,W >= 0,742,6,6,0.92
+Original,W >= 0,743,6,6,0.9266666666666666
+Original,W >= 0,744,3,3,0.7866666666666666
+Original,W >= 0,745,7,7,0.92
+Original,W >= 0,746,6,6,0.9133333333333333
+Original,W >= 0,747,4,4,0.8933333333333333
+Original,W >= 0,748,7,7,0.92
+Original,W >= 0,749,2,2,0.7733333333333333
+Original,W >= 0,750,5,5,0.8933333333333333
+Original,W >= 0,751,7,7,0.9266666666666666
+Original,W >= 0,752,7,7,0.92
+Original,W >= 0,753,5,5,0.92
+Original,W >= 0,754,7,7,0.9066666666666666
+Original,W >= 0,755,5,5,0.9
+Original,W >= 0,756,5,5,0.9066666666666666
+Original,W >= 0,757,4,4,0.8866666666666667
+Original,W >= 0,758,5,5,0.9133333333333333
+Original,W >= 0,759,7,7,0.9266666666666666
+Original,W >= 0,760,5,5,0.88
+Original,W >= 0,761,6,6,0.92
+Original,W >= 0,762,4,4,0.9066666666666666
+Original,W >= 0,763,6,6,0.9266666666666666
+Original,W >= 0,764,5,5,0.9066666666666666
+Original,W >= 0,765,4,4,0.9
+Original,W >= 0,766,4,4,0.9066666666666666
+Original,W >= 0,767,5,5,0.9133333333333333
+Original,W >= 0,768,2,2,0.8266666666666667
+Original,W >= 0,769,5,5,0.9066666666666666
+Original,W >= 0,770,6,6,0.92
+Original,W >= 0,771,5,5,0.9266666666666666
+Original,W >= 0,772,4,4,0.88
+Original,W >= 0,773,6,6,0.9133333333333333
+Original,W >= 0,774,5,5,0.9133333333333333
+Original,W >= 0,775,5,5,0.8933333333333333
+Original,W >= 0,776,5,5,0.92
+Original,W >= 0,777,6,6,0.9133333333333333
+Original,W >= 0,778,4,4,0.88
+Original,W >= 0,779,2,2,0.7866666666666666
+Original,W >= 0,780,7,7,0.9266666666666666
+Original,W >= 0,781,6,6,0.9266666666666666
+Original,W >= 0,782,7,7,0.9266666666666666
+Original,W >= 0,783,7,7,0.9266666666666666
+Original,W >= 0,784,7,7,0.92
+Original,W >= 0,785,6,6,0.9133333333333333
+Original,W >= 0,786,5,5,0.8933333333333333
+Original,W >= 0,787,3,3,0.7866666666666666
+Original,W >= 0,788,4,4,0.8733333333333333
+Original,W >= 0,789,6,6,0.92
+Original,W >= 0,790,3,3,0.8666666666666667
+Original,W >= 0,791,6,6,0.9133333333333333
+Original,W >= 0,792,7,7,0.92
+Original,W >= 0,793,6,6,0.92
+Original,W >= 0,794,3,3,0.7866666666666666
+Original,W >= 0,795,3,3,0.86
+Original,W >= 0,796,5,5,0.9066666666666666
+Original,W >= 0,797,6,6,0.92
+Original,W >= 0,798,7,7,0.92
+Original,W >= 0,799,3,3,0.7866666666666666
+Original,W >= 0,800,2,2,0.8
+Original,W >= 0,801,4,4,0.8866666666666667
+Original,W >= 0,802,7,7,0.92
+Original,W >= 0,803,6,6,0.92
+Original,W >= 0,804,6,6,0.92
+Original,W >= 0,805,5,5,0.8733333333333333
+Original,W >= 0,806,2,2,0.7866666666666666
+Original,W >= 0,807,6,6,0.92
+Original,W >= 0,808,5,5,0.9066666666666666
+Original,W >= 0,809,3,3,0.8666666666666667
+Original,W >= 0,810,5,5,0.8933333333333333
+Original,W >= 0,811,7,7,0.92
+Original,W >= 0,812,3,3,0.88
+Original,W >= 0,813,5,5,0.9066666666666666
+Original,W >= 0,814,6,6,0.9266666666666666
+Original,W >= 0,815,4,4,0.8733333333333333
+Original,W >= 0,816,5,5,0.9266666666666666
+Original,W >= 0,817,2,2,0.84
+Original,W >= 0,818,4,4,0.88
+Original,W >= 0,819,2,2,0.84
+Original,W >= 0,820,5,5,0.9133333333333333
+Original,W >= 0,821,5,5,0.8933333333333333
+Original,W >= 0,822,5,5,0.9066666666666666
+Original,W >= 0,823,6,6,0.92
+Original,W >= 0,824,2,2,0.78
+Original,W >= 0,825,5,5,0.9266666666666666
+Original,W >= 0,826,4,4,0.9066666666666666
+Original,W >= 0,827,2,2,0.7933333333333333
+Original,W >= 0,828,2,2,0.78
+Original,W >= 0,829,4,4,0.8866666666666667
+Original,W >= 0,830,3,3,0.7866666666666666
+Original,W >= 0,831,4,4,0.9066666666666666
+Original,W >= 0,832,6,6,0.9266666666666666
+Original,W >= 0,833,7,7,0.92
+Original,W >= 0,834,6,6,0.9266666666666666
+Original,W >= 0,835,6,6,0.92
+Original,W >= 0,836,6,6,0.92
+Original,W >= 0,837,7,7,0.9266666666666666
+Original,W >= 0,838,6,6,0.92
+Original,W >= 0,839,3,3,0.8666666666666667
+Original,W >= 0,840,4,4,0.9066666666666666
+Original,W >= 0,841,5,5,0.9
+Original,W >= 0,842,6,6,0.92
+Original,W >= 0,843,6,6,0.9266666666666666
+Original,W >= 0,844,2,2,0.78
+Original,W >= 0,845,4,4,0.8733333333333333
+Original,W >= 0,846,7,7,0.92
+Original,W >= 0,847,5,5,0.92
+Original,W >= 0,848,5,5,0.88
+Original,W >= 0,849,7,7,0.92
+Original,W >= 0,850,5,5,0.9133333333333333
+Original,W >= 0,851,6,6,0.92
+Original,W >= 0,852,4,4,0.88
+Original,W >= 0,853,7,7,0.92
+Original,W >= 0,854,3,3,0.9
+Original,W >= 0,855,5,5,0.9066666666666666
+Original,W >= 0,856,4,4,0.9066666666666666
+Original,W >= 0,857,7,7,0.9266666666666666
+Original,W >= 0,858,2,2,0.7733333333333333
+Original,W >= 0,859,7,7,0.92
+Original,W >= 0,860,5,5,0.92
+Original,W >= 0,861,5,5,0.9133333333333333
+Original,W >= 0,862,5,5,0.9066666666666666
+Original,W >= 0,863,2,2,0.78
+Original,W >= 0,864,5,5,0.8866666666666667
+Original,W >= 0,865,3,3,0.7866666666666666
+Original,W >= 0,866,3,3,0.7866666666666666
+Original,W >= 0,867,7,7,0.92
+Original,W >= 0,868,5,5,0.8866666666666667
+Original,W >= 0,869,7,7,0.92
+Original,W >= 0,870,6,6,0.92
+Original,W >= 0,871,6,6,0.92
+Original,W >= 0,872,7,7,0.92
+Original,W >= 0,873,2,2,0.7866666666666666
+Original,W >= 0,874,7,7,0.92
+Original,W >= 0,875,4,4,0.8933333333333333
+Original,W >= 0,876,6,6,0.92
+Original,W >= 0,877,6,6,0.8933333333333333
+Original,W >= 0,878,7,7,0.92
+Original,W >= 0,879,6,6,0.9133333333333333
+Original,W >= 0,880,6,6,0.92
+Original,W >= 0,881,7,7,0.92
+Original,W >= 0,882,4,4,0.8933333333333333
+Original,W >= 0,883,3,3,0.7866666666666666
+Original,W >= 0,884,6,6,0.9133333333333333
+Original,W >= 0,885,6,6,0.92
+Original,W >= 0,886,6,6,0.92
+Original,W >= 0,887,3,3,0.9066666666666666
+Original,W >= 0,888,2,2,0.8
+Original,W >= 0,889,7,7,0.92
+Original,W >= 0,890,5,5,0.92
+Original,W >= 0,891,4,4,0.88
+Original,W >= 0,892,2,2,0.8
+Original,W >= 0,893,6,6,0.92
+Original,W >= 0,894,7,7,0.9266666666666666
+Original,W >= 0,895,7,7,0.92
+Original,W >= 0,896,7,7,0.92
+Original,W >= 0,897,5,5,0.9133333333333333
+Original,W >= 0,898,7,7,0.92
+Original,W >= 0,899,3,3,0.7866666666666666
+Original,W >= 0,900,3,3,0.8666666666666667
+Original,W >= 0,901,7,7,0.92
+Original,W >= 0,902,7,7,0.92
+Original,W >= 0,903,5,5,0.92
+Original,W >= 0,904,4,4,0.9066666666666666
+Original,W >= 0,905,6,6,0.92
+Original,W >= 0,906,6,6,0.9266666666666666
+Original,W >= 0,907,6,6,0.92
+Original,W >= 0,908,5,5,0.8866666666666667
+Original,W >= 0,909,5,5,0.8933333333333333
+Original,W >= 0,910,3,3,0.7866666666666666
+Original,W >= 0,911,3,3,0.8733333333333333
+Original,W >= 0,912,5,5,0.9066666666666666
+Original,W >= 0,913,6,6,0.9
+Original,W >= 0,914,4,4,0.9
+Original,W >= 0,915,6,6,0.92
+Original,W >= 0,916,7,7,0.92
+Original,W >= 0,917,3,3,0.7866666666666666
+Original,W >= 0,918,7,7,0.9266666666666666
+Original,W >= 0,919,7,7,0.92
+Original,W >= 0,920,6,6,0.92
+Original,W >= 0,921,2,2,0.8
+Original,W >= 0,922,6,6,0.9066666666666666
+Original,W >= 0,923,5,5,0.8866666666666667
+Original,W >= 0,924,3,3,0.7866666666666666
+Original,W >= 0,925,7,7,0.9066666666666666
+Original,W >= 0,926,6,6,0.92
+Original,W >= 0,927,3,3,0.78
+Original,W >= 0,928,7,7,0.92
+Original,W >= 0,929,2,2,0.84
+Original,W >= 0,930,6,6,0.92
+Original,W >= 0,931,3,3,0.78
+Original,W >= 0,932,6,6,0.92
+Original,W >= 0,933,3,3,0.7866666666666666
+Original,W >= 0,934,7,7,0.9266666666666666
+Original,W >= 0,935,4,4,0.9066666666666666
+Original,W >= 0,936,4,4,0.9
+Original,W >= 0,937,6,6,0.92
+Original,W >= 0,938,6,6,0.92
+Original,W >= 0,939,6,6,0.9133333333333333
+Original,W >= 0,940,3,3,0.7866666666666666
+Original,W >= 0,941,3,3,0.78
+Original,W >= 0,942,6,6,0.92
+Original,W >= 0,943,4,4,0.8733333333333333
+Original,W >= 0,944,5,5,0.92
+Original,W >= 0,945,6,6,0.92
+Original,W >= 0,946,2,2,0.7866666666666666
+Original,W >= 0,947,7,7,0.92
+Original,W >= 0,948,5,5,0.9133333333333333
+Original,W >= 0,949,4,4,0.88
+Original,W >= 0,950,6,6,0.92
+Original,W >= 0,951,6,6,0.9266666666666666
+Original,W >= 0,952,3,3,0.8733333333333333
+Original,W >= 0,953,6,6,0.9133333333333333
+Original,W >= 0,954,6,6,0.92
+Original,W >= 0,955,6,6,0.92
+Original,W >= 0,956,6,6,0.9066666666666666
+Original,W >= 0,957,6,6,0.9133333333333333
+Original,W >= 0,958,6,6,0.92
+Original,W >= 0,959,6,6,0.92
+Original,W >= 0,960,4,4,0.8933333333333333
+Original,W >= 0,961,6,6,0.9066666666666666
+Original,W >= 0,962,6,6,0.9066666666666666
+Original,W >= 0,963,3,3,0.7866666666666666
+Original,W >= 0,964,7,7,0.92
+Original,W >= 0,965,7,7,0.92
+Original,W >= 0,966,5,5,0.8933333333333333
+Original,W >= 0,967,6,6,0.92
+Original,W >= 0,968,6,6,0.92
+Original,W >= 0,969,6,6,0.92
+Original,W >= 0,970,6,6,0.92
+Original,W >= 0,971,7,7,0.92
+Original,W >= 0,972,4,4,0.88
+Original,W >= 0,973,5,5,0.8866666666666667
+Original,W >= 0,974,5,5,0.9066666666666666
+Original,W >= 0,975,7,7,0.9266666666666666
+Original,W >= 0,976,6,6,0.92
+Original,W >= 0,977,5,5,0.92
+Original,W >= 0,978,7,7,0.92
+Original,W >= 0,979,6,6,0.92
+Original,W >= 0,980,5,5,0.8933333333333333
+Original,W >= 0,981,6,6,0.92
+Original,W >= 0,982,5,5,0.8666666666666667
+Original,W >= 0,983,4,4,0.8733333333333333
+Original,W >= 0,984,6,6,0.9066666666666666
+Original,W >= 0,985,5,5,0.8866666666666667
+Original,W >= 0,986,5,5,0.8866666666666667
+Original,W >= 0,987,6,6,0.9066666666666666
+Original,W >= 0,988,7,7,0.92
+Original,W >= 0,989,6,6,0.92
+Original,W >= 0,990,7,7,0.92
+Original,W >= 0,991,5,5,0.88
+Original,W >= 0,992,7,7,0.92
+Original,W >= 0,993,7,7,0.92
+Original,W >= 0,994,6,6,0.92
+Original,W >= 0,995,7,7,0.9266666666666666
+Original,W >= 0,996,6,6,0.92
+Original,W >= 0,997,3,3,0.8866666666666667
+Original,W >= 0,998,7,7,0.92
+Original,W >= 0,999,5,5,0.9133333333333333
+Original,W >= 0,1000,5,5,0.9066666666666666
+Modified,Baseline,1,0,0,0.3333333333333333
+Modified,Baseline,2,0,0,0.3333333333333333
+Modified,Baseline,3,0,0,0.3333333333333333
+Modified,Baseline,4,0,0,0.3333333333333333
+Modified,Baseline,5,0,0,0.3333333333333333
+Modified,Baseline,6,0,0,0.4
+Modified,Baseline,7,0,0,0.5333333333333333
+Modified,Baseline,8,0,0,0.64
+Modified,Baseline,9,1,1,0.7266666666666667
+Modified,Baseline,10,1,1,0.7533333333333333
+Modified,Baseline,11,2,2,0.76
+Modified,Baseline,12,2,2,0.7733333333333333
+Modified,Baseline,13,1,1,0.7733333333333333
+Modified,Baseline,14,2,2,0.78
+Modified,Baseline,15,4,4,0.8133333333333334
+Modified,Baseline,16,5,5,0.8266666666666667
+Modified,Baseline,17,2,2,0.8133333333333334
+Modified,Baseline,18,2,2,0.7733333333333333
+Modified,Baseline,19,2,2,0.8
+Modified,Baseline,20,5,5,0.8333333333333334
+Modified,Baseline,21,3,3,0.8
+Modified,Baseline,22,3,3,0.84
+Modified,Baseline,23,4,4,0.84
+Modified,Baseline,24,5,5,0.8533333333333334
+Modified,Baseline,25,2,2,0.84
+Modified,Baseline,26,3,3,0.8333333333333334
+Modified,Baseline,27,5,5,0.8666666666666667
+Modified,Baseline,28,3,3,0.86
+Modified,Baseline,29,4,4,0.8666666666666667
+Modified,Baseline,30,3,3,0.8
+Modified,Baseline,31,4,4,0.8733333333333333
+Modified,Baseline,32,4,4,0.9066666666666666
+Modified,Baseline,33,7,7,0.94
+Modified,Baseline,34,5,5,0.9066666666666666
+Modified,Baseline,35,7,7,0.9333333333333333
+Modified,Baseline,36,6,6,0.9333333333333333
+Modified,Baseline,37,6,6,0.9533333333333334
+Modified,Baseline,38,7,7,0.9733333333333334
+Modified,Baseline,39,7,7,0.98
+Modified,Baseline,40,8,8,0.98
+Modified,Baseline,41,8,8,0.98
+Modified,Baseline,42,9,9,0.9933333333333333
+Modified,Baseline,43,8,8,0.9866666666666667
+Modified,Baseline,44,7,7,0.98
+Modified,Baseline,45,9,9,0.9933333333333333
+Modified,Baseline,46,9,9,0.9933333333333333
+Modified,Baseline,47,9,9,0.9933333333333333
+Modified,Baseline,48,10,10,1.0
+Modified,Baseline,49,10,10,1.0
+Modified,Baseline,50,10,10,1.0
+Modified,Baseline,51,10,10,1.0
+Modified,Baseline,52,10,10,1.0
+Modified,Baseline,53,10,10,1.0
+Modified,Baseline,54,10,10,1.0
+Modified,Baseline,55,10,10,1.0
+Modified,Baseline,56,10,10,1.0
+Modified,Baseline,57,10,10,1.0
+Modified,Baseline,58,10,10,1.0
+Modified,Baseline,59,10,10,1.0
+Modified,Baseline,60,10,10,1.0
+Modified,Baseline,61,10,10,1.0
+Modified,Baseline,62,10,10,1.0
+Modified,Baseline,63,10,10,1.0
+Modified,Baseline,64,10,10,1.0
+Modified,Baseline,65,10,10,1.0
+Modified,Baseline,66,10,10,1.0
+Modified,Baseline,67,10,10,1.0
+Modified,Baseline,68,10,10,1.0
+Modified,Baseline,69,10,10,1.0
+Modified,Baseline,70,10,10,1.0
+Modified,Baseline,71,10,10,1.0
+Modified,Baseline,72,10,10,1.0
+Modified,Baseline,73,10,10,1.0
+Modified,Baseline,74,10,10,1.0
+Modified,Baseline,75,10,10,1.0
+Modified,Baseline,76,10,10,1.0
+Modified,Baseline,77,10,10,1.0
+Modified,Baseline,78,10,10,1.0
+Modified,Baseline,79,10,10,1.0
+Modified,Baseline,80,10,10,1.0
+Modified,Baseline,81,10,10,1.0
+Modified,Baseline,82,10,10,1.0
+Modified,Baseline,83,10,10,1.0
+Modified,Baseline,84,10,10,1.0
+Modified,Baseline,85,10,10,1.0
+Modified,Baseline,86,10,10,1.0
+Modified,Baseline,87,10,10,1.0
+Modified,Baseline,88,10,10,1.0
+Modified,Baseline,89,10,10,1.0
+Modified,Baseline,90,10,10,1.0
+Modified,Baseline,91,10,10,1.0
+Modified,Baseline,92,10,10,1.0
+Modified,Baseline,93,10,10,1.0
+Modified,Baseline,94,10,10,1.0
+Modified,Baseline,95,10,10,1.0
+Modified,Baseline,96,10,10,1.0
+Modified,Baseline,97,10,10,1.0
+Modified,Baseline,98,10,10,1.0
+Modified,Baseline,99,10,10,1.0
+Modified,Baseline,100,10,10,1.0
+Modified,Baseline,101,10,10,1.0
+Modified,Baseline,102,10,10,1.0
+Modified,Baseline,103,10,10,1.0
+Modified,Baseline,104,10,10,1.0
+Modified,Baseline,105,10,10,1.0
+Modified,Baseline,106,10,10,1.0
+Modified,Baseline,107,10,10,1.0
+Modified,Baseline,108,10,10,1.0
+Modified,Baseline,109,10,10,1.0
+Modified,Baseline,110,10,10,1.0
+Modified,Baseline,111,10,10,1.0
+Modified,Baseline,112,10,10,1.0
+Modified,Baseline,113,10,10,1.0
+Modified,Baseline,114,10,10,1.0
+Modified,Baseline,115,10,10,1.0
+Modified,Baseline,116,10,10,1.0
+Modified,Baseline,117,10,10,1.0
+Modified,Baseline,118,10,10,1.0
+Modified,Baseline,119,10,10,1.0
+Modified,Baseline,120,10,10,1.0
+Modified,Baseline,121,10,10,1.0
+Modified,Baseline,122,10,10,1.0
+Modified,Baseline,123,10,10,1.0
+Modified,Baseline,124,10,10,1.0
+Modified,Baseline,125,10,10,1.0
+Modified,Baseline,126,10,10,1.0
+Modified,Baseline,127,10,10,1.0
+Modified,Baseline,128,10,10,1.0
+Modified,Baseline,129,10,10,1.0
+Modified,Baseline,130,10,10,1.0
+Modified,Baseline,131,10,10,1.0
+Modified,Baseline,132,10,10,1.0
+Modified,Baseline,133,10,10,1.0
+Modified,Baseline,134,10,10,1.0
+Modified,Baseline,135,10,10,1.0
+Modified,Baseline,136,10,10,1.0
+Modified,Baseline,137,10,10,1.0
+Modified,Baseline,138,10,10,1.0
+Modified,Baseline,139,10,10,1.0
+Modified,Baseline,140,10,10,1.0
+Modified,Baseline,141,10,10,1.0
+Modified,Baseline,142,10,10,1.0
+Modified,Baseline,143,10,10,1.0
+Modified,Baseline,144,10,10,1.0
+Modified,Baseline,145,10,10,1.0
+Modified,Baseline,146,10,10,1.0
+Modified,Baseline,147,10,10,1.0
+Modified,Baseline,148,10,10,1.0
+Modified,Baseline,149,10,10,1.0
+Modified,Baseline,150,10,10,1.0
+Modified,Baseline,151,10,10,1.0
+Modified,Baseline,152,10,10,1.0
+Modified,Baseline,153,10,10,1.0
+Modified,Baseline,154,10,10,1.0
+Modified,Baseline,155,10,10,1.0
+Modified,Baseline,156,10,10,1.0
+Modified,Baseline,157,10,10,1.0
+Modified,Baseline,158,10,10,1.0
+Modified,Baseline,159,10,10,1.0
+Modified,Baseline,160,10,10,1.0
+Modified,Baseline,161,10,10,1.0
+Modified,Baseline,162,10,10,1.0
+Modified,Baseline,163,10,10,1.0
+Modified,Baseline,164,10,10,1.0
+Modified,Baseline,165,10,10,1.0
+Modified,Baseline,166,10,10,1.0
+Modified,Baseline,167,10,10,1.0
+Modified,Baseline,168,10,10,1.0
+Modified,Baseline,169,10,10,1.0
+Modified,Baseline,170,10,10,1.0
+Modified,Baseline,171,10,10,1.0
+Modified,Baseline,172,10,10,1.0
+Modified,Baseline,173,10,10,1.0
+Modified,Baseline,174,10,10,1.0
+Modified,Baseline,175,10,10,1.0
+Modified,Baseline,176,10,10,1.0
+Modified,Baseline,177,10,10,1.0
+Modified,Baseline,178,10,10,1.0
+Modified,Baseline,179,10,10,1.0
+Modified,Baseline,180,10,10,1.0
+Modified,Baseline,181,10,10,1.0
+Modified,Baseline,182,10,10,1.0
+Modified,Baseline,183,10,10,1.0
+Modified,Baseline,184,10,10,1.0
+Modified,Baseline,185,10,10,1.0
+Modified,Baseline,186,10,10,1.0
+Modified,Baseline,187,10,10,1.0
+Modified,Baseline,188,10,10,1.0
+Modified,Baseline,189,10,10,1.0
+Modified,Baseline,190,10,10,1.0
+Modified,Baseline,191,10,10,1.0
+Modified,Baseline,192,10,10,1.0
+Modified,Baseline,193,10,10,1.0
+Modified,Baseline,194,10,10,1.0
+Modified,Baseline,195,10,10,1.0
+Modified,Baseline,196,10,10,1.0
+Modified,Baseline,197,10,10,1.0
+Modified,Baseline,198,10,10,1.0
+Modified,Baseline,199,10,10,1.0
+Modified,Baseline,200,10,10,1.0
+Modified,Baseline,201,10,10,1.0
+Modified,Baseline,202,10,10,1.0
+Modified,Baseline,203,10,10,1.0
+Modified,Baseline,204,10,10,1.0
+Modified,Baseline,205,10,10,1.0
+Modified,Baseline,206,10,10,1.0
+Modified,Baseline,207,10,10,1.0
+Modified,Baseline,208,10,10,1.0
+Modified,Baseline,209,10,10,1.0
+Modified,Baseline,210,10,10,1.0
+Modified,Baseline,211,10,10,1.0
+Modified,Baseline,212,10,10,1.0
+Modified,Baseline,213,10,10,1.0
+Modified,Baseline,214,10,10,1.0
+Modified,Baseline,215,10,10,1.0
+Modified,Baseline,216,10,10,1.0
+Modified,Baseline,217,10,10,1.0
+Modified,Baseline,218,10,10,1.0
+Modified,Baseline,219,10,10,1.0
+Modified,Baseline,220,10,10,1.0
+Modified,Baseline,221,10,10,1.0
+Modified,Baseline,222,10,10,1.0
+Modified,Baseline,223,10,10,1.0
+Modified,Baseline,224,10,10,1.0
+Modified,Baseline,225,10,10,1.0
+Modified,Baseline,226,10,10,1.0
+Modified,Baseline,227,10,10,1.0
+Modified,Baseline,228,10,10,1.0
+Modified,Baseline,229,10,10,1.0
+Modified,Baseline,230,10,10,1.0
+Modified,Baseline,231,10,10,1.0
+Modified,Baseline,232,10,10,1.0
+Modified,Baseline,233,10,10,1.0
+Modified,Baseline,234,10,10,1.0
+Modified,Baseline,235,10,10,1.0
+Modified,Baseline,236,10,10,1.0
+Modified,Baseline,237,10,10,1.0
+Modified,Baseline,238,10,10,1.0
+Modified,Baseline,239,10,10,1.0
+Modified,Baseline,240,10,10,1.0
+Modified,Baseline,241,10,10,1.0
+Modified,Baseline,242,10,10,1.0
+Modified,Baseline,243,10,10,1.0
+Modified,Baseline,244,10,10,1.0
+Modified,Baseline,245,10,10,1.0
+Modified,Baseline,246,10,10,1.0
+Modified,Baseline,247,10,10,1.0
+Modified,Baseline,248,10,10,1.0
+Modified,Baseline,249,10,10,1.0
+Modified,Baseline,250,10,10,1.0
+Modified,Baseline,251,10,10,1.0
+Modified,Baseline,252,10,10,1.0
+Modified,Baseline,253,10,10,1.0
+Modified,Baseline,254,10,10,1.0
+Modified,Baseline,255,10,10,1.0
+Modified,Baseline,256,10,10,1.0
+Modified,Baseline,257,10,10,1.0
+Modified,Baseline,258,10,10,1.0
+Modified,Baseline,259,10,10,1.0
+Modified,Baseline,260,10,10,1.0
+Modified,Baseline,261,10,10,1.0
+Modified,Baseline,262,10,10,1.0
+Modified,Baseline,263,10,10,1.0
+Modified,Baseline,264,10,10,1.0
+Modified,Baseline,265,10,10,1.0
+Modified,Baseline,266,10,10,1.0
+Modified,Baseline,267,10,10,1.0
+Modified,Baseline,268,10,10,1.0
+Modified,Baseline,269,10,10,1.0
+Modified,Baseline,270,10,10,1.0
+Modified,Baseline,271,10,10,1.0
+Modified,Baseline,272,10,10,1.0
+Modified,Baseline,273,10,10,1.0
+Modified,Baseline,274,10,10,1.0
+Modified,Baseline,275,10,10,1.0
+Modified,Baseline,276,10,10,1.0
+Modified,Baseline,277,10,10,1.0
+Modified,Baseline,278,10,10,1.0
+Modified,Baseline,279,10,10,1.0
+Modified,Baseline,280,10,10,1.0
+Modified,Baseline,281,10,10,1.0
+Modified,Baseline,282,10,10,1.0
+Modified,Baseline,283,10,10,1.0
+Modified,Baseline,284,10,10,1.0
+Modified,Baseline,285,10,10,1.0
+Modified,Baseline,286,10,10,1.0
+Modified,Baseline,287,10,10,1.0
+Modified,Baseline,288,10,10,1.0
+Modified,Baseline,289,10,10,1.0
+Modified,Baseline,290,10,10,1.0
+Modified,Baseline,291,10,10,1.0
+Modified,Baseline,292,10,10,1.0
+Modified,Baseline,293,10,10,1.0
+Modified,Baseline,294,10,10,1.0
+Modified,Baseline,295,10,10,1.0
+Modified,Baseline,296,10,10,1.0
+Modified,Baseline,297,10,10,1.0
+Modified,Baseline,298,10,10,1.0
+Modified,Baseline,299,10,10,1.0
+Modified,Baseline,300,10,10,1.0
+Modified,Baseline,301,10,10,1.0
+Modified,Baseline,302,10,10,1.0
+Modified,Baseline,303,10,10,1.0
+Modified,Baseline,304,10,10,1.0
+Modified,Baseline,305,10,10,1.0
+Modified,Baseline,306,10,10,1.0
+Modified,Baseline,307,10,10,1.0
+Modified,Baseline,308,10,10,1.0
+Modified,Baseline,309,10,10,1.0
+Modified,Baseline,310,10,10,1.0
+Modified,Baseline,311,10,10,1.0
+Modified,Baseline,312,10,10,1.0
+Modified,Baseline,313,10,10,1.0
+Modified,Baseline,314,10,10,1.0
+Modified,Baseline,315,10,10,1.0
+Modified,Baseline,316,10,10,1.0
+Modified,Baseline,317,10,10,1.0
+Modified,Baseline,318,10,10,1.0
+Modified,Baseline,319,10,10,1.0
+Modified,Baseline,320,10,10,1.0
+Modified,Baseline,321,10,10,1.0
+Modified,Baseline,322,10,10,1.0
+Modified,Baseline,323,10,10,1.0
+Modified,Baseline,324,10,10,1.0
+Modified,Baseline,325,10,10,1.0
+Modified,Baseline,326,10,10,1.0
+Modified,Baseline,327,10,10,1.0
+Modified,Baseline,328,10,10,1.0
+Modified,Baseline,329,10,10,1.0
+Modified,Baseline,330,10,10,1.0
+Modified,Baseline,331,10,10,1.0
+Modified,Baseline,332,10,10,1.0
+Modified,Baseline,333,10,10,1.0
+Modified,Baseline,334,10,10,1.0
+Modified,Baseline,335,10,10,1.0
+Modified,Baseline,336,10,10,1.0
+Modified,Baseline,337,10,10,1.0
+Modified,Baseline,338,10,10,1.0
+Modified,Baseline,339,10,10,1.0
+Modified,Baseline,340,10,10,1.0
+Modified,Baseline,341,10,10,1.0
+Modified,Baseline,342,10,10,1.0
+Modified,Baseline,343,10,10,1.0
+Modified,Baseline,344,10,10,1.0
+Modified,Baseline,345,10,10,1.0
+Modified,Baseline,346,10,10,1.0
+Modified,Baseline,347,10,10,1.0
+Modified,Baseline,348,10,10,1.0
+Modified,Baseline,349,10,10,1.0
+Modified,Baseline,350,10,10,1.0
+Modified,Baseline,351,10,10,1.0
+Modified,Baseline,352,10,10,1.0
+Modified,Baseline,353,10,10,1.0
+Modified,Baseline,354,10,10,1.0
+Modified,Baseline,355,10,10,1.0
+Modified,Baseline,356,10,10,1.0
+Modified,Baseline,357,10,10,1.0
+Modified,Baseline,358,10,10,1.0
+Modified,Baseline,359,10,10,1.0
+Modified,Baseline,360,10,10,1.0
+Modified,Baseline,361,10,10,1.0
+Modified,Baseline,362,10,10,1.0
+Modified,Baseline,363,10,10,1.0
+Modified,Baseline,364,10,10,1.0
+Modified,Baseline,365,10,10,1.0
+Modified,Baseline,366,10,10,1.0
+Modified,Baseline,367,10,10,1.0
+Modified,Baseline,368,10,10,1.0
+Modified,Baseline,369,10,10,1.0
+Modified,Baseline,370,10,10,1.0
+Modified,Baseline,371,10,10,1.0
+Modified,Baseline,372,10,10,1.0
+Modified,Baseline,373,10,10,1.0
+Modified,Baseline,374,10,10,1.0
+Modified,Baseline,375,10,10,1.0
+Modified,Baseline,376,10,10,1.0
+Modified,Baseline,377,10,10,1.0
+Modified,Baseline,378,10,10,1.0
+Modified,Baseline,379,10,10,1.0
+Modified,Baseline,380,10,10,1.0
+Modified,Baseline,381,10,10,1.0
+Modified,Baseline,382,10,10,1.0
+Modified,Baseline,383,10,10,1.0
+Modified,Baseline,384,10,10,1.0
+Modified,Baseline,385,10,10,1.0
+Modified,Baseline,386,10,10,1.0
+Modified,Baseline,387,10,10,1.0
+Modified,Baseline,388,10,10,1.0
+Modified,Baseline,389,10,10,1.0
+Modified,Baseline,390,10,10,1.0
+Modified,Baseline,391,10,10,1.0
+Modified,Baseline,392,10,10,1.0
+Modified,Baseline,393,10,10,1.0
+Modified,Baseline,394,10,10,1.0
+Modified,Baseline,395,10,10,1.0
+Modified,Baseline,396,10,10,1.0
+Modified,Baseline,397,10,10,1.0
+Modified,Baseline,398,10,10,1.0
+Modified,Baseline,399,10,10,1.0
+Modified,Baseline,400,10,10,1.0
+Modified,Baseline,401,10,10,1.0
+Modified,Baseline,402,10,10,1.0
+Modified,Baseline,403,10,10,1.0
+Modified,Baseline,404,10,10,1.0
+Modified,Baseline,405,10,10,1.0
+Modified,Baseline,406,10,10,1.0
+Modified,Baseline,407,10,10,1.0
+Modified,Baseline,408,10,10,1.0
+Modified,Baseline,409,10,10,1.0
+Modified,Baseline,410,10,10,1.0
+Modified,Baseline,411,10,10,1.0
+Modified,Baseline,412,10,10,1.0
+Modified,Baseline,413,10,10,1.0
+Modified,Baseline,414,10,10,1.0
+Modified,Baseline,415,10,10,1.0
+Modified,Baseline,416,10,10,1.0
+Modified,Baseline,417,10,10,1.0
+Modified,Baseline,418,10,10,1.0
+Modified,Baseline,419,10,10,1.0
+Modified,Baseline,420,10,10,1.0
+Modified,Baseline,421,10,10,1.0
+Modified,Baseline,422,10,10,1.0
+Modified,Baseline,423,10,10,1.0
+Modified,Baseline,424,10,10,1.0
+Modified,Baseline,425,10,10,1.0
+Modified,Baseline,426,10,10,1.0
+Modified,Baseline,427,10,10,1.0
+Modified,Baseline,428,10,10,1.0
+Modified,Baseline,429,10,10,1.0
+Modified,Baseline,430,10,10,1.0
+Modified,Baseline,431,10,10,1.0
+Modified,Baseline,432,10,10,1.0
+Modified,Baseline,433,10,10,1.0
+Modified,Baseline,434,10,10,1.0
+Modified,Baseline,435,10,10,1.0
+Modified,Baseline,436,10,10,1.0
+Modified,Baseline,437,10,10,1.0
+Modified,Baseline,438,10,10,1.0
+Modified,Baseline,439,10,10,1.0
+Modified,Baseline,440,10,10,1.0
+Modified,Baseline,441,10,10,1.0
+Modified,Baseline,442,10,10,1.0
+Modified,Baseline,443,10,10,1.0
+Modified,Baseline,444,10,10,1.0
+Modified,Baseline,445,10,10,1.0
+Modified,Baseline,446,10,10,1.0
+Modified,Baseline,447,10,10,1.0
+Modified,Baseline,448,10,10,1.0
+Modified,Baseline,449,10,10,1.0
+Modified,Baseline,450,10,10,1.0
+Modified,Baseline,451,10,10,1.0
+Modified,Baseline,452,10,10,1.0
+Modified,Baseline,453,10,10,1.0
+Modified,Baseline,454,10,10,1.0
+Modified,Baseline,455,10,10,1.0
+Modified,Baseline,456,10,10,1.0
+Modified,Baseline,457,10,10,1.0
+Modified,Baseline,458,10,10,1.0
+Modified,Baseline,459,10,10,1.0
+Modified,Baseline,460,10,10,1.0
+Modified,Baseline,461,10,10,1.0
+Modified,Baseline,462,10,10,1.0
+Modified,Baseline,463,10,10,1.0
+Modified,Baseline,464,10,10,1.0
+Modified,Baseline,465,10,10,1.0
+Modified,Baseline,466,10,10,1.0
+Modified,Baseline,467,10,10,1.0
+Modified,Baseline,468,10,10,1.0
+Modified,Baseline,469,10,10,1.0
+Modified,Baseline,470,10,10,1.0
+Modified,Baseline,471,10,10,1.0
+Modified,Baseline,472,10,10,1.0
+Modified,Baseline,473,10,10,1.0
+Modified,Baseline,474,10,10,1.0
+Modified,Baseline,475,10,10,1.0
+Modified,Baseline,476,10,10,1.0
+Modified,Baseline,477,10,10,1.0
+Modified,Baseline,478,10,10,1.0
+Modified,Baseline,479,10,10,1.0
+Modified,Baseline,480,10,10,1.0
+Modified,Baseline,481,10,10,1.0
+Modified,Baseline,482,10,10,1.0
+Modified,Baseline,483,10,10,1.0
+Modified,Baseline,484,10,10,1.0
+Modified,Baseline,485,10,10,1.0
+Modified,Baseline,486,10,10,1.0
+Modified,Baseline,487,10,10,1.0
+Modified,Baseline,488,10,10,1.0
+Modified,Baseline,489,10,10,1.0
+Modified,Baseline,490,10,10,1.0
+Modified,Baseline,491,10,10,1.0
+Modified,Baseline,492,10,10,1.0
+Modified,Baseline,493,10,10,1.0
+Modified,Baseline,494,10,10,1.0
+Modified,Baseline,495,10,10,1.0
+Modified,Baseline,496,10,10,1.0
+Modified,Baseline,497,10,10,1.0
+Modified,Baseline,498,10,10,1.0
+Modified,Baseline,499,10,10,1.0
+Modified,Baseline,500,10,10,1.0
+Modified,Baseline,501,10,10,1.0
+Modified,Baseline,502,10,10,1.0
+Modified,Baseline,503,10,10,1.0
+Modified,Baseline,504,10,10,1.0
+Modified,Baseline,505,10,10,1.0
+Modified,Baseline,506,10,10,1.0
+Modified,Baseline,507,10,10,1.0
+Modified,Baseline,508,10,10,1.0
+Modified,Baseline,509,10,10,1.0
+Modified,Baseline,510,10,10,1.0
+Modified,Baseline,511,10,10,1.0
+Modified,Baseline,512,10,10,1.0
+Modified,Baseline,513,10,10,1.0
+Modified,Baseline,514,10,10,1.0
+Modified,Baseline,515,10,10,1.0
+Modified,Baseline,516,10,10,1.0
+Modified,Baseline,517,10,10,1.0
+Modified,Baseline,518,10,10,1.0
+Modified,Baseline,519,10,10,1.0
+Modified,Baseline,520,10,10,1.0
+Modified,Baseline,521,10,10,1.0
+Modified,Baseline,522,10,10,1.0
+Modified,Baseline,523,10,10,1.0
+Modified,Baseline,524,10,10,1.0
+Modified,Baseline,525,10,10,1.0
+Modified,Baseline,526,10,10,1.0
+Modified,Baseline,527,10,10,1.0
+Modified,Baseline,528,10,10,1.0
+Modified,Baseline,529,10,10,1.0
+Modified,Baseline,530,10,10,1.0
+Modified,Baseline,531,10,10,1.0
+Modified,Baseline,532,10,10,1.0
+Modified,Baseline,533,10,10,1.0
+Modified,Baseline,534,10,10,1.0
+Modified,Baseline,535,10,10,1.0
+Modified,Baseline,536,10,10,1.0
+Modified,Baseline,537,10,10,1.0
+Modified,Baseline,538,10,10,1.0
+Modified,Baseline,539,10,10,1.0
+Modified,Baseline,540,10,10,1.0
+Modified,Baseline,541,10,10,1.0
+Modified,Baseline,542,10,10,1.0
+Modified,Baseline,543,10,10,1.0
+Modified,Baseline,544,10,10,1.0
+Modified,Baseline,545,10,10,1.0
+Modified,Baseline,546,10,10,1.0
+Modified,Baseline,547,10,10,1.0
+Modified,Baseline,548,10,10,1.0
+Modified,Baseline,549,10,10,1.0
+Modified,Baseline,550,10,10,1.0
+Modified,Baseline,551,10,10,1.0
+Modified,Baseline,552,10,10,1.0
+Modified,Baseline,553,10,10,1.0
+Modified,Baseline,554,10,10,1.0
+Modified,Baseline,555,10,10,1.0
+Modified,Baseline,556,10,10,1.0
+Modified,Baseline,557,10,10,1.0
+Modified,Baseline,558,10,10,1.0
+Modified,Baseline,559,10,10,1.0
+Modified,Baseline,560,10,10,1.0
+Modified,Baseline,561,10,10,1.0
+Modified,Baseline,562,10,10,1.0
+Modified,Baseline,563,10,10,1.0
+Modified,Baseline,564,10,10,1.0
+Modified,Baseline,565,10,10,1.0
+Modified,Baseline,566,10,10,1.0
+Modified,Baseline,567,10,10,1.0
+Modified,Baseline,568,10,10,1.0
+Modified,Baseline,569,10,10,1.0
+Modified,Baseline,570,10,10,1.0
+Modified,Baseline,571,10,10,1.0
+Modified,Baseline,572,10,10,1.0
+Modified,Baseline,573,10,10,1.0
+Modified,Baseline,574,10,10,1.0
+Modified,Baseline,575,10,10,1.0
+Modified,Baseline,576,10,10,1.0
+Modified,Baseline,577,10,10,1.0
+Modified,Baseline,578,10,10,1.0
+Modified,Baseline,579,10,10,1.0
+Modified,Baseline,580,10,10,1.0
+Modified,Baseline,581,10,10,1.0
+Modified,Baseline,582,10,10,1.0
+Modified,Baseline,583,10,10,1.0
+Modified,Baseline,584,10,10,1.0
+Modified,Baseline,585,10,10,1.0
+Modified,Baseline,586,10,10,1.0
+Modified,Baseline,587,10,10,1.0
+Modified,Baseline,588,10,10,1.0
+Modified,Baseline,589,10,10,1.0
+Modified,Baseline,590,10,10,1.0
+Modified,Baseline,591,10,10,1.0
+Modified,Baseline,592,10,10,1.0
+Modified,Baseline,593,10,10,1.0
+Modified,Baseline,594,10,10,1.0
+Modified,Baseline,595,10,10,1.0
+Modified,Baseline,596,10,10,1.0
+Modified,Baseline,597,10,10,1.0
+Modified,Baseline,598,10,10,1.0
+Modified,Baseline,599,10,10,1.0
+Modified,Baseline,600,10,10,1.0
+Modified,Baseline,601,10,10,1.0
+Modified,Baseline,602,10,10,1.0
+Modified,Baseline,603,10,10,1.0
+Modified,Baseline,604,10,10,1.0
+Modified,Baseline,605,10,10,1.0
+Modified,Baseline,606,10,10,1.0
+Modified,Baseline,607,10,10,1.0
+Modified,Baseline,608,10,10,1.0
+Modified,Baseline,609,10,10,1.0
+Modified,Baseline,610,10,10,1.0
+Modified,Baseline,611,10,10,1.0
+Modified,Baseline,612,10,10,1.0
+Modified,Baseline,613,10,10,1.0
+Modified,Baseline,614,10,10,1.0
+Modified,Baseline,615,10,10,1.0
+Modified,Baseline,616,10,10,1.0
+Modified,Baseline,617,10,10,1.0
+Modified,Baseline,618,10,10,1.0
+Modified,Baseline,619,10,10,1.0
+Modified,Baseline,620,10,10,1.0
+Modified,Baseline,621,10,10,1.0
+Modified,Baseline,622,10,10,1.0
+Modified,Baseline,623,10,10,1.0
+Modified,Baseline,624,10,10,1.0
+Modified,Baseline,625,10,10,1.0
+Modified,Baseline,626,10,10,1.0
+Modified,Baseline,627,10,10,1.0
+Modified,Baseline,628,10,10,1.0
+Modified,Baseline,629,10,10,1.0
+Modified,Baseline,630,10,10,1.0
+Modified,Baseline,631,10,10,1.0
+Modified,Baseline,632,10,10,1.0
+Modified,Baseline,633,10,10,1.0
+Modified,Baseline,634,10,10,1.0
+Modified,Baseline,635,10,10,1.0
+Modified,Baseline,636,10,10,1.0
+Modified,Baseline,637,10,10,1.0
+Modified,Baseline,638,10,10,1.0
+Modified,Baseline,639,10,10,1.0
+Modified,Baseline,640,10,10,1.0
+Modified,Baseline,641,10,10,1.0
+Modified,Baseline,642,10,10,1.0
+Modified,Baseline,643,10,10,1.0
+Modified,Baseline,644,10,10,1.0
+Modified,Baseline,645,10,10,1.0
+Modified,Baseline,646,10,10,1.0
+Modified,Baseline,647,10,10,1.0
+Modified,Baseline,648,10,10,1.0
+Modified,Baseline,649,10,10,1.0
+Modified,Baseline,650,10,10,1.0
+Modified,Baseline,651,10,10,1.0
+Modified,Baseline,652,10,10,1.0
+Modified,Baseline,653,10,10,1.0
+Modified,Baseline,654,10,10,1.0
+Modified,Baseline,655,10,10,1.0
+Modified,Baseline,656,10,10,1.0
+Modified,Baseline,657,10,10,1.0
+Modified,Baseline,658,10,10,1.0
+Modified,Baseline,659,10,10,1.0
+Modified,Baseline,660,10,10,1.0
+Modified,Baseline,661,10,10,1.0
+Modified,Baseline,662,10,10,1.0
+Modified,Baseline,663,10,10,1.0
+Modified,Baseline,664,10,10,1.0
+Modified,Baseline,665,10,10,1.0
+Modified,Baseline,666,10,10,1.0
+Modified,Baseline,667,10,10,1.0
+Modified,Baseline,668,10,10,1.0
+Modified,Baseline,669,10,10,1.0
+Modified,Baseline,670,10,10,1.0
+Modified,Baseline,671,10,10,1.0
+Modified,Baseline,672,10,10,1.0
+Modified,Baseline,673,10,10,1.0
+Modified,Baseline,674,10,10,1.0
+Modified,Baseline,675,10,10,1.0
+Modified,Baseline,676,10,10,1.0
+Modified,Baseline,677,10,10,1.0
+Modified,Baseline,678,10,10,1.0
+Modified,Baseline,679,10,10,1.0
+Modified,Baseline,680,10,10,1.0
+Modified,Baseline,681,10,10,1.0
+Modified,Baseline,682,10,10,1.0
+Modified,Baseline,683,10,10,1.0
+Modified,Baseline,684,10,10,1.0
+Modified,Baseline,685,10,10,1.0
+Modified,Baseline,686,10,10,1.0
+Modified,Baseline,687,10,10,1.0
+Modified,Baseline,688,10,10,1.0
+Modified,Baseline,689,10,10,1.0
+Modified,Baseline,690,10,10,1.0
+Modified,Baseline,691,10,10,1.0
+Modified,Baseline,692,10,10,1.0
+Modified,Baseline,693,10,10,1.0
+Modified,Baseline,694,10,10,1.0
+Modified,Baseline,695,10,10,1.0
+Modified,Baseline,696,10,10,1.0
+Modified,Baseline,697,10,10,1.0
+Modified,Baseline,698,10,10,1.0
+Modified,Baseline,699,10,10,1.0
+Modified,Baseline,700,10,10,1.0
+Modified,Baseline,701,10,10,1.0
+Modified,Baseline,702,10,10,1.0
+Modified,Baseline,703,10,10,1.0
+Modified,Baseline,704,10,10,1.0
+Modified,Baseline,705,10,10,1.0
+Modified,Baseline,706,10,10,1.0
+Modified,Baseline,707,10,10,1.0
+Modified,Baseline,708,10,10,1.0
+Modified,Baseline,709,10,10,1.0
+Modified,Baseline,710,10,10,1.0
+Modified,Baseline,711,10,10,1.0
+Modified,Baseline,712,10,10,1.0
+Modified,Baseline,713,10,10,1.0
+Modified,Baseline,714,10,10,1.0
+Modified,Baseline,715,10,10,1.0
+Modified,Baseline,716,10,10,1.0
+Modified,Baseline,717,10,10,1.0
+Modified,Baseline,718,10,10,1.0
+Modified,Baseline,719,10,10,1.0
+Modified,Baseline,720,10,10,1.0
+Modified,Baseline,721,10,10,1.0
+Modified,Baseline,722,10,10,1.0
+Modified,Baseline,723,10,10,1.0
+Modified,Baseline,724,10,10,1.0
+Modified,Baseline,725,10,10,1.0
+Modified,Baseline,726,10,10,1.0
+Modified,Baseline,727,10,10,1.0
+Modified,Baseline,728,10,10,1.0
+Modified,Baseline,729,10,10,1.0
+Modified,Baseline,730,10,10,1.0
+Modified,Baseline,731,10,10,1.0
+Modified,Baseline,732,10,10,1.0
+Modified,Baseline,733,10,10,1.0
+Modified,Baseline,734,10,10,1.0
+Modified,Baseline,735,10,10,1.0
+Modified,Baseline,736,10,10,1.0
+Modified,Baseline,737,10,10,1.0
+Modified,Baseline,738,10,10,1.0
+Modified,Baseline,739,10,10,1.0
+Modified,Baseline,740,10,10,1.0
+Modified,Baseline,741,10,10,1.0
+Modified,Baseline,742,10,10,1.0
+Modified,Baseline,743,10,10,1.0
+Modified,Baseline,744,10,10,1.0
+Modified,Baseline,745,10,10,1.0
+Modified,Baseline,746,10,10,1.0
+Modified,Baseline,747,10,10,1.0
+Modified,Baseline,748,10,10,1.0
+Modified,Baseline,749,10,10,1.0
+Modified,Baseline,750,10,10,1.0
+Modified,Baseline,751,10,10,1.0
+Modified,Baseline,752,10,10,1.0
+Modified,Baseline,753,10,10,1.0
+Modified,Baseline,754,10,10,1.0
+Modified,Baseline,755,10,10,1.0
+Modified,Baseline,756,10,10,1.0
+Modified,Baseline,757,10,10,1.0
+Modified,Baseline,758,10,10,1.0
+Modified,Baseline,759,10,10,1.0
+Modified,Baseline,760,10,10,1.0
+Modified,Baseline,761,10,10,1.0
+Modified,Baseline,762,10,10,1.0
+Modified,Baseline,763,10,10,1.0
+Modified,Baseline,764,10,10,1.0
+Modified,Baseline,765,10,10,1.0
+Modified,Baseline,766,10,10,1.0
+Modified,Baseline,767,10,10,1.0
+Modified,Baseline,768,10,10,1.0
+Modified,Baseline,769,10,10,1.0
+Modified,Baseline,770,10,10,1.0
+Modified,Baseline,771,10,10,1.0
+Modified,Baseline,772,10,10,1.0
+Modified,Baseline,773,10,10,1.0
+Modified,Baseline,774,10,10,1.0
+Modified,Baseline,775,10,10,1.0
+Modified,Baseline,776,10,10,1.0
+Modified,Baseline,777,10,10,1.0
+Modified,Baseline,778,10,10,1.0
+Modified,Baseline,779,10,10,1.0
+Modified,Baseline,780,10,10,1.0
+Modified,Baseline,781,10,10,1.0
+Modified,Baseline,782,10,10,1.0
+Modified,Baseline,783,10,10,1.0
+Modified,Baseline,784,10,10,1.0
+Modified,Baseline,785,10,10,1.0
+Modified,Baseline,786,10,10,1.0
+Modified,Baseline,787,10,10,1.0
+Modified,Baseline,788,10,10,1.0
+Modified,Baseline,789,10,10,1.0
+Modified,Baseline,790,10,10,1.0
+Modified,Baseline,791,10,10,1.0
+Modified,Baseline,792,10,10,1.0
+Modified,Baseline,793,10,10,1.0
+Modified,Baseline,794,10,10,1.0
+Modified,Baseline,795,10,10,1.0
+Modified,Baseline,796,10,10,1.0
+Modified,Baseline,797,10,10,1.0
+Modified,Baseline,798,10,10,1.0
+Modified,Baseline,799,10,10,1.0
+Modified,Baseline,800,10,10,1.0
+Modified,Baseline,801,10,10,1.0
+Modified,Baseline,802,10,10,1.0
+Modified,Baseline,803,10,10,1.0
+Modified,Baseline,804,10,10,1.0
+Modified,Baseline,805,10,10,1.0
+Modified,Baseline,806,10,10,1.0
+Modified,Baseline,807,10,10,1.0
+Modified,Baseline,808,10,10,1.0
+Modified,Baseline,809,10,10,1.0
+Modified,Baseline,810,10,10,1.0
+Modified,Baseline,811,10,10,1.0
+Modified,Baseline,812,10,10,1.0
+Modified,Baseline,813,10,10,1.0
+Modified,Baseline,814,10,10,1.0
+Modified,Baseline,815,10,10,1.0
+Modified,Baseline,816,10,10,1.0
+Modified,Baseline,817,10,10,1.0
+Modified,Baseline,818,10,10,1.0
+Modified,Baseline,819,10,10,1.0
+Modified,Baseline,820,10,10,1.0
+Modified,Baseline,821,10,10,1.0
+Modified,Baseline,822,10,10,1.0
+Modified,Baseline,823,10,10,1.0
+Modified,Baseline,824,10,10,1.0
+Modified,Baseline,825,10,10,1.0
+Modified,Baseline,826,10,10,1.0
+Modified,Baseline,827,10,10,1.0
+Modified,Baseline,828,10,10,1.0
+Modified,Baseline,829,10,10,1.0
+Modified,Baseline,830,10,10,1.0
+Modified,Baseline,831,10,10,1.0
+Modified,Baseline,832,10,10,1.0
+Modified,Baseline,833,10,10,1.0
+Modified,Baseline,834,10,10,1.0
+Modified,Baseline,835,10,10,1.0
+Modified,Baseline,836,10,10,1.0
+Modified,Baseline,837,10,10,1.0
+Modified,Baseline,838,10,10,1.0
+Modified,Baseline,839,10,10,1.0
+Modified,Baseline,840,10,10,1.0
+Modified,Baseline,841,10,10,1.0
+Modified,Baseline,842,10,10,1.0
+Modified,Baseline,843,10,10,1.0
+Modified,Baseline,844,10,10,1.0
+Modified,Baseline,845,10,10,1.0
+Modified,Baseline,846,10,10,1.0
+Modified,Baseline,847,10,10,1.0
+Modified,Baseline,848,10,10,1.0
+Modified,Baseline,849,10,10,1.0
+Modified,Baseline,850,10,10,1.0
+Modified,Baseline,851,10,10,1.0
+Modified,Baseline,852,10,10,1.0
+Modified,Baseline,853,10,10,1.0
+Modified,Baseline,854,10,10,1.0
+Modified,Baseline,855,10,10,1.0
+Modified,Baseline,856,10,10,1.0
+Modified,Baseline,857,10,10,1.0
+Modified,Baseline,858,10,10,1.0
+Modified,Baseline,859,10,10,1.0
+Modified,Baseline,860,10,10,1.0
+Modified,Baseline,861,10,10,1.0
+Modified,Baseline,862,10,10,1.0
+Modified,Baseline,863,10,10,1.0
+Modified,Baseline,864,10,10,1.0
+Modified,Baseline,865,10,10,1.0
+Modified,Baseline,866,10,10,1.0
+Modified,Baseline,867,10,10,1.0
+Modified,Baseline,868,10,10,1.0
+Modified,Baseline,869,10,10,1.0
+Modified,Baseline,870,10,10,1.0
+Modified,Baseline,871,10,10,1.0
+Modified,Baseline,872,10,10,1.0
+Modified,Baseline,873,10,10,1.0
+Modified,Baseline,874,10,10,1.0
+Modified,Baseline,875,10,10,1.0
+Modified,Baseline,876,10,10,1.0
+Modified,Baseline,877,10,10,1.0
+Modified,Baseline,878,10,10,1.0
+Modified,Baseline,879,10,10,1.0
+Modified,Baseline,880,10,10,1.0
+Modified,Baseline,881,10,10,1.0
+Modified,Baseline,882,10,10,1.0
+Modified,Baseline,883,10,10,1.0
+Modified,Baseline,884,10,10,1.0
+Modified,Baseline,885,10,10,1.0
+Modified,Baseline,886,10,10,1.0
+Modified,Baseline,887,10,10,1.0
+Modified,Baseline,888,10,10,1.0
+Modified,Baseline,889,10,10,1.0
+Modified,Baseline,890,10,10,1.0
+Modified,Baseline,891,10,10,1.0
+Modified,Baseline,892,10,10,1.0
+Modified,Baseline,893,10,10,1.0
+Modified,Baseline,894,10,10,1.0
+Modified,Baseline,895,10,10,1.0
+Modified,Baseline,896,10,10,1.0
+Modified,Baseline,897,10,10,1.0
+Modified,Baseline,898,10,10,1.0
+Modified,Baseline,899,10,10,1.0
+Modified,Baseline,900,10,10,1.0
+Modified,Baseline,901,10,10,1.0
+Modified,Baseline,902,10,10,1.0
+Modified,Baseline,903,10,10,1.0
+Modified,Baseline,904,10,10,1.0
+Modified,Baseline,905,10,10,1.0
+Modified,Baseline,906,10,10,1.0
+Modified,Baseline,907,10,10,1.0
+Modified,Baseline,908,10,10,1.0
+Modified,Baseline,909,10,10,1.0
+Modified,Baseline,910,10,10,1.0
+Modified,Baseline,911,10,10,1.0
+Modified,Baseline,912,10,10,1.0
+Modified,Baseline,913,10,10,1.0
+Modified,Baseline,914,10,10,1.0
+Modified,Baseline,915,10,10,1.0
+Modified,Baseline,916,10,10,1.0
+Modified,Baseline,917,10,10,1.0
+Modified,Baseline,918,10,10,1.0
+Modified,Baseline,919,10,10,1.0
+Modified,Baseline,920,10,10,1.0
+Modified,Baseline,921,10,10,1.0
+Modified,Baseline,922,10,10,1.0
+Modified,Baseline,923,10,10,1.0
+Modified,Baseline,924,10,10,1.0
+Modified,Baseline,925,10,10,1.0
+Modified,Baseline,926,10,10,1.0
+Modified,Baseline,927,10,10,1.0
+Modified,Baseline,928,10,10,1.0
+Modified,Baseline,929,10,10,1.0
+Modified,Baseline,930,10,10,1.0
+Modified,Baseline,931,10,10,1.0
+Modified,Baseline,932,10,10,1.0
+Modified,Baseline,933,10,10,1.0
+Modified,Baseline,934,10,10,1.0
+Modified,Baseline,935,10,10,1.0
+Modified,Baseline,936,10,10,1.0
+Modified,Baseline,937,10,10,1.0
+Modified,Baseline,938,10,10,1.0
+Modified,Baseline,939,10,10,1.0
+Modified,Baseline,940,10,10,1.0
+Modified,Baseline,941,10,10,1.0
+Modified,Baseline,942,10,10,1.0
+Modified,Baseline,943,10,10,1.0
+Modified,Baseline,944,10,10,1.0
+Modified,Baseline,945,10,10,1.0
+Modified,Baseline,946,10,10,1.0
+Modified,Baseline,947,10,10,1.0
+Modified,Baseline,948,10,10,1.0
+Modified,Baseline,949,10,10,1.0
+Modified,Baseline,950,10,10,1.0
+Modified,Baseline,951,10,10,1.0
+Modified,Baseline,952,10,10,1.0
+Modified,Baseline,953,10,10,1.0
+Modified,Baseline,954,10,10,1.0
+Modified,Baseline,955,10,10,1.0
+Modified,Baseline,956,10,10,1.0
+Modified,Baseline,957,10,10,1.0
+Modified,Baseline,958,10,10,1.0
+Modified,Baseline,959,10,10,1.0
+Modified,Baseline,960,10,10,1.0
+Modified,Baseline,961,10,10,1.0
+Modified,Baseline,962,10,10,1.0
+Modified,Baseline,963,10,10,1.0
+Modified,Baseline,964,10,10,1.0
+Modified,Baseline,965,10,10,1.0
+Modified,Baseline,966,10,10,1.0
+Modified,Baseline,967,10,10,1.0
+Modified,Baseline,968,10,10,1.0
+Modified,Baseline,969,10,10,1.0
+Modified,Baseline,970,10,10,1.0
+Modified,Baseline,971,10,10,1.0
+Modified,Baseline,972,10,10,1.0
+Modified,Baseline,973,10,10,1.0
+Modified,Baseline,974,10,10,1.0
+Modified,Baseline,975,10,10,1.0
+Modified,Baseline,976,10,10,1.0
+Modified,Baseline,977,10,10,1.0
+Modified,Baseline,978,10,10,1.0
+Modified,Baseline,979,10,10,1.0
+Modified,Baseline,980,10,10,1.0
+Modified,Baseline,981,10,10,1.0
+Modified,Baseline,982,10,10,1.0
+Modified,Baseline,983,10,10,1.0
+Modified,Baseline,984,10,10,1.0
+Modified,Baseline,985,10,10,1.0
+Modified,Baseline,986,10,10,1.0
+Modified,Baseline,987,10,10,1.0
+Modified,Baseline,988,10,10,1.0
+Modified,Baseline,989,10,10,1.0
+Modified,Baseline,990,10,10,1.0
+Modified,Baseline,991,10,10,1.0
+Modified,Baseline,992,10,10,1.0
+Modified,Baseline,993,10,10,1.0
+Modified,Baseline,994,10,10,1.0
+Modified,Baseline,995,10,10,1.0
+Modified,Baseline,996,10,10,1.0
+Modified,Baseline,997,10,10,1.0
+Modified,Baseline,998,10,10,1.0
+Modified,Baseline,999,10,10,1.0
+Modified,Baseline,1000,10,10,1.0
+Modified,W >= 0,1,0,0,0.3333333333333333
+Modified,W >= 0,2,0,0,0.3333333333333333
+Modified,W >= 0,3,0,0,0.3333333333333333
+Modified,W >= 0,4,0,0,0.3333333333333333
+Modified,W >= 0,5,0,0,0.3333333333333333
+Modified,W >= 0,6,0,0,0.4
+Modified,W >= 0,7,0,0,0.5333333333333333
+Modified,W >= 0,8,0,0,0.64
+Modified,W >= 0,9,1,1,0.72
+Modified,W >= 0,10,1,1,0.7533333333333333
+Modified,W >= 0,11,2,2,0.76
+Modified,W >= 0,12,2,2,0.7733333333333333
+Modified,W >= 0,13,1,1,0.7733333333333333
+Modified,W >= 0,14,2,2,0.78
+Modified,W >= 0,15,4,4,0.8133333333333334
+Modified,W >= 0,16,5,5,0.82
+Modified,W >= 0,17,2,2,0.8066666666666666
+Modified,W >= 0,18,2,2,0.76
+Modified,W >= 0,19,2,2,0.7933333333333333
+Modified,W >= 0,20,5,5,0.8333333333333334
+Modified,W >= 0,21,3,3,0.7933333333333333
+Modified,W >= 0,22,3,3,0.8333333333333334
+Modified,W >= 0,23,3,3,0.8333333333333334
+Modified,W >= 0,24,5,5,0.8333333333333334
+Modified,W >= 0,25,3,3,0.8333333333333334
+Modified,W >= 0,26,3,3,0.8133333333333334
+Modified,W >= 0,27,5,5,0.8666666666666667
+Modified,W >= 0,28,3,3,0.84
+Modified,W >= 0,29,4,4,0.86
+Modified,W >= 0,30,2,2,0.7866666666666666
+Modified,W >= 0,31,3,3,0.8733333333333333
+Modified,W >= 0,32,5,5,0.8933333333333333
+Modified,W >= 0,33,5,5,0.92
+Modified,W >= 0,34,4,4,0.8933333333333333
+Modified,W >= 0,35,6,6,0.92
+Modified,W >= 0,36,5,5,0.9266666666666666
+Modified,W >= 0,37,6,6,0.94
+Modified,W >= 0,38,6,6,0.9533333333333334
+Modified,W >= 0,39,6,6,0.9666666666666667
+Modified,W >= 0,40,7,7,0.96
+Modified,W >= 0,41,8,8,0.98
+Modified,W >= 0,42,9,9,0.9933333333333333
+Modified,W >= 0,43,8,8,0.9866666666666667
+Modified,W >= 0,44,7,7,0.98
+Modified,W >= 0,45,9,9,0.9933333333333333
+Modified,W >= 0,46,9,9,0.9933333333333333
+Modified,W >= 0,47,9,9,0.9933333333333333
+Modified,W >= 0,48,7,7,0.98
+Modified,W >= 0,49,9,9,0.9933333333333333
+Modified,W >= 0,50,9,9,0.9933333333333333
+Modified,W >= 0,51,9,9,0.9933333333333333
+Modified,W >= 0,52,10,10,1.0
+Modified,W >= 0,53,10,10,1.0
+Modified,W >= 0,54,10,10,1.0
+Modified,W >= 0,55,10,10,1.0
+Modified,W >= 0,56,10,10,1.0
+Modified,W >= 0,57,10,10,1.0
+Modified,W >= 0,58,10,10,1.0
+Modified,W >= 0,59,10,10,1.0
+Modified,W >= 0,60,10,10,1.0
+Modified,W >= 0,61,10,10,1.0
+Modified,W >= 0,62,10,10,1.0
+Modified,W >= 0,63,10,10,1.0
+Modified,W >= 0,64,10,10,1.0
+Modified,W >= 0,65,10,10,1.0
+Modified,W >= 0,66,10,10,1.0
+Modified,W >= 0,67,10,10,1.0
+Modified,W >= 0,68,10,10,1.0
+Modified,W >= 0,69,10,10,1.0
+Modified,W >= 0,70,10,10,1.0
+Modified,W >= 0,71,10,10,1.0
+Modified,W >= 0,72,10,10,1.0
+Modified,W >= 0,73,10,10,1.0
+Modified,W >= 0,74,10,10,1.0
+Modified,W >= 0,75,10,10,1.0
+Modified,W >= 0,76,10,10,1.0
+Modified,W >= 0,77,10,10,1.0
+Modified,W >= 0,78,10,10,1.0
+Modified,W >= 0,79,10,10,1.0
+Modified,W >= 0,80,10,10,1.0
+Modified,W >= 0,81,10,10,1.0
+Modified,W >= 0,82,10,10,1.0
+Modified,W >= 0,83,10,10,1.0
+Modified,W >= 0,84,10,10,1.0
+Modified,W >= 0,85,10,10,1.0
+Modified,W >= 0,86,10,10,1.0
+Modified,W >= 0,87,10,10,1.0
+Modified,W >= 0,88,10,10,1.0
+Modified,W >= 0,89,10,10,1.0
+Modified,W >= 0,90,10,10,1.0
+Modified,W >= 0,91,10,10,1.0
+Modified,W >= 0,92,10,10,1.0
+Modified,W >= 0,93,10,10,1.0
+Modified,W >= 0,94,10,10,1.0
+Modified,W >= 0,95,10,10,1.0
+Modified,W >= 0,96,10,10,1.0
+Modified,W >= 0,97,10,10,1.0
+Modified,W >= 0,98,10,10,1.0
+Modified,W >= 0,99,10,10,1.0
+Modified,W >= 0,100,10,10,1.0
+Modified,W >= 0,101,10,10,1.0
+Modified,W >= 0,102,10,10,1.0
+Modified,W >= 0,103,10,10,1.0
+Modified,W >= 0,104,10,10,1.0
+Modified,W >= 0,105,10,10,1.0
+Modified,W >= 0,106,10,10,1.0
+Modified,W >= 0,107,10,10,1.0
+Modified,W >= 0,108,10,10,1.0
+Modified,W >= 0,109,10,10,1.0
+Modified,W >= 0,110,10,10,1.0
+Modified,W >= 0,111,10,10,1.0
+Modified,W >= 0,112,10,10,1.0
+Modified,W >= 0,113,10,10,1.0
+Modified,W >= 0,114,10,10,1.0
+Modified,W >= 0,115,10,10,1.0
+Modified,W >= 0,116,10,10,1.0
+Modified,W >= 0,117,10,10,1.0
+Modified,W >= 0,118,10,10,1.0
+Modified,W >= 0,119,10,10,1.0
+Modified,W >= 0,120,10,10,1.0
+Modified,W >= 0,121,10,10,1.0
+Modified,W >= 0,122,10,10,1.0
+Modified,W >= 0,123,10,10,1.0
+Modified,W >= 0,124,10,10,1.0
+Modified,W >= 0,125,10,10,1.0
+Modified,W >= 0,126,10,10,1.0
+Modified,W >= 0,127,10,10,1.0
+Modified,W >= 0,128,10,10,1.0
+Modified,W >= 0,129,10,10,1.0
+Modified,W >= 0,130,10,10,1.0
+Modified,W >= 0,131,10,10,1.0
+Modified,W >= 0,132,10,10,1.0
+Modified,W >= 0,133,10,10,1.0
+Modified,W >= 0,134,10,10,1.0
+Modified,W >= 0,135,10,10,1.0
+Modified,W >= 0,136,10,10,1.0
+Modified,W >= 0,137,10,10,1.0
+Modified,W >= 0,138,10,10,1.0
+Modified,W >= 0,139,10,10,1.0
+Modified,W >= 0,140,10,10,1.0
+Modified,W >= 0,141,10,10,1.0
+Modified,W >= 0,142,10,10,1.0
+Modified,W >= 0,143,10,10,1.0
+Modified,W >= 0,144,10,10,1.0
+Modified,W >= 0,145,10,10,1.0
+Modified,W >= 0,146,10,10,1.0
+Modified,W >= 0,147,10,10,1.0
+Modified,W >= 0,148,10,10,1.0
+Modified,W >= 0,149,10,10,1.0
+Modified,W >= 0,150,10,10,1.0
+Modified,W >= 0,151,10,10,1.0
+Modified,W >= 0,152,10,10,1.0
+Modified,W >= 0,153,10,10,1.0
+Modified,W >= 0,154,10,10,1.0
+Modified,W >= 0,155,10,10,1.0
+Modified,W >= 0,156,10,10,1.0
+Modified,W >= 0,157,10,10,1.0
+Modified,W >= 0,158,10,10,1.0
+Modified,W >= 0,159,10,10,1.0
+Modified,W >= 0,160,10,10,1.0
+Modified,W >= 0,161,10,10,1.0
+Modified,W >= 0,162,10,10,1.0
+Modified,W >= 0,163,10,10,1.0
+Modified,W >= 0,164,10,10,1.0
+Modified,W >= 0,165,10,10,1.0
+Modified,W >= 0,166,10,10,1.0
+Modified,W >= 0,167,10,10,1.0
+Modified,W >= 0,168,10,10,1.0
+Modified,W >= 0,169,10,10,1.0
+Modified,W >= 0,170,10,10,1.0
+Modified,W >= 0,171,10,10,1.0
+Modified,W >= 0,172,10,10,1.0
+Modified,W >= 0,173,10,10,1.0
+Modified,W >= 0,174,10,10,1.0
+Modified,W >= 0,175,10,10,1.0
+Modified,W >= 0,176,10,10,1.0
+Modified,W >= 0,177,10,10,1.0
+Modified,W >= 0,178,10,10,1.0
+Modified,W >= 0,179,10,10,1.0
+Modified,W >= 0,180,10,10,1.0
+Modified,W >= 0,181,10,10,1.0
+Modified,W >= 0,182,10,10,1.0
+Modified,W >= 0,183,10,10,1.0
+Modified,W >= 0,184,10,10,1.0
+Modified,W >= 0,185,10,10,1.0
+Modified,W >= 0,186,10,10,1.0
+Modified,W >= 0,187,10,10,1.0
+Modified,W >= 0,188,10,10,1.0
+Modified,W >= 0,189,10,10,1.0
+Modified,W >= 0,190,10,10,1.0
+Modified,W >= 0,191,10,10,1.0
+Modified,W >= 0,192,10,10,1.0
+Modified,W >= 0,193,10,10,1.0
+Modified,W >= 0,194,10,10,1.0
+Modified,W >= 0,195,10,10,1.0
+Modified,W >= 0,196,10,10,1.0
+Modified,W >= 0,197,10,10,1.0
+Modified,W >= 0,198,10,10,1.0
+Modified,W >= 0,199,10,10,1.0
+Modified,W >= 0,200,10,10,1.0
+Modified,W >= 0,201,10,10,1.0
+Modified,W >= 0,202,10,10,1.0
+Modified,W >= 0,203,10,10,1.0
+Modified,W >= 0,204,10,10,1.0
+Modified,W >= 0,205,10,10,1.0
+Modified,W >= 0,206,10,10,1.0
+Modified,W >= 0,207,10,10,1.0
+Modified,W >= 0,208,10,10,1.0
+Modified,W >= 0,209,10,10,1.0
+Modified,W >= 0,210,10,10,1.0
+Modified,W >= 0,211,10,10,1.0
+Modified,W >= 0,212,10,10,1.0
+Modified,W >= 0,213,10,10,1.0
+Modified,W >= 0,214,10,10,1.0
+Modified,W >= 0,215,10,10,1.0
+Modified,W >= 0,216,10,10,1.0
+Modified,W >= 0,217,10,10,1.0
+Modified,W >= 0,218,10,10,1.0
+Modified,W >= 0,219,10,10,1.0
+Modified,W >= 0,220,10,10,1.0
+Modified,W >= 0,221,10,10,1.0
+Modified,W >= 0,222,10,10,1.0
+Modified,W >= 0,223,10,10,1.0
+Modified,W >= 0,224,10,10,1.0
+Modified,W >= 0,225,10,10,1.0
+Modified,W >= 0,226,10,10,1.0
+Modified,W >= 0,227,10,10,1.0
+Modified,W >= 0,228,10,10,1.0
+Modified,W >= 0,229,10,10,1.0
+Modified,W >= 0,230,10,10,1.0
+Modified,W >= 0,231,10,10,1.0
+Modified,W >= 0,232,10,10,1.0
+Modified,W >= 0,233,10,10,1.0
+Modified,W >= 0,234,10,10,1.0
+Modified,W >= 0,235,10,10,1.0
+Modified,W >= 0,236,10,10,1.0
+Modified,W >= 0,237,10,10,1.0
+Modified,W >= 0,238,10,10,1.0
+Modified,W >= 0,239,10,10,1.0
+Modified,W >= 0,240,10,10,1.0
+Modified,W >= 0,241,10,10,1.0
+Modified,W >= 0,242,10,10,1.0
+Modified,W >= 0,243,10,10,1.0
+Modified,W >= 0,244,10,10,1.0
+Modified,W >= 0,245,10,10,1.0
+Modified,W >= 0,246,10,10,1.0
+Modified,W >= 0,247,10,10,1.0
+Modified,W >= 0,248,10,10,1.0
+Modified,W >= 0,249,10,10,1.0
+Modified,W >= 0,250,10,10,1.0
+Modified,W >= 0,251,10,10,1.0
+Modified,W >= 0,252,10,10,1.0
+Modified,W >= 0,253,10,10,1.0
+Modified,W >= 0,254,10,10,1.0
+Modified,W >= 0,255,10,10,1.0
+Modified,W >= 0,256,10,10,1.0
+Modified,W >= 0,257,10,10,1.0
+Modified,W >= 0,258,10,10,1.0
+Modified,W >= 0,259,10,10,1.0
+Modified,W >= 0,260,10,10,1.0
+Modified,W >= 0,261,10,10,1.0
+Modified,W >= 0,262,10,10,1.0
+Modified,W >= 0,263,10,10,1.0
+Modified,W >= 0,264,10,10,1.0
+Modified,W >= 0,265,10,10,1.0
+Modified,W >= 0,266,10,10,1.0
+Modified,W >= 0,267,10,10,1.0
+Modified,W >= 0,268,10,10,1.0
+Modified,W >= 0,269,10,10,1.0
+Modified,W >= 0,270,10,10,1.0
+Modified,W >= 0,271,10,10,1.0
+Modified,W >= 0,272,10,10,1.0
+Modified,W >= 0,273,10,10,1.0
+Modified,W >= 0,274,10,10,1.0
+Modified,W >= 0,275,10,10,1.0
+Modified,W >= 0,276,10,10,1.0
+Modified,W >= 0,277,10,10,1.0
+Modified,W >= 0,278,10,10,1.0
+Modified,W >= 0,279,10,10,1.0
+Modified,W >= 0,280,10,10,1.0
+Modified,W >= 0,281,10,10,1.0
+Modified,W >= 0,282,10,10,1.0
+Modified,W >= 0,283,10,10,1.0
+Modified,W >= 0,284,10,10,1.0
+Modified,W >= 0,285,10,10,1.0
+Modified,W >= 0,286,10,10,1.0
+Modified,W >= 0,287,10,10,1.0
+Modified,W >= 0,288,10,10,1.0
+Modified,W >= 0,289,10,10,1.0
+Modified,W >= 0,290,10,10,1.0
+Modified,W >= 0,291,10,10,1.0
+Modified,W >= 0,292,10,10,1.0
+Modified,W >= 0,293,10,10,1.0
+Modified,W >= 0,294,10,10,1.0
+Modified,W >= 0,295,10,10,1.0
+Modified,W >= 0,296,10,10,1.0
+Modified,W >= 0,297,10,10,1.0
+Modified,W >= 0,298,10,10,1.0
+Modified,W >= 0,299,10,10,1.0
+Modified,W >= 0,300,10,10,1.0
+Modified,W >= 0,301,10,10,1.0
+Modified,W >= 0,302,10,10,1.0
+Modified,W >= 0,303,10,10,1.0
+Modified,W >= 0,304,10,10,1.0
+Modified,W >= 0,305,10,10,1.0
+Modified,W >= 0,306,10,10,1.0
+Modified,W >= 0,307,10,10,1.0
+Modified,W >= 0,308,10,10,1.0
+Modified,W >= 0,309,10,10,1.0
+Modified,W >= 0,310,10,10,1.0
+Modified,W >= 0,311,10,10,1.0
+Modified,W >= 0,312,10,10,1.0
+Modified,W >= 0,313,10,10,1.0
+Modified,W >= 0,314,10,10,1.0
+Modified,W >= 0,315,10,10,1.0
+Modified,W >= 0,316,10,10,1.0
+Modified,W >= 0,317,10,10,1.0
+Modified,W >= 0,318,10,10,1.0
+Modified,W >= 0,319,10,10,1.0
+Modified,W >= 0,320,10,10,1.0
+Modified,W >= 0,321,10,10,1.0
+Modified,W >= 0,322,10,10,1.0
+Modified,W >= 0,323,10,10,1.0
+Modified,W >= 0,324,10,10,1.0
+Modified,W >= 0,325,10,10,1.0
+Modified,W >= 0,326,10,10,1.0
+Modified,W >= 0,327,10,10,1.0
+Modified,W >= 0,328,10,10,1.0
+Modified,W >= 0,329,10,10,1.0
+Modified,W >= 0,330,10,10,1.0
+Modified,W >= 0,331,10,10,1.0
+Modified,W >= 0,332,10,10,1.0
+Modified,W >= 0,333,10,10,1.0
+Modified,W >= 0,334,10,10,1.0
+Modified,W >= 0,335,10,10,1.0
+Modified,W >= 0,336,10,10,1.0
+Modified,W >= 0,337,10,10,1.0
+Modified,W >= 0,338,10,10,1.0
+Modified,W >= 0,339,10,10,1.0
+Modified,W >= 0,340,10,10,1.0
+Modified,W >= 0,341,10,10,1.0
+Modified,W >= 0,342,10,10,1.0
+Modified,W >= 0,343,10,10,1.0
+Modified,W >= 0,344,10,10,1.0
+Modified,W >= 0,345,10,10,1.0
+Modified,W >= 0,346,10,10,1.0
+Modified,W >= 0,347,10,10,1.0
+Modified,W >= 0,348,10,10,1.0
+Modified,W >= 0,349,10,10,1.0
+Modified,W >= 0,350,10,10,1.0
+Modified,W >= 0,351,10,10,1.0
+Modified,W >= 0,352,10,10,1.0
+Modified,W >= 0,353,10,10,1.0
+Modified,W >= 0,354,10,10,1.0
+Modified,W >= 0,355,10,10,1.0
+Modified,W >= 0,356,10,10,1.0
+Modified,W >= 0,357,10,10,1.0
+Modified,W >= 0,358,10,10,1.0
+Modified,W >= 0,359,10,10,1.0
+Modified,W >= 0,360,10,10,1.0
+Modified,W >= 0,361,10,10,1.0
+Modified,W >= 0,362,10,10,1.0
+Modified,W >= 0,363,10,10,1.0
+Modified,W >= 0,364,10,10,1.0
+Modified,W >= 0,365,10,10,1.0
+Modified,W >= 0,366,10,10,1.0
+Modified,W >= 0,367,10,10,1.0
+Modified,W >= 0,368,10,10,1.0
+Modified,W >= 0,369,10,10,1.0
+Modified,W >= 0,370,10,10,1.0
+Modified,W >= 0,371,10,10,1.0
+Modified,W >= 0,372,10,10,1.0
+Modified,W >= 0,373,10,10,1.0
+Modified,W >= 0,374,10,10,1.0
+Modified,W >= 0,375,10,10,1.0
+Modified,W >= 0,376,10,10,1.0
+Modified,W >= 0,377,10,10,1.0
+Modified,W >= 0,378,10,10,1.0
+Modified,W >= 0,379,10,10,1.0
+Modified,W >= 0,380,10,10,1.0
+Modified,W >= 0,381,10,10,1.0
+Modified,W >= 0,382,10,10,1.0
+Modified,W >= 0,383,10,10,1.0
+Modified,W >= 0,384,10,10,1.0
+Modified,W >= 0,385,10,10,1.0
+Modified,W >= 0,386,10,10,1.0
+Modified,W >= 0,387,10,10,1.0
+Modified,W >= 0,388,10,10,1.0
+Modified,W >= 0,389,10,10,1.0
+Modified,W >= 0,390,10,10,1.0
+Modified,W >= 0,391,10,10,1.0
+Modified,W >= 0,392,10,10,1.0
+Modified,W >= 0,393,10,10,1.0
+Modified,W >= 0,394,10,10,1.0
+Modified,W >= 0,395,10,10,1.0
+Modified,W >= 0,396,10,10,1.0
+Modified,W >= 0,397,10,10,1.0
+Modified,W >= 0,398,10,10,1.0
+Modified,W >= 0,399,10,10,1.0
+Modified,W >= 0,400,10,10,1.0
+Modified,W >= 0,401,10,10,1.0
+Modified,W >= 0,402,10,10,1.0
+Modified,W >= 0,403,10,10,1.0
+Modified,W >= 0,404,10,10,1.0
+Modified,W >= 0,405,10,10,1.0
+Modified,W >= 0,406,10,10,1.0
+Modified,W >= 0,407,10,10,1.0
+Modified,W >= 0,408,10,10,1.0
+Modified,W >= 0,409,10,10,1.0
+Modified,W >= 0,410,10,10,1.0
+Modified,W >= 0,411,10,10,1.0
+Modified,W >= 0,412,10,10,1.0
+Modified,W >= 0,413,10,10,1.0
+Modified,W >= 0,414,10,10,1.0
+Modified,W >= 0,415,10,10,1.0
+Modified,W >= 0,416,10,10,1.0
+Modified,W >= 0,417,10,10,1.0
+Modified,W >= 0,418,10,10,1.0
+Modified,W >= 0,419,10,10,1.0
+Modified,W >= 0,420,10,10,1.0
+Modified,W >= 0,421,10,10,1.0
+Modified,W >= 0,422,10,10,1.0
+Modified,W >= 0,423,10,10,1.0
+Modified,W >= 0,424,10,10,1.0
+Modified,W >= 0,425,10,10,1.0
+Modified,W >= 0,426,10,10,1.0
+Modified,W >= 0,427,10,10,1.0
+Modified,W >= 0,428,10,10,1.0
+Modified,W >= 0,429,10,10,1.0
+Modified,W >= 0,430,10,10,1.0
+Modified,W >= 0,431,10,10,1.0
+Modified,W >= 0,432,10,10,1.0
+Modified,W >= 0,433,10,10,1.0
+Modified,W >= 0,434,10,10,1.0
+Modified,W >= 0,435,10,10,1.0
+Modified,W >= 0,436,10,10,1.0
+Modified,W >= 0,437,10,10,1.0
+Modified,W >= 0,438,10,10,1.0
+Modified,W >= 0,439,10,10,1.0
+Modified,W >= 0,440,10,10,1.0
+Modified,W >= 0,441,10,10,1.0
+Modified,W >= 0,442,10,10,1.0
+Modified,W >= 0,443,10,10,1.0
+Modified,W >= 0,444,10,10,1.0
+Modified,W >= 0,445,10,10,1.0
+Modified,W >= 0,446,10,10,1.0
+Modified,W >= 0,447,10,10,1.0
+Modified,W >= 0,448,10,10,1.0
+Modified,W >= 0,449,10,10,1.0
+Modified,W >= 0,450,10,10,1.0
+Modified,W >= 0,451,10,10,1.0
+Modified,W >= 0,452,10,10,1.0
+Modified,W >= 0,453,10,10,1.0
+Modified,W >= 0,454,10,10,1.0
+Modified,W >= 0,455,10,10,1.0
+Modified,W >= 0,456,10,10,1.0
+Modified,W >= 0,457,10,10,1.0
+Modified,W >= 0,458,10,10,1.0
+Modified,W >= 0,459,10,10,1.0
+Modified,W >= 0,460,10,10,1.0
+Modified,W >= 0,461,10,10,1.0
+Modified,W >= 0,462,10,10,1.0
+Modified,W >= 0,463,10,10,1.0
+Modified,W >= 0,464,10,10,1.0
+Modified,W >= 0,465,10,10,1.0
+Modified,W >= 0,466,10,10,1.0
+Modified,W >= 0,467,10,10,1.0
+Modified,W >= 0,468,10,10,1.0
+Modified,W >= 0,469,10,10,1.0
+Modified,W >= 0,470,10,10,1.0
+Modified,W >= 0,471,10,10,1.0
+Modified,W >= 0,472,10,10,1.0
+Modified,W >= 0,473,10,10,1.0
+Modified,W >= 0,474,10,10,1.0
+Modified,W >= 0,475,10,10,1.0
+Modified,W >= 0,476,10,10,1.0
+Modified,W >= 0,477,10,10,1.0
+Modified,W >= 0,478,10,10,1.0
+Modified,W >= 0,479,10,10,1.0
+Modified,W >= 0,480,10,10,1.0
+Modified,W >= 0,481,10,10,1.0
+Modified,W >= 0,482,10,10,1.0
+Modified,W >= 0,483,10,10,1.0
+Modified,W >= 0,484,10,10,1.0
+Modified,W >= 0,485,10,10,1.0
+Modified,W >= 0,486,10,10,1.0
+Modified,W >= 0,487,10,10,1.0
+Modified,W >= 0,488,10,10,1.0
+Modified,W >= 0,489,10,10,1.0
+Modified,W >= 0,490,10,10,1.0
+Modified,W >= 0,491,10,10,1.0
+Modified,W >= 0,492,10,10,1.0
+Modified,W >= 0,493,10,10,1.0
+Modified,W >= 0,494,10,10,1.0
+Modified,W >= 0,495,10,10,1.0
+Modified,W >= 0,496,10,10,1.0
+Modified,W >= 0,497,10,10,1.0
+Modified,W >= 0,498,10,10,1.0
+Modified,W >= 0,499,10,10,1.0
+Modified,W >= 0,500,10,10,1.0
+Modified,W >= 0,501,10,10,1.0
+Modified,W >= 0,502,10,10,1.0
+Modified,W >= 0,503,10,10,1.0
+Modified,W >= 0,504,10,10,1.0
+Modified,W >= 0,505,10,10,1.0
+Modified,W >= 0,506,10,10,1.0
+Modified,W >= 0,507,10,10,1.0
+Modified,W >= 0,508,10,10,1.0
+Modified,W >= 0,509,10,10,1.0
+Modified,W >= 0,510,10,10,1.0
+Modified,W >= 0,511,10,10,1.0
+Modified,W >= 0,512,10,10,1.0
+Modified,W >= 0,513,10,10,1.0
+Modified,W >= 0,514,10,10,1.0
+Modified,W >= 0,515,10,10,1.0
+Modified,W >= 0,516,10,10,1.0
+Modified,W >= 0,517,10,10,1.0
+Modified,W >= 0,518,10,10,1.0
+Modified,W >= 0,519,10,10,1.0
+Modified,W >= 0,520,10,10,1.0
+Modified,W >= 0,521,10,10,1.0
+Modified,W >= 0,522,10,10,1.0
+Modified,W >= 0,523,10,10,1.0
+Modified,W >= 0,524,10,10,1.0
+Modified,W >= 0,525,10,10,1.0
+Modified,W >= 0,526,10,10,1.0
+Modified,W >= 0,527,10,10,1.0
+Modified,W >= 0,528,10,10,1.0
+Modified,W >= 0,529,10,10,1.0
+Modified,W >= 0,530,10,10,1.0
+Modified,W >= 0,531,10,10,1.0
+Modified,W >= 0,532,10,10,1.0
+Modified,W >= 0,533,10,10,1.0
+Modified,W >= 0,534,10,10,1.0
+Modified,W >= 0,535,10,10,1.0
+Modified,W >= 0,536,10,10,1.0
+Modified,W >= 0,537,10,10,1.0
+Modified,W >= 0,538,10,10,1.0
+Modified,W >= 0,539,10,10,1.0
+Modified,W >= 0,540,10,10,1.0
+Modified,W >= 0,541,10,10,1.0
+Modified,W >= 0,542,10,10,1.0
+Modified,W >= 0,543,10,10,1.0
+Modified,W >= 0,544,10,10,1.0
+Modified,W >= 0,545,10,10,1.0
+Modified,W >= 0,546,10,10,1.0
+Modified,W >= 0,547,10,10,1.0
+Modified,W >= 0,548,10,10,1.0
+Modified,W >= 0,549,10,10,1.0
+Modified,W >= 0,550,10,10,1.0
+Modified,W >= 0,551,10,10,1.0
+Modified,W >= 0,552,10,10,1.0
+Modified,W >= 0,553,10,10,1.0
+Modified,W >= 0,554,10,10,1.0
+Modified,W >= 0,555,10,10,1.0
+Modified,W >= 0,556,10,10,1.0
+Modified,W >= 0,557,10,10,1.0
+Modified,W >= 0,558,10,10,1.0
+Modified,W >= 0,559,10,10,1.0
+Modified,W >= 0,560,10,10,1.0
+Modified,W >= 0,561,10,10,1.0
+Modified,W >= 0,562,10,10,1.0
+Modified,W >= 0,563,10,10,1.0
+Modified,W >= 0,564,10,10,1.0
+Modified,W >= 0,565,10,10,1.0
+Modified,W >= 0,566,10,10,1.0
+Modified,W >= 0,567,10,10,1.0
+Modified,W >= 0,568,10,10,1.0
+Modified,W >= 0,569,10,10,1.0
+Modified,W >= 0,570,10,10,1.0
+Modified,W >= 0,571,10,10,1.0
+Modified,W >= 0,572,10,10,1.0
+Modified,W >= 0,573,10,10,1.0
+Modified,W >= 0,574,10,10,1.0
+Modified,W >= 0,575,10,10,1.0
+Modified,W >= 0,576,10,10,1.0
+Modified,W >= 0,577,10,10,1.0
+Modified,W >= 0,578,10,10,1.0
+Modified,W >= 0,579,10,10,1.0
+Modified,W >= 0,580,10,10,1.0
+Modified,W >= 0,581,10,10,1.0
+Modified,W >= 0,582,10,10,1.0
+Modified,W >= 0,583,10,10,1.0
+Modified,W >= 0,584,10,10,1.0
+Modified,W >= 0,585,10,10,1.0
+Modified,W >= 0,586,10,10,1.0
+Modified,W >= 0,587,10,10,1.0
+Modified,W >= 0,588,10,10,1.0
+Modified,W >= 0,589,10,10,1.0
+Modified,W >= 0,590,10,10,1.0
+Modified,W >= 0,591,10,10,1.0
+Modified,W >= 0,592,10,10,1.0
+Modified,W >= 0,593,10,10,1.0
+Modified,W >= 0,594,10,10,1.0
+Modified,W >= 0,595,10,10,1.0
+Modified,W >= 0,596,10,10,1.0
+Modified,W >= 0,597,10,10,1.0
+Modified,W >= 0,598,10,10,1.0
+Modified,W >= 0,599,10,10,1.0
+Modified,W >= 0,600,10,10,1.0
+Modified,W >= 0,601,10,10,1.0
+Modified,W >= 0,602,10,10,1.0
+Modified,W >= 0,603,10,10,1.0
+Modified,W >= 0,604,10,10,1.0
+Modified,W >= 0,605,10,10,1.0
+Modified,W >= 0,606,10,10,1.0
+Modified,W >= 0,607,10,10,1.0
+Modified,W >= 0,608,10,10,1.0
+Modified,W >= 0,609,10,10,1.0
+Modified,W >= 0,610,10,10,1.0
+Modified,W >= 0,611,10,10,1.0
+Modified,W >= 0,612,10,10,1.0
+Modified,W >= 0,613,10,10,1.0
+Modified,W >= 0,614,10,10,1.0
+Modified,W >= 0,615,10,10,1.0
+Modified,W >= 0,616,10,10,1.0
+Modified,W >= 0,617,10,10,1.0
+Modified,W >= 0,618,10,10,1.0
+Modified,W >= 0,619,10,10,1.0
+Modified,W >= 0,620,10,10,1.0
+Modified,W >= 0,621,10,10,1.0
+Modified,W >= 0,622,10,10,1.0
+Modified,W >= 0,623,10,10,1.0
+Modified,W >= 0,624,10,10,1.0
+Modified,W >= 0,625,10,10,1.0
+Modified,W >= 0,626,10,10,1.0
+Modified,W >= 0,627,10,10,1.0
+Modified,W >= 0,628,10,10,1.0
+Modified,W >= 0,629,10,10,1.0
+Modified,W >= 0,630,10,10,1.0
+Modified,W >= 0,631,10,10,1.0
+Modified,W >= 0,632,10,10,1.0
+Modified,W >= 0,633,10,10,1.0
+Modified,W >= 0,634,10,10,1.0
+Modified,W >= 0,635,10,10,1.0
+Modified,W >= 0,636,10,10,1.0
+Modified,W >= 0,637,10,10,1.0
+Modified,W >= 0,638,10,10,1.0
+Modified,W >= 0,639,10,10,1.0
+Modified,W >= 0,640,10,10,1.0
+Modified,W >= 0,641,10,10,1.0
+Modified,W >= 0,642,10,10,1.0
+Modified,W >= 0,643,10,10,1.0
+Modified,W >= 0,644,10,10,1.0
+Modified,W >= 0,645,10,10,1.0
+Modified,W >= 0,646,10,10,1.0
+Modified,W >= 0,647,10,10,1.0
+Modified,W >= 0,648,10,10,1.0
+Modified,W >= 0,649,10,10,1.0
+Modified,W >= 0,650,10,10,1.0
+Modified,W >= 0,651,10,10,1.0
+Modified,W >= 0,652,10,10,1.0
+Modified,W >= 0,653,10,10,1.0
+Modified,W >= 0,654,10,10,1.0
+Modified,W >= 0,655,10,10,1.0
+Modified,W >= 0,656,10,10,1.0
+Modified,W >= 0,657,10,10,1.0
+Modified,W >= 0,658,10,10,1.0
+Modified,W >= 0,659,10,10,1.0
+Modified,W >= 0,660,10,10,1.0
+Modified,W >= 0,661,10,10,1.0
+Modified,W >= 0,662,10,10,1.0
+Modified,W >= 0,663,10,10,1.0
+Modified,W >= 0,664,10,10,1.0
+Modified,W >= 0,665,10,10,1.0
+Modified,W >= 0,666,10,10,1.0
+Modified,W >= 0,667,10,10,1.0
+Modified,W >= 0,668,10,10,1.0
+Modified,W >= 0,669,10,10,1.0
+Modified,W >= 0,670,10,10,1.0
+Modified,W >= 0,671,10,10,1.0
+Modified,W >= 0,672,10,10,1.0
+Modified,W >= 0,673,10,10,1.0
+Modified,W >= 0,674,10,10,1.0
+Modified,W >= 0,675,10,10,1.0
+Modified,W >= 0,676,10,10,1.0
+Modified,W >= 0,677,10,10,1.0
+Modified,W >= 0,678,10,10,1.0
+Modified,W >= 0,679,10,10,1.0
+Modified,W >= 0,680,10,10,1.0
+Modified,W >= 0,681,10,10,1.0
+Modified,W >= 0,682,10,10,1.0
+Modified,W >= 0,683,10,10,1.0
+Modified,W >= 0,684,10,10,1.0
+Modified,W >= 0,685,10,10,1.0
+Modified,W >= 0,686,10,10,1.0
+Modified,W >= 0,687,10,10,1.0
+Modified,W >= 0,688,10,10,1.0
+Modified,W >= 0,689,10,10,1.0
+Modified,W >= 0,690,10,10,1.0
+Modified,W >= 0,691,10,10,1.0
+Modified,W >= 0,692,10,10,1.0
+Modified,W >= 0,693,10,10,1.0
+Modified,W >= 0,694,10,10,1.0
+Modified,W >= 0,695,10,10,1.0
+Modified,W >= 0,696,10,10,1.0
+Modified,W >= 0,697,10,10,1.0
+Modified,W >= 0,698,10,10,1.0
+Modified,W >= 0,699,10,10,1.0
+Modified,W >= 0,700,10,10,1.0
+Modified,W >= 0,701,10,10,1.0
+Modified,W >= 0,702,10,10,1.0
+Modified,W >= 0,703,10,10,1.0
+Modified,W >= 0,704,10,10,1.0
+Modified,W >= 0,705,10,10,1.0
+Modified,W >= 0,706,10,10,1.0
+Modified,W >= 0,707,10,10,1.0
+Modified,W >= 0,708,10,10,1.0
+Modified,W >= 0,709,10,10,1.0
+Modified,W >= 0,710,10,10,1.0
+Modified,W >= 0,711,10,10,1.0
+Modified,W >= 0,712,10,10,1.0
+Modified,W >= 0,713,10,10,1.0
+Modified,W >= 0,714,10,10,1.0
+Modified,W >= 0,715,10,10,1.0
+Modified,W >= 0,716,10,10,1.0
+Modified,W >= 0,717,10,10,1.0
+Modified,W >= 0,718,10,10,1.0
+Modified,W >= 0,719,10,10,1.0
+Modified,W >= 0,720,10,10,1.0
+Modified,W >= 0,721,10,10,1.0
+Modified,W >= 0,722,10,10,1.0
+Modified,W >= 0,723,10,10,1.0
+Modified,W >= 0,724,10,10,1.0
+Modified,W >= 0,725,10,10,1.0
+Modified,W >= 0,726,10,10,1.0
+Modified,W >= 0,727,10,10,1.0
+Modified,W >= 0,728,10,10,1.0
+Modified,W >= 0,729,10,10,1.0
+Modified,W >= 0,730,10,10,1.0
+Modified,W >= 0,731,10,10,1.0
+Modified,W >= 0,732,10,10,1.0
+Modified,W >= 0,733,10,10,1.0
+Modified,W >= 0,734,10,10,1.0
+Modified,W >= 0,735,10,10,1.0
+Modified,W >= 0,736,10,10,1.0
+Modified,W >= 0,737,10,10,1.0
+Modified,W >= 0,738,10,10,1.0
+Modified,W >= 0,739,10,10,1.0
+Modified,W >= 0,740,10,10,1.0
+Modified,W >= 0,741,10,10,1.0
+Modified,W >= 0,742,10,10,1.0
+Modified,W >= 0,743,10,10,1.0
+Modified,W >= 0,744,10,10,1.0
+Modified,W >= 0,745,10,10,1.0
+Modified,W >= 0,746,10,10,1.0
+Modified,W >= 0,747,10,10,1.0
+Modified,W >= 0,748,10,10,1.0
+Modified,W >= 0,749,10,10,1.0
+Modified,W >= 0,750,10,10,1.0
+Modified,W >= 0,751,10,10,1.0
+Modified,W >= 0,752,10,10,1.0
+Modified,W >= 0,753,10,10,1.0
+Modified,W >= 0,754,10,10,1.0
+Modified,W >= 0,755,10,10,1.0
+Modified,W >= 0,756,10,10,1.0
+Modified,W >= 0,757,10,10,1.0
+Modified,W >= 0,758,10,10,1.0
+Modified,W >= 0,759,10,10,1.0
+Modified,W >= 0,760,10,10,1.0
+Modified,W >= 0,761,10,10,1.0
+Modified,W >= 0,762,10,10,1.0
+Modified,W >= 0,763,10,10,1.0
+Modified,W >= 0,764,10,10,1.0
+Modified,W >= 0,765,10,10,1.0
+Modified,W >= 0,766,10,10,1.0
+Modified,W >= 0,767,10,10,1.0
+Modified,W >= 0,768,10,10,1.0
+Modified,W >= 0,769,10,10,1.0
+Modified,W >= 0,770,10,10,1.0
+Modified,W >= 0,771,10,10,1.0
+Modified,W >= 0,772,10,10,1.0
+Modified,W >= 0,773,10,10,1.0
+Modified,W >= 0,774,10,10,1.0
+Modified,W >= 0,775,10,10,1.0
+Modified,W >= 0,776,10,10,1.0
+Modified,W >= 0,777,10,10,1.0
+Modified,W >= 0,778,10,10,1.0
+Modified,W >= 0,779,10,10,1.0
+Modified,W >= 0,780,10,10,1.0
+Modified,W >= 0,781,10,10,1.0
+Modified,W >= 0,782,10,10,1.0
+Modified,W >= 0,783,10,10,1.0
+Modified,W >= 0,784,10,10,1.0
+Modified,W >= 0,785,10,10,1.0
+Modified,W >= 0,786,10,10,1.0
+Modified,W >= 0,787,10,10,1.0
+Modified,W >= 0,788,10,10,1.0
+Modified,W >= 0,789,10,10,1.0
+Modified,W >= 0,790,10,10,1.0
+Modified,W >= 0,791,10,10,1.0
+Modified,W >= 0,792,10,10,1.0
+Modified,W >= 0,793,10,10,1.0
+Modified,W >= 0,794,10,10,1.0
+Modified,W >= 0,795,10,10,1.0
+Modified,W >= 0,796,10,10,1.0
+Modified,W >= 0,797,10,10,1.0
+Modified,W >= 0,798,10,10,1.0
+Modified,W >= 0,799,10,10,1.0
+Modified,W >= 0,800,10,10,1.0
+Modified,W >= 0,801,10,10,1.0
+Modified,W >= 0,802,10,10,1.0
+Modified,W >= 0,803,10,10,1.0
+Modified,W >= 0,804,10,10,1.0
+Modified,W >= 0,805,10,10,1.0
+Modified,W >= 0,806,10,10,1.0
+Modified,W >= 0,807,10,10,1.0
+Modified,W >= 0,808,10,10,1.0
+Modified,W >= 0,809,10,10,1.0
+Modified,W >= 0,810,10,10,1.0
+Modified,W >= 0,811,10,10,1.0
+Modified,W >= 0,812,10,10,1.0
+Modified,W >= 0,813,10,10,1.0
+Modified,W >= 0,814,10,10,1.0
+Modified,W >= 0,815,10,10,1.0
+Modified,W >= 0,816,10,10,1.0
+Modified,W >= 0,817,10,10,1.0
+Modified,W >= 0,818,10,10,1.0
+Modified,W >= 0,819,10,10,1.0
+Modified,W >= 0,820,10,10,1.0
+Modified,W >= 0,821,10,10,1.0
+Modified,W >= 0,822,10,10,1.0
+Modified,W >= 0,823,10,10,1.0
+Modified,W >= 0,824,10,10,1.0
+Modified,W >= 0,825,10,10,1.0
+Modified,W >= 0,826,10,10,1.0
+Modified,W >= 0,827,10,10,1.0
+Modified,W >= 0,828,10,10,1.0
+Modified,W >= 0,829,10,10,1.0
+Modified,W >= 0,830,10,10,1.0
+Modified,W >= 0,831,10,10,1.0
+Modified,W >= 0,832,10,10,1.0
+Modified,W >= 0,833,10,10,1.0
+Modified,W >= 0,834,10,10,1.0
+Modified,W >= 0,835,10,10,1.0
+Modified,W >= 0,836,10,10,1.0
+Modified,W >= 0,837,10,10,1.0
+Modified,W >= 0,838,10,10,1.0
+Modified,W >= 0,839,10,10,1.0
+Modified,W >= 0,840,10,10,1.0
+Modified,W >= 0,841,10,10,1.0
+Modified,W >= 0,842,10,10,1.0
+Modified,W >= 0,843,10,10,1.0
+Modified,W >= 0,844,10,10,1.0
+Modified,W >= 0,845,10,10,1.0
+Modified,W >= 0,846,10,10,1.0
+Modified,W >= 0,847,10,10,1.0
+Modified,W >= 0,848,10,10,1.0
+Modified,W >= 0,849,10,10,1.0
+Modified,W >= 0,850,10,10,1.0
+Modified,W >= 0,851,10,10,1.0
+Modified,W >= 0,852,10,10,1.0
+Modified,W >= 0,853,10,10,1.0
+Modified,W >= 0,854,10,10,1.0
+Modified,W >= 0,855,10,10,1.0
+Modified,W >= 0,856,10,10,1.0
+Modified,W >= 0,857,10,10,1.0
+Modified,W >= 0,858,10,10,1.0
+Modified,W >= 0,859,10,10,1.0
+Modified,W >= 0,860,10,10,1.0
+Modified,W >= 0,861,10,10,1.0
+Modified,W >= 0,862,10,10,1.0
+Modified,W >= 0,863,10,10,1.0
+Modified,W >= 0,864,10,10,1.0
+Modified,W >= 0,865,10,10,1.0
+Modified,W >= 0,866,10,10,1.0
+Modified,W >= 0,867,10,10,1.0
+Modified,W >= 0,868,10,10,1.0
+Modified,W >= 0,869,10,10,1.0
+Modified,W >= 0,870,10,10,1.0
+Modified,W >= 0,871,10,10,1.0
+Modified,W >= 0,872,10,10,1.0
+Modified,W >= 0,873,10,10,1.0
+Modified,W >= 0,874,10,10,1.0
+Modified,W >= 0,875,10,10,1.0
+Modified,W >= 0,876,10,10,1.0
+Modified,W >= 0,877,10,10,1.0
+Modified,W >= 0,878,10,10,1.0
+Modified,W >= 0,879,10,10,1.0
+Modified,W >= 0,880,10,10,1.0
+Modified,W >= 0,881,10,10,1.0
+Modified,W >= 0,882,10,10,1.0
+Modified,W >= 0,883,10,10,1.0
+Modified,W >= 0,884,10,10,1.0
+Modified,W >= 0,885,10,10,1.0
+Modified,W >= 0,886,10,10,1.0
+Modified,W >= 0,887,10,10,1.0
+Modified,W >= 0,888,10,10,1.0
+Modified,W >= 0,889,10,10,1.0
+Modified,W >= 0,890,10,10,1.0
+Modified,W >= 0,891,10,10,1.0
+Modified,W >= 0,892,10,10,1.0
+Modified,W >= 0,893,10,10,1.0
+Modified,W >= 0,894,10,10,1.0
+Modified,W >= 0,895,10,10,1.0
+Modified,W >= 0,896,10,10,1.0
+Modified,W >= 0,897,10,10,1.0
+Modified,W >= 0,898,10,10,1.0
+Modified,W >= 0,899,10,10,1.0
+Modified,W >= 0,900,10,10,1.0
+Modified,W >= 0,901,10,10,1.0
+Modified,W >= 0,902,10,10,1.0
+Modified,W >= 0,903,10,10,1.0
+Modified,W >= 0,904,10,10,1.0
+Modified,W >= 0,905,10,10,1.0
+Modified,W >= 0,906,10,10,1.0
+Modified,W >= 0,907,10,10,1.0
+Modified,W >= 0,908,10,10,1.0
+Modified,W >= 0,909,10,10,1.0
+Modified,W >= 0,910,10,10,1.0
+Modified,W >= 0,911,10,10,1.0
+Modified,W >= 0,912,10,10,1.0
+Modified,W >= 0,913,10,10,1.0
+Modified,W >= 0,914,10,10,1.0
+Modified,W >= 0,915,10,10,1.0
+Modified,W >= 0,916,10,10,1.0
+Modified,W >= 0,917,10,10,1.0
+Modified,W >= 0,918,10,10,1.0
+Modified,W >= 0,919,10,10,1.0
+Modified,W >= 0,920,10,10,1.0
+Modified,W >= 0,921,10,10,1.0
+Modified,W >= 0,922,10,10,1.0
+Modified,W >= 0,923,10,10,1.0
+Modified,W >= 0,924,10,10,1.0
+Modified,W >= 0,925,10,10,1.0
+Modified,W >= 0,926,10,10,1.0
+Modified,W >= 0,927,10,10,1.0
+Modified,W >= 0,928,10,10,1.0
+Modified,W >= 0,929,10,10,1.0
+Modified,W >= 0,930,10,10,1.0
+Modified,W >= 0,931,10,10,1.0
+Modified,W >= 0,932,10,10,1.0
+Modified,W >= 0,933,10,10,1.0
+Modified,W >= 0,934,10,10,1.0
+Modified,W >= 0,935,10,10,1.0
+Modified,W >= 0,936,10,10,1.0
+Modified,W >= 0,937,10,10,1.0
+Modified,W >= 0,938,10,10,1.0
+Modified,W >= 0,939,10,10,1.0
+Modified,W >= 0,940,10,10,1.0
+Modified,W >= 0,941,10,10,1.0
+Modified,W >= 0,942,10,10,1.0
+Modified,W >= 0,943,10,10,1.0
+Modified,W >= 0,944,10,10,1.0
+Modified,W >= 0,945,10,10,1.0
+Modified,W >= 0,946,10,10,1.0
+Modified,W >= 0,947,10,10,1.0
+Modified,W >= 0,948,10,10,1.0
+Modified,W >= 0,949,10,10,1.0
+Modified,W >= 0,950,10,10,1.0
+Modified,W >= 0,951,10,10,1.0
+Modified,W >= 0,952,10,10,1.0
+Modified,W >= 0,953,10,10,1.0
+Modified,W >= 0,954,10,10,1.0
+Modified,W >= 0,955,10,10,1.0
+Modified,W >= 0,956,10,10,1.0
+Modified,W >= 0,957,10,10,1.0
+Modified,W >= 0,958,10,10,1.0
+Modified,W >= 0,959,10,10,1.0
+Modified,W >= 0,960,10,10,1.0
+Modified,W >= 0,961,10,10,1.0
+Modified,W >= 0,962,10,10,1.0
+Modified,W >= 0,963,10,10,1.0
+Modified,W >= 0,964,10,10,1.0
+Modified,W >= 0,965,10,10,1.0
+Modified,W >= 0,966,10,10,1.0
+Modified,W >= 0,967,10,10,1.0
+Modified,W >= 0,968,10,10,1.0
+Modified,W >= 0,969,10,10,1.0
+Modified,W >= 0,970,10,10,1.0
+Modified,W >= 0,971,10,10,1.0
+Modified,W >= 0,972,10,10,1.0
+Modified,W >= 0,973,10,10,1.0
+Modified,W >= 0,974,10,10,1.0
+Modified,W >= 0,975,10,10,1.0
+Modified,W >= 0,976,10,10,1.0
+Modified,W >= 0,977,10,10,1.0
+Modified,W >= 0,978,10,10,1.0
+Modified,W >= 0,979,10,10,1.0
+Modified,W >= 0,980,10,10,1.0
+Modified,W >= 0,981,10,10,1.0
+Modified,W >= 0,982,10,10,1.0
+Modified,W >= 0,983,10,10,1.0
+Modified,W >= 0,984,10,10,1.0
+Modified,W >= 0,985,10,10,1.0
+Modified,W >= 0,986,10,10,1.0
+Modified,W >= 0,987,10,10,1.0
+Modified,W >= 0,988,10,10,1.0
+Modified,W >= 0,989,10,10,1.0
+Modified,W >= 0,990,10,10,1.0
+Modified,W >= 0,991,10,10,1.0
+Modified,W >= 0,992,10,10,1.0
+Modified,W >= 0,993,10,10,1.0
+Modified,W >= 0,994,10,10,1.0
+Modified,W >= 0,995,10,10,1.0
+Modified,W >= 0,996,10,10,1.0
+Modified,W >= 0,997,10,10,1.0
+Modified,W >= 0,998,10,10,1.0
+Modified,W >= 0,999,10,10,1.0
+Modified,W >= 0,1000,10,10,1.0

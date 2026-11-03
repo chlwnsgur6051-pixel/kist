@@ -1,0 +1,5 @@
+experiment,dataset,K,model,epochs,order_seed,source_code,config,result_csv,final_weights,first_10_epoch,final_exact_count,validation_status
+continuous_state_basic_correction,Original,10,Baseline,1000,0,src/continuous_stdp_experiment.py,configs/validated_model.json,results/csv/epoch_history.csv,results/checkpoints/final_weights.npz,295,10,epoch-parity and final-weight-tolerance passed
+continuous_state_basic_correction,Original,10,W >= 0,1000,0,src/continuous_stdp_experiment.py,configs/validated_model.json,results/csv/epoch_history.csv,results/checkpoints/final_weights.npz,not reached,5,epoch-parity and final-weight-tolerance passed
+continuous_state_basic_correction,Modified,10,Baseline,1000,0,src/continuous_stdp_experiment.py,configs/validated_model.json,results/csv/epoch_history.csv,results/checkpoints/final_weights.npz,48,10,epoch-parity and final-weight-tolerance passed
+continuous_state_basic_correction,Modified,10,W >= 0,1000,0,src/continuous_stdp_experiment.py,configs/validated_model.json,results/csv/epoch_history.csv,results/checkpoints/final_weights.npz,52,10,epoch-parity and final-weight-tolerance passed
