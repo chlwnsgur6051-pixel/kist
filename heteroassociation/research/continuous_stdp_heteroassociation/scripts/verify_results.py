@@ -11,11 +11,11 @@ from zipfile import ZipFile
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE_HASH = "6142a720dbd205fe9b75a34f76fd2ba264cfe226821c4a2c285ef4cfe7a63177"
-EXPECTED = {("Original", "Baseline"): (295, 10),
-            ("Original", "W >= 0"): (None, 5),
-            ("Modified", "Baseline"): (48, 10),
-            ("Modified", "W >= 0"): (52, 10)}
+SOURCE_HASH = "bd31e168fa600268aa5281b4e077c7e514771fe843083f49699b865b0e91b229"
+EXPECTED = {("Original", "Baseline"): (72, 10),
+            ("Original", "W >= 0"): (None, 4),
+            ("Modified", "Baseline"): (10, 10),
+            ("Modified", "W >= 0"): (16, 10)}
 
 
 def main() -> None:

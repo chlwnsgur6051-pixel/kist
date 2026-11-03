@@ -11,11 +11,11 @@ SOURCES = {
     "src/reference_20261102_105031.zip":
         "results/correction_learning_1ms4ms/20261102_105031/npz/{original,modified}_K10_seed0_Basic_Correction.npz + csv/presentation_orders.csv (repacked)",
     "src/reference_nonnegative_weight_results.zip":
-        "results/basic_correction_nonnegative_comparison/epoch_accuracy.csv (format-only adapter)",
+        "results/basic_correction_learning_rate_1/epoch_accuracy.csv (format-only adapter)",
     "datasets/original_K10.npz": "my_research/reference/datasets/Original.npz",
     "datasets/modified_K10.npz": "my_research/reference/datasets/B.npz",
     "references/previous_final_weights.npz":
-        "results/basic_correction_nonnegative_comparison/final_weights.npz",
+        "results/basic_correction_learning_rate_1/final_weights.npz",
 }
 
 

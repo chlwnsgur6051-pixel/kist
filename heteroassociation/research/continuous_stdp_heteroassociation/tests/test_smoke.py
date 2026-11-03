@@ -33,8 +33,8 @@ class SmokeTest(unittest.TestCase):
             self.assertEqual(posts[j, 0], 0 if y[0, j] else 40)
             self.assertEqual(count[j], 2 if y[0, j] else 1)
         self.assertTrue(prediction.all())
-        self.assertAlmostEqual(module.LAMBDA * module.window(-1), .005, places=8)
-        self.assertAlmostEqual(module.LAMBDA * module.window(3), -.005, places=8)
+        self.assertAlmostEqual(module.LAMBDA * module.window(-1), .05, places=8)
+        self.assertAlmostEqual(module.LAMBDA * module.window(3), -.05, places=8)
 
 
 if __name__ == "__main__":

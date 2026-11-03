@@ -1,6 +1,6 @@
 {
   "model": "continuous_state_natural_lif_all_to_all_basic_correction",
-  "source_sha256": "6142a720dbd205fe9b75a34f76fd2ba264cfe226821c4a2c285ef4cfe7a63177",
+  "source_sha256": "bd31e168fa600268aa5281b4e077c7e514771fe843083f49699b865b0e91b229",
   "dataset_names": [
     "Original",
     "Modified"
@@ -33,7 +33,7 @@
   "stdp_event_history_ms": 50.0,
   "stdp_s_ms": 1.286893592,
   "stdp_C": 0.170690168,
-  "learning_multiplier": 0.1,
+  "learning_multiplier": 1.0,
   "initial_weight": 0.0,
   "weight_conditions": [
     "signed_baseline",

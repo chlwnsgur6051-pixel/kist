@@ -1,0 +1,54 @@
+{
+  "model": "continuous_state_natural_lif_all_to_all_basic_correction",
+  "source_sha256": "6142a720dbd205fe9b75a34f76fd2ba264cfe226821c4a2c285ef4cfe7a63177",
+  "dataset_names": [
+    "Original",
+    "Modified"
+  ],
+  "K": 10,
+  "n_input": 15,
+  "n_output": 15,
+  "epochs": 1000,
+  "presentation_order": "archived_seed0_per_dataset",
+  "dt_ms": 0.1,
+  "tau_m_ms": 2.0,
+  "threshold": 1.0,
+  "reset": 0.0,
+  "refractory_ms": 1.0,
+  "teacher_current": 30.0,
+  "teacher_interval_ms": [
+    -0.1,
+    0.0
+  ],
+  "input_spike_ms": 1.0,
+  "cs_current_interval_ms": [
+    1.0,
+    4.0
+  ],
+  "total_current_cap": 1.282590743781507,
+  "trial_ticks": 101,
+  "idle_gap_ticks": 50,
+  "idle_gap_ms": 5.0,
+  "stdp_event_history_ticks": 500,
+  "stdp_event_history_ms": 50.0,
+  "stdp_s_ms": 1.286893592,
+  "stdp_C": 0.170690168,
+  "learning_multiplier": 0.1,
+  "initial_weight": 0.0,
+  "weight_conditions": [
+    "signed_baseline",
+    "elementwise_lower_bound_zero"
+  ],
+  "recall_modes": [
+    "sequential_counterfactual",
+    "independent_rest"
+  ],
+  "output_spike_policy": "natural_threshold_crossing",
+  "weight_update_policy": "all_actual_pre_post_pairs_accumulated_then_applied_at_presentation_end",
+  "software_versions": {
+    "python": "3.10.21",
+    "numpy": "2.2.6",
+    "matplotlib": "3.10.9",
+    "numba": "unavailable; pure-Python fallback used"
+  }
+}

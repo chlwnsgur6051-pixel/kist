@@ -1,7 +1,7 @@
 """Run the preserved continuous STDP source with the bundled references.
 
 Numba is optional for this wrapper. The validated run used the Python fallback,
-which changes execution speed only; the original source is kept byte-for-byte.
+which changes execution speed only. The lambda=0.1 source is archived separately.
 """
 from __future__ import annotations
 

@@ -24,7 +24,7 @@ REF = SOURCE_DIR / 'reference_20261102_105031.zip'
 PREVIOUS = SOURCE_DIR / 'reference_nonnegative_weight_results.zip'
 S = 1.286893592
 C = .170690168
-LAMBDA = .1
+LAMBDA = 1.0
 DT = .1
 TAU = 2.
 VTH = 1.
@@ -243,8 +243,8 @@ def write_csv(path,rows):
 
 def main():
     assert GAP_TICKS >= 0
-    assert abs(LAMBDA*window(-1)-.005)<1e-7
-    assert abs(LAMBDA*window(3)+.005)<1e-7
+    assert abs(LAMBDA*window(-1)-.05)<1e-7
+    assert abs(LAMBDA*window(3)+.05)<1e-7
     # Validation of single-trial LIF firing schedule on representative positive weights.
     X,Y,_=load_data('Original')
     w=np.full((15,15),CAP/X[0].sum())
