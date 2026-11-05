@@ -1,0 +1,6 @@
+# Versions used for this archive's verified pure-Python reproduction on 2026-11-05.
+# Python: 3.10.21. The copied source has an optional numba import; reproduce.py
+# installs an in-process no-op njit shim when numba is absent. No numba version
+# was validated here.
+numpy==2.2.6
+matplotlib==3.10.9
