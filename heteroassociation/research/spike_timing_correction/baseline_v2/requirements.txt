@@ -1,0 +1,5 @@
+# Versions used for the baseline_v2 validation on 2026-11-12.
+# Python 3.10.21, gcc 11.4.0 (the C core is compiled on first use with
+# -O2 -fno-fast-math -ffp-contract=off; a C compiler on PATH is required).
+# numba is NOT required: reference_model.py installs a no-op njit shim when absent.
+numpy==2.2.6

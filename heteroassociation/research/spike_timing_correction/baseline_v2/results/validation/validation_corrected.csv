@@ -1,0 +1,8 @@
+check,identical,gap_spikes_exercised,teacher_spike_failures,teacher_start_spacing_ticks,pre_spike_local_ticks,cs_current_ticks,interval_ticks,gap_ticks,epochs,associations,recall_gap_spikes_exercised,clip_events_exercised,final_exact
+300 random single intervals,True,2508,,,,,,,,,,,
+Step 15.0 ms timing,True,,0,[150],[10],11..45,150,49,,,,,
+"full run: Step v2 candidate, Original",True,0,,,,,,,40,400,0,0,7
+"full run: Step 15.0 ms unbounded corrected, Modified",True,0,,,,,,,40,400,0,0,10
+"full run: Exponential corrected unbounded, random dataset 1 (K=10)",True,3908,,,,,,,60,600,3998,0,6
+"full run: Exponential v2 candidate, random dataset 1 (K=10)",True,1034,,,,,,,60,600,1049,3366,6
+"full run: Exponential corrected unbounded, Original",True,0,,,,,,,25,250,0,0,0

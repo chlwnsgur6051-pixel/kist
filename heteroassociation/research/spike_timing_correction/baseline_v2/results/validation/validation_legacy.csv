@@ -1,0 +1,5 @@
+check,epochs,epoch_rows_mismatched,spike_ticks_identical,final_weight_max_abs_error,first_10,sustained_10,final_exact,training_gap_threshold_exceedances,passed,epoch1000_state_max_abs_error,epoch1000_refractory_and_tick_identical
+Step v1 Original,1000,0,True,0.0,113,226,10,0,True,,
+Step v1 Modified,1000,0,True,0.0,21,37,10,0,True,,
+Exponential100 v1 Original,5000,0,,0.0,176,443,10,0,True,0.0,True
+Exponential100 v1 Modified,5000,0,,0.0,32,69,10,0,True,0.0,True

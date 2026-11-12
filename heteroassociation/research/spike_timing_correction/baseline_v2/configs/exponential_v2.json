@@ -1,0 +1,42 @@
+{
+  "model_name": "Spike-Timing Correction",
+  "version": "baseline_v2",
+  "current": "Exponential",
+  "cs_current": "I0*exp(-(t-1.0)/tau_s) from 1.0 ms, natural decay, no cutoff, continuous across associations",
+  "tau_s_ms": 8.0,
+  "amplitude_factor": 1.0,
+  "stdp_learning_rate": 0.25,
+  "association_extra_gap_ticks": 899,
+  "association_start_interval_ms": 100.0,
+  "dt_ms": 0.1,
+  "membrane_tau_ms": 2.0,
+  "membrane_threshold": 1.0,
+  "threshold_rule": "strict v > 1",
+  "membrane_reset": 0.0,
+  "refractory_ms": 1.0,
+  "teacher_current": 30.0,
+  "teacher_current_interval_ms": [
+    -0.1,
+    0.0
+  ],
+  "input_spike_ms": 1.0,
+  "initial_weight": 0.0,
+  "stdp_window": "C*(1-(dt/s)^2)*exp(-dt^2/(2*s^2))",
+  "stdp_s_ms": 1.286893592,
+  "stdp_C": 0.170690168,
+  "stdp_pairs": "all actual pre/post spike pairs, continuous 50 ms history (500 ticks)",
+  "weight_update": "W = clip(W + sum of pair dW over the association interval, -1, 1), applied once at the end of each association interval",
+  "weight_bounds": [
+    -1.0,
+    1.0
+  ],
+  "association_trial_ticks": 101,
+  "gap_dynamics": "identical to trial ticks: Euler update, threshold crossing, natural spike, reset, refractory (tested at interval start); gap spikes are post events for STDP",
+  "recall": "teacher-free sequential readout on a copy of the continuous state after each epoch; bit=1 if any spike at 0.1..10.0 ms (k=1..100); gap spikes counted separately",
+  "datasets": [
+    "Original",
+    "Modified"
+  ],
+  "presentation_order": "a different permutation in every epoch: datasets/*_K10.npz presentation_orders (1000x10), generated once with numpy.random.default_rng(0).permutation(10) per epoch, identical for Original and Modified and identical to baseline_v1; rows are reused cyclically after epoch 1000",
+  "weight_bound_note": "not reached in Original/Modified training (max |W| 0.75)"
+}
